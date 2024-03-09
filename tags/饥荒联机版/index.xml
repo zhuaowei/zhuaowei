@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>饥荒联机版 on zhuaowei的博客</title>
+        <link>https://zhuaowei.top/tags/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88/</link>
+        <description>Recent content in 饥荒联机版 on zhuaowei的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 29 Dec 2023 09:43:05 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>饥荒联机版 - 搭建专用服务器</title>
+        <link>https://zhuaowei.top/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Fri, 29 Dec 2023 09:43:05 +0800</pubDate>
+        
+        <guid>https://zhuaowei.top/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>&lt;h3 id=&#34;1下载专用服务器启动器&#34;&gt;1、下载专用服务器启动器&lt;/h3&gt;
+&lt;p&gt;打开 Steam，依次点击 &lt;strong&gt;库 -&amp;gt; 主页&lt;/strong&gt;，勾选 &lt;strong&gt;工具&lt;/strong&gt;，找到 &lt;strong&gt;Don&amp;rsquo;t Strave Together Dedicated Server&lt;/strong&gt;，点击安装，在安装过程中，可以进行下一步。&lt;/p&gt;
+&lt;h3 id=&#34;2创建一个世界&#34;&gt;2、创建一个世界&lt;/h3&gt;
+&lt;p&gt;进入饥荒联机版，创建一个世界，修改世界设置，勾选好自己想用的模组，点击创建。创建完成后，不需要进入世界，出现选人界面后就可以退出存档了。&lt;/p&gt;
+&lt;p&gt;在世界列表中，找到刚才创建的世界，点击管理，找到存档在文件夹中的位置（存档名字为 &lt;code&gt;Cluster_ + 数字&lt;/code&gt;），将整个文件夹复制到上一层文件夹中，可以把复制后的文件夹换一个名字，方便记。（后面我们把这个存档称为联机存档）&lt;/p&gt;
+&lt;h3 id=&#34;3创建联机服务器&#34;&gt;3、创建联机服务器&lt;/h3&gt;
+&lt;p&gt;点击 &lt;a class=&#34;link&#34; href=&#34;https://accounts.klei.com/account/game/servers?game=DontStarveTogether&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;科雷的服务器创建页面&lt;/a&gt;，创建一个服务器用于启动刚才创建的世界。复制创建好的票据，等会用到。&lt;/p&gt;
+&lt;p&gt;在联机存档根目录创建一个 &lt;code&gt;cluster_token.txt&lt;/code&gt;，将刚才的票据复制进去，保存退出。&lt;/p&gt;
+&lt;h3 id=&#34;4添加模组&#34;&gt;4、添加模组&lt;/h3&gt;
+&lt;p&gt;创建世界用到的模组需要添加到专用服务器才可以使用，添加一次即可，后面创建的世界可以直接用。（如果没有添加模组，这一步可以跳过）&lt;/p&gt;
+&lt;p&gt;找到 &lt;code&gt;Don&#39;t Strave Together Dedicated Server&lt;/code&gt; 的安装目录（可以在 steam 中右键点击属性），在 &lt;code&gt;mods&lt;/code&gt; 文件夹下找到 &lt;code&gt;dedicated_server_mods_setup.lua&lt;/code&gt; 文件，这个文件是管理模组安装的。&lt;/p&gt;
+&lt;p&gt;配置分为两种：一是单个模组安装，二是模组合集安装。&lt;/p&gt;
+&lt;p&gt;单个模组安装：在创意工坊找到需要的模组的界面，界面链接最后 id 后面的数字就是模组的 id，粘贴到 &lt;code&gt;ServerModSetup(&amp;quot;378160973&amp;quot;)&lt;/code&gt; 中。&lt;/p&gt;
+&lt;p&gt;模组合集安装：将订阅合集的 id 粘贴到 &lt;code&gt;ServerModCollectionSetup(&amp;quot;379114180&amp;quot;)&lt;/code&gt; 中，跟上面的类似。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- Mod Subscribe --&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Global Positions](https://steamcommunity.com/sharedfiles/filedetails/?id=378160973)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;378160973&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Lazy Furnace](https://steamcommunity.com/sharedfiles/filedetails/?id=875994715)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;875994715&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Show Me](https://steamcommunity.com/sharedfiles/filedetails/?id=2287303119)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;2287303119&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Epic HealthBar](https://steamcommunity.com/sharedfiles/filedetails/?id=1185229307)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1185229307&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Warmhole Marks](https://steamcommunity.com/sharedfiles/filedetails/?id=362175979)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;362175979&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [从骨头复活](https://steamcommunity.com/sharedfiles/filedetails/?id=1271089343)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1271089343&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [防卡两招](https://steamcommunity.com/sharedfiles/filedetails/?id=1216718131)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1216718131&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Drop &amp;amp; Stack](https://steamcommunity.com/sharedfiles/filedetails/?id=1998081438)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1998081438&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Simple Health Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=1207269058)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1207269058&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Infinite Tent Uses](https://steamcommunity.com/sharedfiles/filedetails/?id=356930882)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;356930882&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Tips show attack time](https://steamcommunity.com/sharedfiles/filedetails/?id=1898292532)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;1898292532&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;-- [Infinite Thremal Stone](https://steamcommunity.com/sharedfiles/filedetails/?id=466732225)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ServerModSetup&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;466732225&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;5配置启动程序&#34;&gt;5、配置启动程序&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;Don&#39;t Strave Together Dedicated Server&lt;/code&gt; 的安装目录下，进入 &lt;code&gt;bin64&lt;/code&gt; 文件夹，创建一个 &lt;code&gt;launch_dedicated_server.bat&lt;/code&gt; 文件，打开文件，粘贴如下内容。（文件名字随意，创建完毕后可以在桌面创建快捷方式，方便启动）&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-cluster&lt;/code&gt; 后面是联机存档的名字，需要改成自己的。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bat&#34; data-lang=&#34;bat&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ECHO&lt;/span&gt; OFF
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;SteamAppId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;322330
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;SteamGameId&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;322330
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;Start&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;DST Master&amp;#34;&lt;/span&gt; dontstarve_dedicated_server_nullrenderer_x64.exe -console -cluster 联机存档名字 -shard Master
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;Start&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;DST Caves&amp;#34;&lt;/span&gt; dontstarve_dedicated_server_nullrenderer_x64.exe -console -cluster 联机存档名字 -shard Caves
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;6饥荒启动&#34;&gt;6、饥荒！启动！&lt;/h3&gt;
+&lt;p&gt;双击第 5 步创建的脚本程序，会出现两个黑框，分别是地上和地下的服务器。如果有模组，第一次启动会比较慢，因为要下载模组。&lt;/p&gt;
+&lt;p&gt;等待一段时间（没模组大概一分钟内），&lt;code&gt;Caves&lt;/code&gt; 服务器出现 &lt;code&gt;Sim Pause&lt;/code&gt; 后，就可以进入饥荒联机版。点击 &lt;code&gt;浏览游戏&lt;/code&gt;，在搜索框中搜索你创建世界的名字，就可以找到自己创建的联机世界了。&lt;/p&gt;
+&lt;h3 id=&#34;7关闭服务器&#34;&gt;7、关闭服务器&lt;/h3&gt;
+&lt;p&gt;如果不关闭服务器，是无法进入正常创建的世界的，直接点叉不太优雅，并且服务器不会对当前游戏状态进行存档。分别在两个黑框中输入 &lt;code&gt;c_shutdown()&lt;/code&gt; ，然后回车，就可以关闭服务了。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

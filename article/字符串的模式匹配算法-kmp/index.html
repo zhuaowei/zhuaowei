@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='1、KMP 简介 KMP 是1964年发明的字符匹配算法，经过 25 年的证明才将相关的理论证明完成。 假设要从字符串 str1 中匹配出字符串 str2。 暴力的字符匹配'><title>字符串的模式匹配算法 KMP</title>
+
+<link rel='canonical' href='https://zhuaowei.top/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='字符串的模式匹配算法 KMP'>
+<meta property='og:description' content='1、KMP 简介 KMP 是1964年发明的字符匹配算法，经过 25 年的证明才将相关的理论证明完成。 假设要从字符串 str1 中匹配出字符串 str2。 暴力的字符匹配'>
+<meta property='og:url' content='https://zhuaowei.top/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/'>
+<meta property='og:site_name' content='zhuaowei的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='数据结构' /><meta property='article:tag' content='算法' /><meta property='article:tag' content='字符串' /><meta property='article:tag' content='KMP' /><meta property='article:published_time' content='2022-11-15T20:02:06&#43;08:00'/><meta property='article:modified_time' content='2022-11-15T20:02:06&#43;08:00'/>
+<meta name="twitter:title" content="字符串的模式匹配算法 KMP">
+<meta name="twitter:description" content="1、KMP 简介 KMP 是1964年发明的字符匹配算法，经过 25 年的证明才将相关的理论证明完成。 假设要从字符串 str1 中匹配出字符串 str2。 暴力的字符匹配">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hub47f27f435bd711377cba81e3a215c97_104946_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">⌚</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">zhuaowei的博客</a></h1>
+            <h2 class="site-description">明月几时有？把酒问青天。</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/zhuaowei'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/tags' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/">字符串的模式匹配算法 KMP</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2022-11-15</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 5 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="1kmp-简介">1、KMP 简介</h2>
+<p>KMP 是1964年发明的字符匹配算法，经过 25 年的证明才将相关的理论证明完成。</p>
+<blockquote>
+<p>假设要从字符串 str1 中匹配出字符串 str2。</p>
+</blockquote>
+<p>暴力的字符匹配算法就是将两个字符串的字符从第一个开始一个一个匹配，如果不相等，str1 右移一个位置，而 str2 直接移动到 0，重新开始匹配，时间复杂度为 O(MN)。MN分别是 str2、str1 的长度。</p>
+<p>而 KMP 算法就是将这个 str2 右移的速度加快了。具体是怎么加快的呢，就是利用 str2 中子串的<strong>最长的前缀后缀相等的长度</strong>进行加速的，它的时间复杂符不会超过O(2N)。</p>
+<p>例如：<code>str1 = abbecabbstabbecabbx; str2 = abbecabby</code>。</p>
+<p>加速匹配过程：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    i1
+</span></span><span class="line"><span class="cl">    v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">    ^
+</span></span><span class="line"><span class="cl">    i2
+</span></span><span class="line"><span class="cl">1、按顺序匹配
+</span></span><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">            ^
+</span></span><span class="line"><span class="cl">            i2
+</span></span><span class="line"><span class="cl">2、遇到不相等的情况，不是 i1 回退到字符 b 的位置，i2 回到索引为 0 位置，
+</span></span><span class="line"><span class="cl">而是 i1 不动，i2 向前移动到前面子串的最长前缀后缀相等长度的位置。
+</span></span><span class="line"><span class="cl">此时最长的相等的前缀后缀是 abb，（[abb]ec[abb]）
+</span></span><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">       ^
+</span></span><span class="line"><span class="cl">       i2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>为什么不用重新匹配呢，因为经过 str2 的最长前缀后缀计算后，已经找到了能够移动的最大位置，而且保证中间不会再有匹配成功的位置。</p>
+<p>继续匹配：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">       ^
+</span></span><span class="line"><span class="cl">       i2
+</span></span><span class="line"><span class="cl">3、发现又不相等，i2 位置的最长前缀后缀长度为 0，跳转到索引 0 位置
+</span></span><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">    ^
+</span></span><span class="line"><span class="cl">    i2
+</span></span><span class="line"><span class="cl">4、也没匹配上，同时发现 i2 已经到了 0 位置了，不能再移动了，只好移动一下 i1
+</span></span><span class="line"><span class="cl">             i1
+</span></span><span class="line"><span class="cl">             v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">    ^
+</span></span><span class="line"><span class="cl">    i2
+</span></span><span class="line"><span class="cl">5、如此循环下去。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>从上面的过程可以看出，i1 自始至终没有回退，i1 移动到 第三个 <code>a</code> 的位置，只需要 4 步（从i1、i2第一次不相等的位置）；而暴力匹配至少要 10 步。</p>
+<h2 id="2最长前缀后缀">2、最长前缀后缀</h2>
+<p><code>abbecabby</code> 的子串是 <code>abbecabb</code>，子串的最长前缀后缀是 <code>abb</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    abbecabb
+</span></span><span class="line"><span class="cl">    abb
+</span></span><span class="line"><span class="cl">         abb
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>i2 移动之前，i2 之前的字符串和 i1 前面那段与之长度相同的一段，是相等的。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">            ^
+</span></span><span class="line"><span class="cl">            i2
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">=&gt; abbecab(str1) = abbecab(str2)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>把 i2 移动到最长前缀后缀的下一个位置与 i1 位置进行比较，保证了前缀和后缀相等，也就是 str2 的前缀和 str1 中 i1 前面的一段后缀与之相等。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">         ---
+</span></span><span class="line"><span class="cl">    abbecabby
+</span></span><span class="line"><span class="cl">    ---  ---
+</span></span><span class="line"><span class="cl">       ^
+</span></span><span class="line"><span class="cl">       i2
+</span></span><span class="line"><span class="cl">等价于
+</span></span><span class="line"><span class="cl">            i1
+</span></span><span class="line"><span class="cl">            v
+</span></span><span class="line"><span class="cl">    abbecabbstabbecabbx
+</span></span><span class="line"><span class="cl">         ---|
+</span></span><span class="line"><span class="cl">    |-&gt; |abbecabby
+</span></span><span class="line"><span class="cl">         ---| ---
+</span></span><span class="line"><span class="cl">            ^
+</span></span><span class="line"><span class="cl">            i2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>相当于 str1 从第二个 <code>abb</code> 开始与 str2 的 0 位置重新开始匹配，并且移动了 <code>abb</code> 的位置。因为这两段是肯定相等的，我们计算过了，我们只需要匹配不相等的部分，即下一个位置。利用反证法可以证明，跳过的位置不会再有更长的最长前缀后缀。</p>
+<p>这样我们只需要求出 str2 的 next 数组即可。</p>
+<h2 id="3next-数组求解">3、next 数组求解</h2>
+<p>next数组是与 str2 等长的 int 型数组，它的 i 位置记录了前面子串的最长前缀后缀的长度（最长前缀尾部后面一个元素的索引），换句话说就是，当匹配不成功时，i2 应该跳到的位置。</p>
+<p>next 数组规定 <code>next[0] = -1; next[1] = 0;</code></p>
+<p><code>next[1] = 0</code>，因为子串长度为 1，并且前缀和后缀不允许等于子串长度，所以 <code>next[1]</code> 必定为 0。</p>
+<p>当 i &gt; 1 时如何求 <code>next[i]</code> 呢？</p>
+<p>分两种种情况：</p>
+<p>1、当子串的最长前缀后面的字符与 i - 1 的字符相等时，相当于最长前缀后缀增加了1，所以 <code>next[i] = next[i - 1] + 1</code></p>
+<p>2、当子串的最长前缀后面的字符与 i - 1 的字符不相等时，根据<strong>子串最长前缀位置的子串的最长前缀</strong>判断：</p>
+<pre><code>2.1、当这个值 大于 0 时，最长前缀还可以再往前推，最长前缀变小。
+2.2、如果这个值 小于 0 时，说明最长前缀长度已经为 0 了，不能再推了，i 位置的最长前缀长度为 0，`next[i] = 0`
+</code></pre>
+<p>同样可以使用反证法证明在这中间已经没有比之更长的前缀了。</p>
+<p>这个 str2 的 next 数组计算是线性的，所以，它的时间复杂度是 O(M)。KMP算法中使用了一次，初次之外还有一个时间复杂度为 O(N) 的循环匹配，所以准确地说，KMP 的总体复杂度是 O(M + N)，因为 N &gt;= M，所以上面说时间复杂度不超过 O(2N) 也对。</p>
+<h2 id="4java-代码实现-kmp">4、Java 代码实现 KMP</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">KMP</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * 使用 KMP 算法得出 s 是否包含 m
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * 如果包含，返回 s 中 m 的开始索引，否则返回 -1
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="nf">getIndexOf</span><span class="o">(</span><span class="n">String</span> <span class="n">s</span><span class="o">,</span> <span class="n">String</span> <span class="n">m</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 首先将 str1 str2 转成字符数组
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">char</span><span class="o">[]</span> <span class="n">str1</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">char</span><span class="o">[]</span> <span class="n">str2</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="na">toCharArray</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">i1</span> <span class="o">=</span> <span class="mi">0</span><span class="o">,</span> <span class="n">i2</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span><span class="o">[]</span> <span class="n">next</span> <span class="o">=</span> <span class="n">getNextArray</span><span class="o">(</span><span class="n">str2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="o">(</span><span class="n">i1</span> <span class="o">&lt;</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&amp;&amp;</span> <span class="n">i2</span> <span class="o">&lt;</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span><span class="o">())</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">s</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">m</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">||</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">||</span> <span class="n">s</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">&lt;</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span><span class="o">())</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">str1</span><span class="o">[</span><span class="n">i1</span><span class="o">]</span> <span class="o">==</span> <span class="n">str2</span><span class="o">[</span><span class="n">i2</span><span class="o">])</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">// 匹配成功，同时右移
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">i1</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">i2</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">i2</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">// 也可以写成 next[i2] == -1，意思是一样的
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="c1">// 这个时候 i2 无论如何也无法向前移动了，只能移动 i1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">i1</span><span class="o">++;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">// i2 还能向前移
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">next</span><span class="o">[</span><span class="n">i2</span><span class="o">]</span> <span class="o">+</span> <span class="s">&#34; &lt;- &#34;</span> <span class="o">+</span> <span class="n">i2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">                <span class="n">i2</span> <span class="o">=</span> <span class="n">next</span><span class="o">[</span><span class="n">i2</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// 如果匹配成功，那么 i2 肯定走到头了，减去 i2 就是开始位置；否则返回 -1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="n">i2</span> <span class="o">==</span> <span class="n">m</span><span class="o">.</span><span class="na">length</span><span class="o">()</span> <span class="o">?</span> <span class="n">i1</span> <span class="o">-</span> <span class="n">i2</span> <span class="o">:</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">     * 给定一个字符数组，返回一个它的 next 数组
+</span></span></span><span class="line"><span class="cl"><span class="cm">     */</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">getNextArray</span><span class="o">(</span><span class="kt">char</span><span class="o">[]</span> <span class="n">ms</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span><span class="o">[]</span> <span class="n">next</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">ms</span><span class="o">.</span><span class="na">length</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 规定 next 数组前两个分别是 -1，0
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">next</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">next</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// cn 有两个含义：1、i - 1 位置的最长前缀值；2、cn 位置应该和i - 1 位置相比。
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">cn</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// i 是开始计算 next 数组的位置
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="o">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">next</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="o">(</span><span class="n">ms</span><span class="o">[</span><span class="n">cn</span><span class="o">]</span> <span class="o">==</span> <span class="n">ms</span><span class="o">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="o">])</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * 下面三句可以简化成一句。
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * next[i] = cn + 1;
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * i++;
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * cn++;
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 */</span>
+</span></span><span class="line"><span class="cl">                <span class="n">next</span><span class="o">[</span><span class="n">i</span><span class="o">++]</span> <span class="o">=</span> <span class="o">++</span><span class="n">cn</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span> <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">cn</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="c1">// cn 位置最长匹配前后缀还有东西，还可以前移
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="c1">// i 并不增加，下次循环继续尝试新的最长匹配前缀
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">cn</span> <span class="o">=</span> <span class="n">next</span><span class="o">[</span><span class="n">cn</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * 下面两句可以简化成一句
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * next[i] = 0;
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 * i++;
+</span></span></span><span class="line"><span class="cl"><span class="cm">                 */</span>
+</span></span><span class="line"><span class="cl">                <span class="n">next</span><span class="o">[</span><span class="n">i</span><span class="o">++]</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">next</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">String</span> <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;abbstabbecabbstabbx&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">String</span> <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;abbstabbx&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">getIndexOf</span><span class="o">(</span><span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a>
+        
+            <a href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
+        
+            <a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">字符串</a>
+        
+            <a href="/tags/kmp/">KMP</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/article/%E4%BD%BF%E7%94%A8%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E6%B1%82%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用双端队列求滑动窗口的最大值</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">并查集以及感染算法计算岛的数量</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%B8%B8%E8%A7%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">算法复杂度介绍、三种常见排序算法以及二分查找算法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 2828. 判别首字母缩略词</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">最长回文子串求法Manacher</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2024 zhuaowei的博客
+    </section>
+    
+    <section class="powerby">
+        
+            hello world <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.13.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

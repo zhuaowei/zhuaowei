@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='一、git基本概念 1、blob and tree git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree'><title>git 命令操作</title>
+
+<link rel='canonical' href='https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='git 命令操作'>
+<meta property='og:description' content='一、git基本概念 1、blob and tree git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree'>
+<meta property='og:url' content='https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/'>
+<meta property='og:site_name' content='zhuaowei的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='git' /><meta property='article:tag' content='版本控制' /><meta property='article:published_time' content='2023-04-04T15:23:43&#43;08:00'/><meta property='article:modified_time' content='2023-04-04T15:23:43&#43;08:00'/>
+<meta name="twitter:title" content="git 命令操作">
+<meta name="twitter:description" content="一、git基本概念 1、blob and tree git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hub47f27f435bd711377cba81e3a215c97_104946_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">⌚</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">zhuaowei的博客</a></h1>
+            <h2 class="site-description">明月几时有？把酒问青天。</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/zhuaowei'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/tags' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>标签</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/">git 命令操作</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2023-04-04</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 7 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="一git基本概念">一、git基本概念</h2>
+<h3 id="1blob-and-tree">1、blob and tree</h3>
+<p>git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree或者blob，也就是说，文件目录是tree递归形成的。git项目的根目录用 ‘/’ 表示，也是一个tree。</p>
+<p>用伪代码形式表示</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">type blob = array&lt;byte&gt;
+</span></span><span class="line"><span class="cl">type tree = map&lt;string, [blob | tree]&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">/(root)
+</span></span><span class="line"><span class="cl">|
+</span></span><span class="line"><span class="cl">|--foo(tree)
+</span></span><span class="line"><span class="cl">|    |
+</span></span><span class="line"><span class="cl">|    |--bar.txt(blob)
+</span></span><span class="line"><span class="cl">|
+</span></span><span class="line"><span class="cl">|--baz.txt(blob)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>以上表示了一个简单项目的git结构，root tree包含一个tree和一个blob，而tree又包含一个blob。</p>
+<h3 id="2snapshot">2、snapshot</h3>
+<p>git可以很好地进行版本控制，因为它可以对每个修改拍摄快照，通过快照，你可以回到任何一个之前的节点，每个快照都包含一个完整的git项目。通过快照你可以找到它的父节点。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">      o &lt;---------- o &lt;----------- o &lt;------------- o
+</span></span><span class="line"><span class="cl">                       <span class="nb">^</span>               /
+</span></span><span class="line"><span class="cl">                        <span class="k">\ </span>            /
+</span></span><span class="line"><span class="cl">                          o &lt;------/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>快照也可以很方便地进行协作开发，例如，你要开发一个新功能，但又要解决已存在的bug，这时候就可以fork一下，分别做两件事，最后通过git合并。git合并是自动完成的，如果它不确定，它会提交给开发者看来决定。例如，有两个人分别对一个文件的同一行进行了修改，但不相同，他会让你决定保留哪一项修改，再例如，在相同的下面添加了不同的内容，git不知道如何调整顺序，谁的放在前面，它会让你决定。</p>
+<h3 id="3commit">3、commit</h3>
+<p>除此之外，还有commit数据类型，它是git提交时产生的对文件的描述文件，它是一个struct结构，包含作者、时间戳、描述等信息</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"># 用伪代码表示
+</span></span><span class="line"><span class="cl">type commit = struct <span class="nb">{</span>
+</span></span><span class="line"><span class="cl">	parents: array&lt;commit&gt;
+</span></span><span class="line"><span class="cl">	author: string
+</span></span><span class="line"><span class="cl">	message: string
+</span></span><span class="line"><span class="cl">	snapshot: tree
+</span></span><span class="line"><span class="cl">	...
+</span></span><span class="line"><span class="cl"><span class="nb">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">references = map&lt;string, string&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def update<span class="nb">_</span>reference(name, id):
+</span></span><span class="line"><span class="cl">    references[name] = id
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def read<span class="nb">_</span>reference(name):
+</span></span><span class="line"><span class="cl">    return references[name]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def load<span class="nb">_</span>reference(name<span class="nb">_</span>or<span class="nb">_</span>id):
+</span></span><span class="line"><span class="cl">    if name<span class="nb">_</span>or<span class="nb">_</span>id in references:
+</span></span><span class="line"><span class="cl">        return load(references[name<span class="nb">_</span>or<span class="nb">_</span>id])
+</span></span><span class="line"><span class="cl">    else:
+</span></span><span class="line"><span class="cl">        return load(name<span class="nb">_</span>or<span class="nb">_</span>id)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4object-and-sha-1">4、object and sha-1</h3>
+<p>git在磁盘中存储这些数据，必须有一个对象存储它。所以git定义了一个object类，用map(字典)存储一系列的object对象。通过这些对象就可以回溯之前每一个提交。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">type object = [blob | tree | commit]
+</span></span><span class="line"><span class="cl">objects = map&lt;string, object&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>那么如何存储和找到这些object呢，git通过object的key来获取object，那么如何决定key的值呢？</p>
+<p>通过哈希函数，git定义了两个函数，分别用来生成哈希并存储object和通过哈希值获取object。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">def store(o) <span class="nb">{</span>
+</span></span><span class="line"><span class="cl">	id = sha1(o);
+</span></span><span class="line"><span class="cl">	objects[id] = o;
+</span></span><span class="line"><span class="cl"><span class="nb">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">def load(id) <span class="nb">{</span>
+</span></span><span class="line"><span class="cl">	return objects[id];
+</span></span><span class="line"><span class="cl"><span class="nb">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>这个哈希值是通过一定的算法，将object转化为一个160位的二进制数，如果用十六进制表示就是40位，这也是在实际使用中看到的。</p>
+</blockquote>
+<h3 id="5references">5、references</h3>
+<p>但是，这么长的一串字符对于我们理解和记忆具体提交了什么内容毫无意义，所以git定义了一个references，以人能理解的字符代替这么长的哈希值。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">type references = map&lt;string, string&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="二命令演示">二、命令演示</h2>
+<h3 id="1initialize">1、initialize</h3>
+<p>首先创建一个目录作为项目的根目录，然后进入</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir demo
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> demo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后使用命令将其初始化为git目录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这个命令会创建 .git 目录，有以下内容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">drwxrwxr-x  8 zhu521 zhu521 4.0K May 26 18:58 ./
+</span></span><span class="line"><span class="cl">drwxrwxr-x  3 zhu521 zhu521 4.0K May 26 18:26 ../
+</span></span><span class="line"><span class="cl">drwxrwxr-x  2 zhu521 zhu521 4.0K May 26 17:16 branches/
+</span></span><span class="line"><span class="cl">-rw-rw-r--  1 zhu521 zhu521  269 May 26 18:26 COMMIT<span class="nb">_</span>EDITMSG
+</span></span><span class="line"><span class="cl">-rw-rw-r--  1 zhu521 zhu521   92 May 26 17:16 config
+</span></span><span class="line"><span class="cl">-rw-rw-r--  1 zhu521 zhu521   73 May 26 17:16 description
+</span></span><span class="line"><span class="cl">-rw-rw-r--  1 zhu521 zhu521   23 May 26 17:16 HEAD
+</span></span><span class="line"><span class="cl">drwxrwxr-x  2 zhu521 zhu521 4.0K May 26 17:16 hooks/
+</span></span><span class="line"><span class="cl">-rw-rw-r--  1 zhu521 zhu521  176 May 26 18:26 index
+</span></span><span class="line"><span class="cl">drwxrwxr-x  2 zhu521 zhu521 4.0K May 26 17:16 info/
+</span></span><span class="line"><span class="cl">drwxrwxr-x  3 zhu521 zhu521 4.0K May 26 17:21 logs/
+</span></span><span class="line"><span class="cl">drwxrwxr-x 13 zhu521 zhu521 4.0K May 26 18:26 objects/
+</span></span><span class="line"><span class="cl">drwxrwxr-x  4 zhu521 zhu521 4.0K May 26 17:16 refs/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>objects 和 refs 目录里存放了所有存储库数据</p>
+<h3 id="2help-and-status">2、help and status</h3>
+<h4 id="21help">2.1、help</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git <span class="nb">help</span> <span class="o">[</span>command<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这个命令可以查看所有命令的帮助</p>
+<h4 id="22status">2.2、status</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>告诉你项目处于什么状态</p>
+<h3 id="3提交">3、提交</h3>
+<h4 id="31git-工作区域">3.1、git 工作区域</h4>
+<p>从上到下依次有三个层次</p>
+<ol>
+<li>Repositories</li>
+<li>Staging area</li>
+<li>work area</li>
+</ol>
+<h3 id="4command-line">4、command-line</h3>
+<h4 id="41add-and-commit">4.1、add and commit</h4>
+<ol>
+<li>add</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;file_name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将文件提交到暂存区，这样你就可以添加多个文件到暂存区，然后一次性提交到仓库。</p>
+<ol start="2">
+<li>commit</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将暂存区的文件提交到仓库，然后你需要编写commit内容。</p>
+<blockquote>
+<p>好的commit内容可以帮助你更好地回顾版本。可以参考commit标准。</p>
+<p><a class="link" href="https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html"  target="_blank" rel="noopener"
+    >https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html</a></p>
+</blockquote>
+<p>提交完成后，会给出哈希值的一部分，可以根据这个哈希值找到所有存储数据</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">➜  demo git:(master) git cat-file -p 1df5c162
+</span></span><span class="line"><span class="cl">tree 68aba62e560c0ebc3396e8ae9335232cd93a3f60
+</span></span><span class="line"><span class="cl">author zhuaowei &lt;z2845191711@163.com&gt; 1622020851 +0800
+</span></span><span class="line"><span class="cl">committer zhuaowei &lt;z2845191711@163.com&gt; 1622020851 +0800
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Add hello.txt
+</span></span><span class="line"><span class="cl">➜  demo git:(master) git cat-file -p 68aba62e560c0ebc3396e8ae9335232cd93a3f60
+</span></span><span class="line"><span class="cl">100644 blob 3b18e512dba79e4c8300dd08aeb37f8e728b8dad    hello.txt
+</span></span><span class="line"><span class="cl">➜  demo git:(master) git cat-file -p 3b18e512dba79e4c8300dd08aeb37f8e728b8dad
+</span></span><span class="line"><span class="cl">hello world
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>log cat-file</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 查看所有提交记录，最新的显示在上面</span>
+</span></span><span class="line"><span class="cl">git log
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 查看提交的commit和blob内容</span>
+</span></span><span class="line"><span class="cl">git cat-file -p &lt;sha-1&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>使用 git add 和 git commit 的好处是我可以只提交我修改的那部分，而不是将整个项目打包然后拍摄快照。</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 以图形化的形式展示历史记录</span>
+</span></span><span class="line"><span class="cl">git log --all --graph --decorate
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="42checkout">4.2、checkout</h4>
+<p>git checkout 可以让你回到任一历史记录中</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 这个命令可以让你回到哈希值指向的快照</span>
+</span></span><span class="line"><span class="cl">git checkout &lt;sha-1&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 如果你对文件进行修改，但是并没有提交，使用checkout会报错</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 并提示已修改的文件</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用 -f 强制执行，慎用，因为这回导致你放弃所有当前修改的内容，再也回不到这里</span>
+</span></span><span class="line"><span class="cl">git checkout -f &lt;sha-1&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在使用这个命令后查看log，你会发现一些不同。</p>
+<p>HEAD 和 master的位置会发生改变，HEAD会指向你当前的快照，而master是一个分支，是创建项目创建的主分支，事实上，在你工作的大部分时候都是只有这一个分支。master始终指向该分支的最新提交记录。</p>
+<p>master其实是一个 reference，就像之前提到的，它是哈希值的别名，可以使用它转到最新的主分支。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="43diff">4.3、diff</h4>
+<p>这个命令可以比较任何两个快照和当前工作区内容的变化</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff <span class="o">[</span>option<span class="o">[</span> other<span class="o">]]</span> &lt;filename&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>这个命令默认是比较当前工作区和HEAD所指向的快照的区别</p>
+<p>当然你也可以添加参数比较其他的快照之间的</p>
+<p>git diff HEAD master <!-- raw HTML omitted --></p>
+<p>git diff 1df5c162b hello.txt</p>
+</blockquote>
+<h4 id="44branch">4.4、branch</h4>
+<p>分支可以让你并行完成两件事，当你分别完成这两件事情时，可以将其合并到master分支。</p>
+<ol>
+<li>branch</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这个命令会展示所有分支，并且标注你所在的分支</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch -vv
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这个命令除有 <!-- raw HTML omitted -->git branch<!-- raw HTML omitted --> 的功能外，还会展示额外信息，例如分支的哈希值和提交信息。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch &lt;name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在当前位置建立一个分支。</p>
+<ol start="2">
+<li>checkout</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout &lt;name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>切换到目的分支。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git checkout -b &lt;name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>创建分支并切换到该分支。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log --all --graph --decorate --oneline
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>与 <!-- raw HTML omitted -->git log &ndash;all &ndash;graph &ndash;decorate<!-- raw HTML omitted --> 不同的是，这个命令会显示更少信息，每个快照只显示一行，看起开更精简。</p>
+<h4 id="45merge">4.5、merge</h4>
+<p>当你全部完成并行的两个分支后，可以使用merge合并到一起。我们并不能直接使用 git merge cat dog直接将两个分支合并到master，需要先合并其中一个分支，然后再合并另一个。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 将cat分支合并到当前分支</span>
+</span></span><span class="line"><span class="cl">git merge cat
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>因为merge是将分支合并到当前分支，所以合并之前要看清自己所在的分支和快照。</p>
+</blockquote>
+<p>合并时可能会产生冲突，git会在冲突的地方对文档进行标注。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 这两个不是成对使用的</span>
+</span></span><span class="line"><span class="cl">git merge --abort
+</span></span><span class="line"><span class="cl">git merge --continue
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用 <!-- raw HTML omitted -->git merge &ndash;abort<!-- raw HTML omitted --> 中断合并，然后项目会回到合并前的状态。</p>
+<p>一般情况下，使用 解决冲突的工具 (e.g. mergetool vimdiff)解决冲突（不会）。</p>
+<p>特殊情况下，我们可以手动将冲突解决，删除冲突标记，然后使用 git merge &ndash;continue 告诉git我们已经解决了冲突，再将修改的文件添加到暂存区，再次使用 git merge &ndash;continue 会进入边 commit 界面，填写commit信息后就会提交，这次是真正的解决冲突，这个时候 git 的分支就会合并到一起，并创建一个新的快照。</p>
+<h4 id="46remote">4.6、remote</h4>
+<ol>
+<li>init</li>
+</ol>
+<p>在拷贝远程库之前需要做些准备。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init <span class="c1"># 创建普通库</span>
+</span></span><span class="line"><span class="cl">git init --bare <span class="c1">#创建裸库</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>与 git init 的区别是，它创建的是裸库，虽然它会创建 .git 文件夹，但是你没有权限进行修改和删除，但是你仍然可以进行读取操作。这是在多人共享时用到的，通常这个文件夹用 .git 作为后缀，例如：example.git。</p>
+<p>实际上，它不会创建 .git 文件夹，而是将所有的 .git 下的文件直接放到项目的根目录。</p>
+<ol start="2">
+<li>remote</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote
+</span></span><span class="line"><span class="cl">git remote add &lt;remote&gt; &lt;url&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>git remote 会列出所有你配置过的远程仓库</p>
+<p>git remote add <!-- raw HTML omitted --> <!-- raw HTML omitted --> 添加一个远程仓库的配置，这个url可以是一个git仓库连接，也可以是一个本地文件夹的路径。之后可以将本地仓库 push 到远程仓库</p>
+<ol start="3">
+<li>push clone</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push &lt;remote&gt; &lt;<span class="nb">local</span> branch&gt;:&lt;remote branch&gt;
+</span></span><span class="line"><span class="cl">git clone &lt;url&gt; &lt;folder name&gt;
+</span></span><span class="line"><span class="cl">git clone --shallow &lt;url&gt; &lt;folder name&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>第一个命令是将本地仓库 push 到远程仓库，第二个命令是将远程仓库克隆到本地。</p>
+<p>使用push命令前后可以使用 <!-- raw HTML omitted -->git log &ndash;all &ndash;graph &ndash;decorate &ndash;oneline<!-- raw HTML omitted --> 查看分支如何变化。</p>
+<p>在push之后，会在push的节点多出一些信息，这些信息显示了远程仓库指向的节点。</p>
+<ol start="3">
+<li>upstream</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git branch --set-upstream-to<span class="o">=</span>origin/master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>本地库的所有修改不会影响远程，只有再次push才可以。不过有一种简单的方式不用每次都push，就是将远程设置为上游.</p>
+<p>这时候用 <!-- raw HTML omitted -->git branch -vv<!-- raw HTML omitted --> 可以看到origin已经作为本地的一个分支。之后再push的时候只需要使用 git push即可自动push到origin/master.</p>
+<ol start="4">
+<li>fetch pull</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git fetch
+</span></span><span class="line"><span class="cl">git pull
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><!-- raw HTML omitted -->git fetch<!-- raw HTML omitted --> 会下载远程库到本地，并不会覆盖本地，而是作为一个分支，会检索本地与远程库是否相同。然后可以使用 <!-- raw HTML omitted -->git merge<!-- raw HTML omitted -->将其与本地合并。<!-- raw HTML omitted -->git fetch<!-- raw HTML omitted --> 默认会同步所有远程仓库的 master 分支，可以使用 <!-- raw HTML omitted -->git fetch <!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --> 指定远程库及其分支。</p>
+<p>git pull == git fetch; git merge</p>
+<h3 id="5config">5、config</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config
+</span></span><span class="line"><span class="cl">vim ~/.gitconfig
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>git config 会显示当前的git配置。</p>
+<p>git的默认配置在 ~/.gitconfig 中。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/git/">git</a>
+        
+            <a href="/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/">版本控制</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 235. 二叉搜索树的最近公共祖先</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 188. 买卖股票的最佳时机 IV</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 123. 买卖股票的最佳时机 III</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 122. 买卖股票的最佳时机 II</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">LeetCode 121. 买卖股票的最佳时机</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2023 - 
+        
+        2024 zhuaowei的博客
+    </section>
+    
+    <section class="powerby">
+        
+            hello world <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.13.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
