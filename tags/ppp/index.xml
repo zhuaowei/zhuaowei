@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>PPP on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/ppp/</link>
+        <link>https://zhuaowei.github.io/tags/ppp/</link>
         <description>Recent content in PPP on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 04 Nov 2022 21:20:42 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/ppp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Nov 2022 21:20:42 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/ppp/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>点对点协议 PPP</title>
-        <link>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
+        <link>https://zhuaowei.github.io/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
         <pubDate>Fri, 04 Nov 2022 21:20:42 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
+        <guid>https://zhuaowei.github.io/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
         <description>&lt;p&gt;数据链路层主要有两种通信方式：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;点对点信道&lt;/strong&gt;：一对一，点对点通信方式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;广播信道&lt;/strong&gt;：一对多的广播通信方式。&lt;/p&gt;

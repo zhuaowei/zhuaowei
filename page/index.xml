@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/page/</link>
+        <link>https://zhuaowei.github.io/page/</link>
         <description>Recent content in Pages on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuaowei.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zhuaowei.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://zhuaowei.top/archives/</link>
+        <link>https://zhuaowei.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://zhuaowei.top/archives/</guid>
+        <guid>https://zhuaowei.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://zhuaowei.top/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://zhuaowei.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zhuaowei.top/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://zhuaowei.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>链接</title>
-        <link>https://zhuaowei.top/%E9%93%BE%E6%8E%A5/</link>
+        <link>https://zhuaowei.github.io/%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zhuaowei.top/%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://zhuaowei.github.io/%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;给文章添加友链，需要在文章的 &lt;code&gt;frontmatter&lt;/code&gt; 中添加 &lt;code&gt;links&lt;/code&gt; 部分。&lt;/p&gt;
 &lt;p&gt;下面是本文的 &lt;code&gt;frontformatter&lt;/code&gt; :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -60,10 +60,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://zhuaowei.top/search/</link>
+        <link>https://zhuaowei.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zhuaowei.top/search/</guid>
+        <guid>https://zhuaowei.github.io/search/</guid>
         <description></description>
         </item>
         

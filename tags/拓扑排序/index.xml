@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>拓扑排序 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+        <link>https://zhuaowei.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
         <description>Recent content in 拓扑排序 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 23 Dec 2023 15:52:28 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 23 Dec 2023 15:52:28 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LeetCode 2127. 参加会议的最多员工数</title>
-        <link>https://zhuaowei.top/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</link>
         <pubDate>Sat, 23 Dec 2023 15:52:28 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 2127. 参加会议的最多员工数&lt;/a&gt;&lt;/p&gt;
@@ -148,10 +148,10 @@
         </item>
         <item>
         <title>LeetCode 2050. 并行课程 III</title>
-        <link>https://zhuaowei.top/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</link>
         <pubDate>Sat, 23 Dec 2023 15:12:06 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/parallel-courses-iii/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 2050. 并行课程 III&lt;/a&gt;&lt;/p&gt;
@@ -250,10 +250,10 @@
         </item>
         <item>
         <title>LeetCode 851. 喧闹和富有</title>
-        <link>https://zhuaowei.top/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</link>
         <pubDate>Fri, 22 Dec 2023 23:13:31 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/loud-and-rich/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 851. 喧闹和富有&lt;/a&gt;&lt;/p&gt;
@@ -357,10 +357,10 @@
         </item>
         <item>
         <title>洛谷 P4017 最大食物链计数</title>
-        <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
+        <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
         <pubDate>Fri, 22 Dec 2023 22:40:29 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
+        <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/P4017&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;洛谷 P4017 最大食物链计数&lt;/a&gt;&lt;/p&gt;
@@ -543,10 +543,10 @@
         </item>
         <item>
         <title>洛谷 U107394 拓扑排序模板</title>
-        <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
+        <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
         <pubDate>Fri, 22 Dec 2023 16:35:28 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
+        <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.luogu.com.cn/problem/U107394&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;洛谷 U107394 拓扑排序模板&lt;/a&gt;&lt;/p&gt;
@@ -563,7 +563,7 @@
 &lt;li&gt;遍历弹出节点的每一条边，将目的节点的入度减一，如果减之后为 0，添加到堆。循环 3 4 步骤。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;关于链式前向星建图：&lt;a class=&#34;link&#34; href=&#34;https://zhuaowei.top/article/leetcode-210.-%e8%af%be%e7%a8%8b%e8%a1%a8-ii/&#34; &gt;LeetCode 210. 课程表 II&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;关于链式前向星建图：&lt;a class=&#34;link&#34; href=&#34;https://zhuaowei.github.io/article/leetcode-210.-%e8%af%be%e7%a8%8b%e8%a1%a8-ii/&#34; &gt;LeetCode 210. 课程表 II&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;关于小根堆的添加和弹出，可以参考本文的代码和注释。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;复杂度&#34;&gt;复杂度&lt;/h3&gt;
@@ -829,10 +829,10 @@
         </item>
         <item>
         <title>LeetCode 936. 戳印序列</title>
-        <link>https://zhuaowei.top/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</link>
         <pubDate>Thu, 21 Dec 2023 19:53:03 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/stamping-the-sequence/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 936. 戳印序列&lt;/a&gt;&lt;/p&gt;
@@ -965,10 +965,10 @@
         </item>
         <item>
         <title>牛客网 【模板】拓扑排序</title>
-        <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+        <link>https://zhuaowei.github.io/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
         <pubDate>Wed, 20 Dec 2023 22:47:07 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+        <guid>https://zhuaowei.github.io/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nowcoder.com/practice/88f7e156ca7d43a1a535f619cd3f495c&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;牛客网 【模板】拓扑排序&lt;/a&gt;&lt;/p&gt;
@@ -978,7 +978,7 @@
 &lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;
 &lt;p&gt;首先使用链式前向星建图，同时统计点的入度。然后遍历所有节点，将入度为 0 的点加入队列，遍历队列的每一个点，消除出队节点的影响，将消除影响后入度为 0 的点加入队列，直到不存在入度为 0 的点。&lt;/p&gt;
 &lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;
-&lt;p&gt;具体的求解过程可以参考: &lt;a class=&#34;link&#34; href=&#34;https://zhuaowei.top/article/leetcode-2276.-%e7%bb%9f%e8%ae%a1%e5%8c%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e6%95%b4%e6%95%b0%e6%95%b0%e7%9b%ae/&#34; &gt;LeetCode 2276. 统计区间中的整数数目&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;具体的求解过程可以参考: &lt;a class=&#34;link&#34; href=&#34;https://zhuaowei.github.io/article/leetcode-2276.-%e7%bb%9f%e8%ae%a1%e5%8c%ba%e9%97%b4%e4%b8%ad%e7%9a%84%e6%95%b4%e6%95%b0%e6%95%b0%e7%9b%ae/&#34; &gt;LeetCode 2276. 统计区间中的整数数目&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一般是竞赛的时候使用链式前向星，而这个时候要重复使用开辟的空间，就需要对上次使用过的数组进行清空。清空是只需要清空 head数组和 &lt;code&gt;indegree&lt;/code&gt; 数组，并将 cnt 设置为 1。&lt;/p&gt;
 &lt;p&gt;因为 &lt;code&gt;head&lt;/code&gt; 数组默认应该存储的是 0，表示该节点已经没有边了，所以要清空，&lt;code&gt;indegree&lt;/code&gt; 在建图时是自增，需要重置。而 &lt;code&gt;next&lt;/code&gt; 数组和 &lt;code&gt;to&lt;/code&gt; 数组，在建图的过程中会覆盖已有的数据，所以可以不用重置为 0，只需要将 cnt 设置为 1 即可，图的编号重新从 1 开始。&lt;/p&gt;

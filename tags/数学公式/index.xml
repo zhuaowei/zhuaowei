@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>数学公式 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+        <link>https://zhuaowei.github.io/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
         <description>Recent content in 数学公式 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 29 Oct 2022 22:16:55 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Oct 2022 22:16:55 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>如何在Hugo中使用markdown的数学公式</title>
-        <link>https://zhuaowei.top/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+        <link>https://zhuaowei.github.io/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Sat, 29 Oct 2022 22:16:55 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+        <guid>https://zhuaowei.github.io/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;p&gt;渲染数学公式有两种方式，一种是 &lt;code&gt;mathjax&lt;/code&gt; ，另一种是 &lt;code&gt;KaTex&lt;/code&gt;，因为 &lt;code&gt;KaTex&lt;/code&gt; 比较快，所以使用这种方式。&lt;/p&gt;
 &lt;p&gt;具体步骤如下：&lt;/p&gt;
 &lt;ol&gt;

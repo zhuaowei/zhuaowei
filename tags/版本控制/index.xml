@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>版本控制 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</link>
+        <link>https://zhuaowei.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</link>
         <description>Recent content in 版本控制 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Tue, 04 Apr 2023 15:23:43 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Apr 2023 15:23:43 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>git 命令操作</title>
-        <link>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
+        <link>https://zhuaowei.github.io/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
         <pubDate>Tue, 04 Apr 2023 15:23:43 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
+        <guid>https://zhuaowei.github.io/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
         <description>&lt;h2 id=&#34;一git基本概念&#34;&gt;一、git基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;1blob-and-tree&#34;&gt;1、blob and tree&lt;/h3&gt;
 &lt;p&gt;git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree或者blob，也就是说，文件目录是tree递归形成的。git项目的根目录用 ‘/’ 表示，也是一个tree。&lt;/p&gt;

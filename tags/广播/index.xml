@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>广播 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E5%B9%BF%E6%92%AD/</link>
+        <link>https://zhuaowei.github.io/tags/%E5%B9%BF%E6%92%AD/</link>
         <description>Recent content in 广播 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 09 Nov 2022 21:46:48 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E5%B9%BF%E6%92%AD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 09 Nov 2022 21:46:48 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E5%B9%BF%E6%92%AD/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用广播信道的数据链路层</title>
-        <link>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
+        <link>https://zhuaowei.github.io/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
         <pubDate>Wed, 09 Nov 2022 21:46:48 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
+        <guid>https://zhuaowei.github.io/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
         <description>&lt;h2 id=&#34;1使用广播信道的数据链路层&#34;&gt;1、使用广播信道的数据链路层&lt;/h2&gt;
 &lt;h3 id=&#34;11局域网的数据链路层&#34;&gt;1.1、局域网的数据链路层&lt;/h3&gt;
 &lt;p&gt;局域网的主要特点：&lt;strong&gt;网络为一个单位所拥有，且地理范围和站点数据均有限&lt;/strong&gt;。&lt;/p&gt;

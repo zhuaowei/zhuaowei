@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>信道复用技术 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF/</link>
+        <link>https://zhuaowei.github.io/tags/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF/</link>
         <description>Recent content in 信道复用技术 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 29 Oct 2022 22:06:41 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Oct 2022 22:06:41 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>信道复用技术 Division Multiplexing</title>
-        <link>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
+        <link>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
         <pubDate>Sat, 29 Oct 2022 22:06:41 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
+        <guid>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
         <description>&lt;h2 id=&#34;1频分复用时分复用和统计时分复用&#34;&gt;1、频分复用、时分复用和统计时分复用&lt;/h2&gt;
 &lt;h3 id=&#34;11频分复用&#34;&gt;1.1、频分复用：&lt;/h3&gt;
 &lt;p&gt;用户在分配到一定的频带后，在通信过程中自始至终都占用这个频带。&lt;strong&gt;频分复用的所有用户在同样的时间占用不同的带宽资源。&lt;/strong&gt;&lt;/p&gt;

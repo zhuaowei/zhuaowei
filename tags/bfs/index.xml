@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>BFS on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/bfs/</link>
+        <link>https://zhuaowei.github.io/tags/bfs/</link>
         <description>Recent content in BFS on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Fri, 15 Dec 2023 16:24:52 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/bfs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Dec 2023 16:24:52 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/bfs/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LeetCode 2415. 反转二叉树的奇数层</title>
-        <link>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
         <pubDate>Fri, 15 Dec 2023 16:24:52 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 2415. 反转二叉树的奇数层&lt;/a&gt;&lt;/p&gt;

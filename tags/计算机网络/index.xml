@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>计算机网络 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+        <link>https://zhuaowei.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
         <description>Recent content in 计算机网络 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 09 Nov 2022 21:46:48 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 09 Nov 2022 21:46:48 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用广播信道的数据链路层</title>
-        <link>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
+        <link>https://zhuaowei.github.io/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
         <pubDate>Wed, 09 Nov 2022 21:46:48 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
+        <guid>https://zhuaowei.github.io/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
         <description>&lt;h2 id=&#34;1使用广播信道的数据链路层&#34;&gt;1、使用广播信道的数据链路层&lt;/h2&gt;
 &lt;h3 id=&#34;11局域网的数据链路层&#34;&gt;1.1、局域网的数据链路层&lt;/h3&gt;
 &lt;p&gt;局域网的主要特点：&lt;strong&gt;网络为一个单位所拥有，且地理范围和站点数据均有限&lt;/strong&gt;。&lt;/p&gt;
@@ -168,10 +168,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>点对点协议 PPP</title>
-        <link>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
+        <link>https://zhuaowei.github.io/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
         <pubDate>Fri, 04 Nov 2022 21:20:42 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
+        <guid>https://zhuaowei.github.io/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
         <description>&lt;p&gt;数据链路层主要有两种通信方式：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;点对点信道&lt;/strong&gt;：一对一，点对点通信方式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;广播信道&lt;/strong&gt;：一对多的广播通信方式。&lt;/p&gt;
@@ -367,10 +367,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>TCP 的三次握手和四次挥手</title>
-        <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</link>
+        <link>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</link>
         <pubDate>Tue, 01 Nov 2022 16:38:24 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</guid>
+        <guid>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</guid>
         <description>&lt;h2 id=&#34;1tcp-的运输连接管理&#34;&gt;1、TCP 的运输连接管理&lt;/h2&gt;
 &lt;p&gt;TCP 是面向连接的协议，连接建立和连接释放是每次面向连接通信必不可少的过程。运输连接有三个阶段：连接建立、数据传输和连接释放。TCP 连接建立要解决以下三个问题：&lt;/p&gt;
 &lt;ol&gt;
@@ -467,10 +467,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>TCP 的拥塞控制</title>
-        <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</link>
+        <link>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</link>
         <pubDate>Tue, 01 Nov 2022 16:38:20 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</guid>
+        <guid>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</guid>
         <description>&lt;h2 id=&#34;1tcp-的拥塞控制&#34;&gt;1、TCP 的拥塞控制&lt;/h2&gt;
 &lt;h3 id=&#34;11拥塞控制的一般原理&#34;&gt;1.1、拥塞控制的一般原理&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1、拥塞的定义&lt;/strong&gt;&lt;/p&gt;
@@ -601,10 +601,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>TCP 的流量控制</title>
-        <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
+        <link>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
         <pubDate>Tue, 01 Nov 2022 12:49:44 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
+        <guid>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
         <description>&lt;h2 id=&#34;1tcp-的流量控制&#34;&gt;1、TCP 的流量控制&lt;/h2&gt;
 &lt;h3 id=&#34;11利用滑动窗口实现流量控制&#34;&gt;1.1、利用滑动窗口实现流量控制&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1、接收窗口&lt;/strong&gt;&lt;/p&gt;
@@ -642,10 +642,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>TCP 可靠传输的实现</title>
-        <link>https://zhuaowei.top/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+        <link>https://zhuaowei.github.io/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
         <pubDate>Mon, 31 Oct 2022 21:21:51 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+        <guid>https://zhuaowei.github.io/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
         <description>&lt;h2 id=&#34;1tcp-可靠传输的实现&#34;&gt;1、TCP 可靠传输的实现&lt;/h2&gt;
 &lt;p&gt;为了方便描述，假定数据传输只有一个方向。A 发送数据，B 发送确认。&lt;/p&gt;
 &lt;h3 id=&#34;11以字节为单位的滑动窗口&#34;&gt;1.1、以字节为单位的滑动窗口&lt;/h3&gt;
@@ -756,10 +756,10 @@ $\beta$ 是一个小于 1 的系数，它是推荐值是 $\frac{1}{4}$，也就�
         </item>
         <item>
         <title>传输控制协议 TCP 概述</title>
-        <link>https://zhuaowei.top/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</link>
+        <link>https://zhuaowei.github.io/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</link>
         <pubDate>Sun, 30 Oct 2022 19:58:30 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</guid>
+        <guid>https://zhuaowei.github.io/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</guid>
         <description>&lt;h2 id=&#34;1传输控制协议-tcp-概述&#34;&gt;1、传输控制协议 TCP 概述&lt;/h2&gt;
 &lt;h3 id=&#34;11tcp-的主要特点&#34;&gt;1.1、TCP 的主要特点&lt;/h3&gt;
 &lt;ol&gt;
@@ -832,10 +832,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>用户数据报协议 UDP</title>
-        <link>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
+        <link>https://zhuaowei.github.io/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
         <pubDate>Sun, 30 Oct 2022 19:55:16 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
+        <guid>https://zhuaowei.github.io/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
         <description>&lt;h2 id=&#34;1udp-用户数据报协议&#34;&gt;1、UDP 用户数据报协议&lt;/h2&gt;
 &lt;h3 id=&#34;11udp-概述&#34;&gt;1.1、UDP 概述&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;主要特点&lt;/strong&gt;：&lt;/p&gt;
@@ -872,10 +872,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>计算机网络运输层概述</title>
-        <link>https://zhuaowei.top/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</link>
+        <link>https://zhuaowei.github.io/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</link>
         <pubDate>Sun, 30 Oct 2022 19:52:27 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</guid>
+        <guid>https://zhuaowei.github.io/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</guid>
         <description>&lt;h2 id=&#34;1运输层概述&#34;&gt;1、运输层概述&lt;/h2&gt;
 &lt;h3 id=&#34;11进程之间通信&#34;&gt;1.1、进程之间通信&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;运输层向它上面的应用层提供通信服务，它数据面向通信部分的最高层，同时也是用户功能的最底层。&lt;/strong&gt;&lt;/p&gt;
@@ -961,10 +961,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>信道复用技术 Division Multiplexing</title>
-        <link>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
+        <link>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
         <pubDate>Sat, 29 Oct 2022 22:06:41 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
+        <guid>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
         <description>&lt;h2 id=&#34;1频分复用时分复用和统计时分复用&#34;&gt;1、频分复用、时分复用和统计时分复用&lt;/h2&gt;
 &lt;h3 id=&#34;11频分复用&#34;&gt;1.1、频分复用：&lt;/h3&gt;
 &lt;p&gt;用户在分配到一定的频带后，在通信过程中自始至终都占用这个频带。&lt;strong&gt;频分复用的所有用户在同样的时间占用不同的带宽资源。&lt;/strong&gt;&lt;/p&gt;
@@ -997,10 +997,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>物理层的基本概念与常识</title>
-        <link>https://zhuaowei.top/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
+        <link>https://zhuaowei.github.io/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
         <pubDate>Sat, 29 Oct 2022 22:01:32 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
+        <guid>https://zhuaowei.github.io/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
         <description>&lt;h2 id=&#34;1物理层的基本概念&#34;&gt;1、物理层的基本概念&lt;/h2&gt;
 &lt;p&gt;传输媒体接口的一些特性：&lt;/p&gt;
 &lt;ol&gt;
@@ -1108,10 +1108,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>文件传输协议 FTP</title>
-        <link>https://zhuaowei.top/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
+        <link>https://zhuaowei.github.io/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
         <pubDate>Sat, 29 Oct 2022 21:54:13 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
+        <guid>https://zhuaowei.github.io/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
         <description>&lt;h2 id=&#34;1ftp-概述&#34;&gt;1、FTP 概述&lt;/h2&gt;
 &lt;p&gt;使用最广泛的文件传输协议。FTP和 TFTP都是文件共享协议中的一大类，即复制整个文件。若要存取一个文件，必须先获取一个本地的文件副本。若要修改文件，只能对文件的副本进行修改，然后再将修改后的文件副本传回到原节点。&lt;/p&gt;
 &lt;p&gt;另一大类是联机访问（on-line access）。联机访问意味着允许多个程序同时对一个文件进行存取，它是由操作系统提供对远地共享文件访问的服务，就如同对本地文件的访问一样。这就使用户可以用远地文件作为输入和输出来运行任何应用程序，而操作系统中的文件系统则提供对共享文件的透明存取。&lt;/p&gt;

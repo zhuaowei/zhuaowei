@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>图 on zhuaowei的博客</title>
-        <link>https://zhuaowei.top/tags/%E5%9B%BE/</link>
+        <link>https://zhuaowei.github.io/tags/%E5%9B%BE/</link>
         <description>Recent content in 图 on zhuaowei的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 27 Dec 2023 22:45:50 +0800</lastBuildDate><atom:link href="https://zhuaowei.top/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 27 Dec 2023 22:45:50 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LeetCode 2246. 相邻字符不同的最长路径</title>
-        <link>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
         <pubDate>Wed, 27 Dec 2023 22:45:50 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 2246. 相邻字符不同的最长路径&lt;/a&gt;&lt;/p&gt;
@@ -129,10 +129,10 @@
         </item>
         <item>
         <title>LeetCode 1631. 最小体力消耗路径</title>
-        <link>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
         <pubDate>Mon, 11 Dec 2023 21:05:37 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LeetCode 1631. 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;
@@ -273,10 +273,10 @@
         </item>
         <item>
         <title>LeetCode 1466. 重新规划路线</title>
-        <link>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
         <pubDate>Thu, 07 Dec 2023 22:40:29 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1466. 重新规划路线&lt;/a&gt;&lt;/p&gt;
@@ -384,10 +384,10 @@
         </item>
         <item>
         <title>LeetCode 2646. 最小化旅行的价格总和</title>
-        <link>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
         <pubDate>Wed, 06 Dec 2023 11:10:35 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2646. 最小化旅行的价格总和&lt;/a&gt;&lt;/p&gt;
@@ -545,10 +545,10 @@
         </item>
         <item>
         <title>LeetCode 2477. 到达首都的最少油耗</title>
-        <link>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
+        <link>https://zhuaowei.github.io/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
         <pubDate>Tue, 05 Dec 2023 11:07:39 +0800</pubDate>
         
-        <guid>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
+        <guid>https://zhuaowei.github.io/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2477. 到达首都的最少油耗&lt;/a&gt;&lt;/p&gt;
