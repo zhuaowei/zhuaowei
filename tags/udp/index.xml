@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>UDP on zhuaowei的博客</title>
-        <link>https://zhuaowei.github.io/tags/udp/</link>
-        <description>Recent content in UDP on zhuaowei的博客</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language>
-        <lastBuildDate>Sun, 30 Oct 2022 19:55:16 +0800</lastBuildDate><atom:link href="https://zhuaowei.github.io/tags/udp/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>用户数据报协议 UDP</title>
-        <link>https://zhuaowei.github.io/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
-        <pubDate>Sun, 30 Oct 2022 19:55:16 +0800</pubDate>
-        
-        <guid>https://zhuaowei.github.io/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
-        <description>&lt;h2 id=&#34;1udp-用户数据报协议&#34;&gt;1、UDP 用户数据报协议&lt;/h2&gt;
-&lt;h3 id=&#34;11udp-概述&#34;&gt;1.1、UDP 概述&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;主要特点&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;UDP是无连接的&lt;/strong&gt;，发送前不需要建立连接。&lt;/li&gt;
-&lt;li&gt;UDP 使用&lt;strong&gt;尽最大努力交付&lt;/strong&gt;，即不保证可靠交付，因为主机不需要维持复杂的连接状态表。&lt;/li&gt;
-&lt;li&gt;UDP 是&lt;strong&gt;面向报文的&lt;/strong&gt;。对应用层交下来的报文，加个头部就发了，保留这些报文的边界，不做其他处理。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;UDP 没有拥塞控制，网络拥塞并不会降低发送速率&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;UDP 支持一对一、一对多、多对一和多对多的交互通信&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;UDP 的首部开销小，只需要 8 字节&lt;/strong&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;12udp-的首部格式&#34;&gt;1.2、UDP 的首部格式&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;源端口&lt;/strong&gt;：16 位，需要回复时使用，否则可以全为 0。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;目的端口&lt;/strong&gt;：16 位，交付报文时必须使用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;长度&lt;/strong&gt;：16 位，UDP用户数据报的长度，最小为 8（只有首部）。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;检验和&lt;/strong&gt;：16 位，检测 UDP 用户数据报在传输中是否有错，如果有就丢弃。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;如果目的端口不正确，就丢弃报文，并由&lt;strong&gt;网际控制报文协议 ICMP 发送“端口不可达”差错报文给发送方&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;UDP 并不需要使用套接字来建立连接。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;检验和计算&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;在计算前，首先要在报文前面加上 &lt;strong&gt;12 字节的伪首部&lt;/strong&gt;，这个伪首部既不向下传送，也不向上递交，仅作为计算。&lt;/p&gt;
-&lt;p&gt;首先将检验和部分全部填 0 ，把伪首部，首部，数据看成是由许多 16 位的字串接起来的，如果数据部分不是偶数个这样的部分，就在末尾添 0（这部分也是不发送的）。然后按二进制反码计算这些16 位字的和，将此和的二进制反码填到检验和。&lt;/p&gt;
-&lt;p&gt;在接收方，如果收到的报文是正确的，那么检验和应该全为1，否则就是错的，接收方应该丢弃或者上交，但应该指出是错误的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;伪首部的结构&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;源 IP 地址&lt;/strong&gt;：32位&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;目的 IP 地址&lt;/strong&gt;：32位&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;0填充&lt;/strong&gt;：8位&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;协议类型&lt;/strong&gt;：8位，UDP是17，TCP是6。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;UDP报文长度&lt;/strong&gt;：16位。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>UDP on zhuaowei的博客</title>
+    <link>https://zhuaowei.top/tags/udp/</link>
+    <description>Recent content in UDP on zhuaowei的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 30 Oct 2022 19:55:16 +0800</lastBuildDate>
+    <atom:link href="https://zhuaowei.top/tags/udp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用户数据报协议 UDP</title>
+      <link>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
+      <pubDate>Sun, 30 Oct 2022 19:55:16 +0800</pubDate>
+      <guid>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
+      <description>&lt;h2 id=&#34;1udp-用户数据报协议&#34;&gt;1、UDP 用户数据报协议&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11udp-概述&#34;&gt;1.1、UDP 概述&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;主要特点&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP是无连接的&lt;/strong&gt;，发送前不需要建立连接。&lt;/li&gt;&#xA;&lt;li&gt;UDP 使用&lt;strong&gt;尽最大努力交付&lt;/strong&gt;，即不保证可靠交付，因为主机不需要维持复杂的连接状态表。&lt;/li&gt;&#xA;&lt;li&gt;UDP 是&lt;strong&gt;面向报文的&lt;/strong&gt;。对应用层交下来的报文，加个头部就发了，保留这些报文的边界，不做其他处理。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 没有拥塞控制，网络拥塞并不会降低发送速率&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 支持一对一、一对多、多对一和多对多的交互通信&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 的首部开销小，只需要 8 字节&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;12udp-的首部格式&#34;&gt;1.2、UDP 的首部格式&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;源端口&lt;/strong&gt;：16 位，需要回复时使用，否则可以全为 0。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;目的端口&lt;/strong&gt;：16 位，交付报文时必须使用。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;长度&lt;/strong&gt;：16 位，UDP用户数据报的长度，最小为 8（只有首部）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;检验和&lt;/strong&gt;：16 位，检测 UDP 用户数据报在传输中是否有错，如果有就丢弃。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;如果目的端口不正确，就丢弃报文，并由&lt;strong&gt;网际控制报文协议 ICMP 发送“端口不可达”差错报文给发送方&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
