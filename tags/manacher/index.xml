@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manacher on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/manacher/</link>
+    <link>http://localhost:1313/tags/manacher/</link>
     <description>Recent content in Manacher on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 17 Nov 2022 17:07:19 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/manacher/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/manacher/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>最长回文子串求法Manacher</title>
-      <link>https://zhuaowei.top/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</link>
+      <link>http://localhost:1313/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</link>
       <pubDate>Thu, 17 Nov 2022 17:07:19 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</guid>
+      <guid>http://localhost:1313/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</guid>
       <description>&lt;h2 id=&#34;1回文子串&#34;&gt;1、回文子串&lt;/h2&gt;&#xA;&lt;p&gt;回文就是正着读和反着读是一样的，例如 &lt;code&gt;abcba&lt;/code&gt; 反过来还是 &lt;code&gt;abcba&lt;/code&gt;，&lt;code&gt;abba&lt;/code&gt; 反过来也是 &lt;code&gt;abba&lt;/code&gt;。&lt;/p&gt;&#xA;&lt;p&gt;回文子串就是字符串中某段连续的子串是回文，子串必须是连续的。&lt;/p&gt;</description>
     </item>
   </channel>

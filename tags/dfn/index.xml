@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DFN on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/dfn/</link>
+    <link>http://localhost:1313/tags/dfn/</link>
     <description>Recent content in DFN on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 05 Jan 2024 10:57:32 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/dfn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dfn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2322. 从树中删除边的最小分数</title>
-      <link>https://zhuaowei.top/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</link>
       <pubDate>Fri, 05 Jan 2024 10:57:32 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree/&#34;&gt;LeetCode 2322. 从树中删除边的最小分数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;遍历整棵树，构建出DFN序和size数组，同时计算出每个子树的异或和。然后遍历任意两条边的组合，求出最小分数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2458. 移除子树后的二叉树高度</title>
-      <link>https://zhuaowei.top/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</link>
+      <link>http://localhost:1313/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</link>
       <pubDate>Wed, 27 Dec 2023 22:48:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</guid>
+      <guid>http://localhost:1313/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/height-of-binary-tree-after-subtree-removal-queries/&#34;&gt;LeetCode 2458. 移除子树后的二叉树高度&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先构建出二叉树的 DFN序，记录下每一个节点的树大小和深度。查询时，根据当前节点的DFN序和子树大小，计算出除了当前树区域之外的最大高度。&lt;/p&gt;</description>
     </item>
   </channel>

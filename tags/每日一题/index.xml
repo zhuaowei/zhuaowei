@@ -2,213 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>每日一题 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</link>
+    <link>http://localhost:1313/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</link>
     <description>Recent content in 每日一题 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Sep 2024 22:00:35 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2332. 坐上公交的最晚时间</title>
-      <link>https://zhuaowei.top/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</link>
+      <link>http://localhost:1313/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</link>
       <pubDate>Wed, 18 Sep 2024 22:00:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</guid>
+      <guid>http://localhost:1313/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/the-latest-time-to-catch-a-bus/&#34;&gt;LeetCode 2332. 坐上公交的最晚时间&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;%E7%AD%94%E6%A1%88&#34;&gt;参考&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度&lt;/h3&gt;&#xA;&lt;h3 id=&#34;代码&#34;&gt;代码&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>LeetCode 1154. 一年中的第几天</title>
-      <link>https://zhuaowei.top/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sun, 31 Dec 2023 12:01:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-year/&#34;&gt;LeetCode 1154. 一年中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题跟昨天那道题很像，比昨天的还简单，同样也是根据年份是否闰年，计算出天数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;按照月份逐月累加天数，2 月是一个特殊的月份，需要根据年份判断是否是闰年，如果是闰年，需要额外再加一天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1185. 一周中的第几天</title>
-      <link>https://zhuaowei.top/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sat, 30 Dec 2023 12:01:12 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-week/&#34;&gt;LeetCode 1185. 一周中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;计算出当前日期是距离 1970-01-01 的第几天，然后对天数取余，计算出当前日期是星期几。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;主要是判断某一年是否是闰年，如何判断一个年份是否是闰年？&lt;strong&gt;某一年如果能被 100 整除且能被400整除,或者不能被 100 整除但是能被 4 整除，那么这一年就是闰年。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2706. 购买两块巧克力</title>
-      <link>https://zhuaowei.top/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Fri, 29 Dec 2023 12:00:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/buy-two-chocolates/&#34;&gt;LeetCode 2706. 购买两块巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求出所有巧克力中的价格最小的两个，判断是否满足购买条件，返回依情况返回。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;准备两个变量，记录下最小值和次小值。遍历数组，更新最小值和次小值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2735. 收集巧克力</title>
-      <link>https://zhuaowei.top/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Thu, 28 Dec 2023 11:58:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/collecting-chocolates/&#34;&gt;LeetCode 2735. 收集巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;暴力解法，求出每一个巧克力在每一种移动情况下的最小成本，再加上移动步数的成本，求出每一种方案的最小值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个数组记录下所有巧克力在移动至多 $i$ 步的情况下的最小成本，移动步数最多为所有巧克力的个数。先计算出每一步的移动成本，之后再计算收集成本。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2660. 保龄球游戏的获胜者</title>
-      <link>https://zhuaowei.top/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
+      <link>http://localhost:1313/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
       <pubDate>Wed, 27 Dec 2023 22:42:51 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
+      <guid>http://localhost:1313/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game/&#34;&gt;LeetCode 2660. 保龄球游戏的获胜者&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按顺序遍历数组，如果某位置的前两次得分存在 10 分，则将本次得分乘 2，分别得到两位玩家的得分，根据得分情况决定胜者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1349. 参加考试的最大学生数</title>
-      <link>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
       <pubDate>Tue, 26 Dec 2023 20:51:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/&#34;&gt;LeetCode 1349. 参加考试的最大学生数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/90312/xiang-jie-ya-suo-zhuang-tai-dong-tai-gui-hua-jie-f&#34;&gt;腐烂的橘子 - 详解 压缩状态动态规划解法&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/2580043/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k&#34;&gt;灵茶山艾府 - 教你一步步思考动态规划：从记忆化搜索到递推（两种状态定义+题单）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在前 n 排的情况下，如何安排才能使坐下的学生最多。计算当前排如何安排时，遍历每一种可能的方案，对于每一种方案，遍历上一行的每一种方案，求每一种安排方案的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1276. 不浪费原料的汉堡制作方案</title>
-      <link>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
       <pubDate>Mon, 25 Dec 2023 23:03:17 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients/&#34;&gt;LeetCode 1276. 不浪费原料的汉堡制作方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;设大汉堡 x 个，小汉堡 y 个，根据题意写出二元一次方程组，求出 x 和 y 的解。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，设大汉堡 x 个，小汉堡 y 个，则汉堡个数与原料的关系式为&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1954. 收集足够苹果的最小花园周长</title>
-      <link>https://zhuaowei.top/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</link>
+      <link>http://localhost:1313/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</link>
       <pubDate>Sun, 24 Dec 2023 20:50:40 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</guid>
+      <guid>http://localhost:1313/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-garden-perimeter-to-collect-enough-apples/&#34;&gt;LeetCode 1954. 收集足够苹果的最小花园周长&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意可以得出花园的周长跟容纳苹果的最大数量是有关系的，通过归纳得出苹果数量与花园边长的关系式，然后进行二分求解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1962. 移除石子使总数最小</title>
-      <link>https://zhuaowei.top/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
+      <link>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
       <pubDate>Sat, 23 Dec 2023 11:46:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
+      <guid>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/remove-stones-to-minimize-the-total/&#34;&gt;LeetCode 1962. 移除石子使总数最小&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每次找出数组中的最大值，使其值减半，然后循环 k 次，求出最终的数组之和。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为数组是会变化的，需要时刻维护数组中的最大值，因此可以使用堆来排序，使用大根堆每次取出数组中的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1671. 得到山形数组的最少删除次数</title>
-      <link>https://zhuaowei.top/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 15:46:53 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/&#34;&gt;LeetCode 1671. 得到山形数组的最少删除次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先正向求出每个位置最长的递增子序列长度，然后逆序求出每个位置最长的递增子序列的长度，同时求出最大的山脉宽度，剩下的就是最少的删除次数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2866. 美丽塔 II</title>
-      <link>https://zhuaowei.top/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</link>
+      <link>http://localhost:1313/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</link>
       <pubDate>Thu, 21 Dec 2023 14:43:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/beautiful-towers-ii/&#34;&gt;LeetCode 2866. 美丽塔 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，需要在高度限制下建塔，使得最终的塔能够形成一个山脉的形状。山脉的形状就是，从两侧到山顶是非严格递增的。所以我们可以假设每一个位置作为山顶，求出它左侧非严格递增，右侧非严格递减的子数组之和的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2828. 判别首字母缩略词</title>
-      <link>https://zhuaowei.top/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</link>
+      <link>http://localhost:1313/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</link>
       <pubDate>Wed, 20 Dec 2023 22:04:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</guid>
+      <guid>http://localhost:1313/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/&#34;&gt;LeetCode 2828. 判别首字母缩略词&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;依次判断字符串数组中每个字符串的首字母，是否与目标字符串的字符相等。如果存在不相等的字符，返回 $false$；否则返回 $true$。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1901. 寻找峰值 II</title>
-      <link>https://zhuaowei.top/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</link>
+      <link>http://localhost:1313/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</link>
       <pubDate>Tue, 19 Dec 2023 22:00:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/find-a-peak-element-ii/&#34;&gt;LeetCode 1901. 寻找峰值 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解：&lt;a href=&#34;https://leetcode.cn/problems/find-a-peak-element-ii/solutions/2571587/tu-jie-li-yong-xing-zui-da-zhi-pan-duan-r4e0n/?envType=daily-question&amp;envId=2023-12-19&#34;&gt;灵茶山艾府 - 【图解】利用行最大值判断峰顶位置，附二分题单&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据 “上山” 的思路，我们只需要沿着“往上走的方向”即可找到一个峰值，即我们每次往上下左右比自己大的位置跳，直到周围的值都比自己小。这种情况最坏情况下时间复杂度是 $O(nm)，使用二分，将上山的路径进行划分，峰值肯定在中点的一侧，或者中点上。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 162. 寻找峰值</title>
-      <link>https://zhuaowei.top/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</link>
+      <link>http://localhost:1313/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</link>
       <pubDate>Mon, 18 Dec 2023 20:06:54 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</guid>
+      <guid>http://localhost:1313/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/find-peak-element/&#34;&gt;LeetCode 162. 寻找峰值&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先判断左右两端的上升或者下降趋势，然后根据区间中点左右两侧的趋势判断哪部分存在极值，然后继续二分。如果中点比左右两侧都大，说明中点就是极值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 746. 使用最小花费爬楼梯</title>
-      <link>https://zhuaowei.top/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
+      <link>http://localhost:1313/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
       <pubDate>Sun, 17 Dec 2023 20:06:16 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
+      <guid>http://localhost:1313/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/min-cost-climbing-stairs/&#34;&gt;LeetCode 746. 使用最小花费爬楼梯&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从楼梯的第一阶或者第二阶出发，计算出走完整个台阶的最小花费。当我们来到某一个阶梯时，我们肯定需要跳出这个台阶，也就是说这个台阶的花费是一定会用掉的。因此，我们可以这样想，我们来到某个台阶，先支付费用，我们下次跳出台阶就可以免费。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2276. 统计区间中的整数数目</title>
-      <link>https://zhuaowei.top/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</link>
+      <link>http://localhost:1313/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Sat, 16 Dec 2023 21:20:01 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://localhost:1313/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-integers-in-intervals/&#34;&gt;LeetCode 2276. 统计区间中的整数数目&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按题目要求，需要频繁将某个区间的值修改为指定值，频繁查询区间的值。很明显这道题可以使用线段树来求解。题解的最后是动态开点线段树的模板。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2415. 反转二叉树的奇数层</title>
-      <link>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
+      <link>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
       <pubDate>Fri, 15 Dec 2023 16:24:52 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
+      <guid>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/&#34;&gt;LeetCode 2415. 反转二叉树的奇数层&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;不用真的将节点对象进行翻转，而是将节点存储的值进行翻转。使用层序遍历，在遍历完奇数层之后，将节点中的值翻转。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个队列存储头节点，然后开始循环，直到队列为空。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2132. 用邮票贴满网格图</title>
-      <link>https://zhuaowei.top/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</link>
+      <link>http://localhost:1313/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</link>
       <pubDate>Thu, 14 Dec 2023 16:19:47 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</guid>
+      <guid>http://localhost:1313/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/stamping-the-grid/&#34;&gt;LeetCode 2132. 用邮票贴满网格图&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;遍历每一个邮票右下角可能符合要求的点，判断在邮票范围内是否存在被占据的点。如果存在，什么都不做；如果不存在，可以贴邮票，将邮票范围内的子矩阵整体加一，这里使用二维差分来实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2697. 字典序最小回文串</title>
-      <link>https://zhuaowei.top/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</link>
+      <link>http://localhost:1313/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</link>
       <pubDate>Wed, 13 Dec 2023 17:00:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</guid>
+      <guid>http://localhost:1313/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lexicographically-smallest-palindrome/&#34;&gt;LeetCode 2697. 字典序最小回文串&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从两边向中间遍历，如果相等就跳过，如果不相等就让小的字符赋值为大的字符。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用双指针分别指向字符串的开头和结尾，依次判断指针指向的字符是否相等：&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2454. 下一个更大元素 IV</title>
-      <link>https://zhuaowei.top/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</link>
+      <link>http://localhost:1313/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</link>
       <pubDate>Tue, 12 Dec 2023 11:20:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</guid>
+      <guid>http://localhost:1313/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-element-iv/&#34;&gt;LeetCode 2454. 下一个更大元素 IV&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-element-iv/solutions/1935583/by-miao-z0-pnss/?envType=daily-question&amp;envId=2023-12-12&#34;&gt;苗 - 【CPP】单调栈 + 优先队列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将求解下下一个更大元素分成两步，先求下一个更大元素，如果有，存储起来，再求下下一个更大元素。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1631. 最小体力消耗路径</title>
-      <link>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Mon, 11 Dec 2023 21:05:37 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/&#34;&gt;LeetCode 1631. 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解的方法二：&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/solutions/459765/zui-xiao-ti-li-xiao-hao-lu-jing-by-zerotrac2/?envType=daily-question&amp;envId=2023-12-11&#34;&gt;zerotrac 🌸 - 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;体力消耗的计算方式是在 (0,0) -&amp;gt; (n - 1,m - 1) 的路径中，相邻两个节点的最大高度差，跟路径的长度无关。所以要找到最小体力消耗路径，要尽量选择高度差小的边，判断当前边组成的路径能够走到右下角的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 70. 爬楼梯</title>
-      <link>https://zhuaowei.top/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
+      <link>http://localhost:1313/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
       <pubDate>Sun, 10 Dec 2023 09:34:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
+      <guid>http://localhost:1313/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/climbing-stairs/&#34;&gt;LeetCode 70. 爬楼梯&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;爬一个长度为 n 的阶梯，可能从 n - 1 阶跳一步来到 n，也可以从 n - 2 一下跳两步来到 n。所以来到第 i 个台阶的方法数就等于：&lt;/p&gt;&#xA;&lt;p&gt;$$ f(i) = f(i - 1) + f(i - 2) $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2048. 下一个更大的数值平衡数</title>
-      <link>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 09:50:59 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-numerically-balanced-number/&#34;&gt;2048. 下一个更大的数值平衡数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;根据题意求平衡数，由于对结果数字和位数进行了限制，所以能形成平衡数的数字并不是特别多，可以使用打表的方式，将可能的结果存储到一个数组中，再通过二分加速查找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2008. 出租车的最大盈利</title>
-      <link>https://zhuaowei.top/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</link>
+      <link>http://localhost:1313/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</link>
       <pubDate>Fri, 08 Dec 2023 11:01:10 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-earnings-from-taxi/&#34;&gt;2008. 出租车的最大盈利&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;司机在行驶过程中，只能往右走，路程中依次经过 1 -&amp;gt; n，求司机的最大盈利。首先想到动态规划，求解司机在到达 i 点时获得的最大盈利。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1466. 重新规划路线</title>
-      <link>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
+      <link>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
       <pubDate>Thu, 07 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
+      <guid>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/&#34;&gt;1466. 重新规划路线&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。从题意可以得知，这是一个有向无环图，节点之间有唯一的一条路径。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2646. 最小化旅行的价格总和</title>
-      <link>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
       <pubDate>Wed, 06 Dec 2023 11:10:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/&#34;&gt;2646. 最小化旅行的价格总和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。所以任意两点之间是有唯一通路的，不存在更短的路径。因此从 i 号点到达 j 号点，经过哪些点是确定的，也就是说整个旅行，每一个点经过的次数是确定的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2477. 到达首都的最少油耗</title>
-      <link>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
+      <link>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
       <pubDate>Tue, 05 Dec 2023 11:07:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/&#34;&gt;2477. 到达首都的最少油耗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 的点，编号 0 -&amp;gt; n - 1，使用 n - 1 条边进行连接，所以整个图是无环的，并且任意两个节点之间的路径是唯一的。&lt;/p&gt;&#xA;&lt;p&gt;一开始的思路是 求出每个叶子节点到达首都的路径，对于每一条路径，根据节点数就可以计算出油耗，最终相加。后来发现是错误的，因为行驶过程中可以下车换乘。也就是说原本可以坐 3 个人的车，从 2 个节点来到 i ，他们每人都一辆车，到达 i 节点后，算上 i 节点上的人，一共有 3 个人，他们坐一辆车就够了，而不是分别计算油耗。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1038. 从二叉搜索树到更大和树</title>
-      <link>https://zhuaowei.top/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
+      <link>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
       <pubDate>Mon, 04 Dec 2023 12:04:36 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
+      <guid>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/&#34;&gt;LeetCode 1038. 从二叉搜索树到更大和树&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;给定的是一个二叉搜索数，二叉搜索数具有以下几种特点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;节点的左子树仅包含键 小于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;节点的右子树仅包含键 大于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;左右子树也必须是二叉搜索树。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;所以二叉搜索数的最右节点肯定是最大的，大于等于该值的节点只有自己。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>牛客网 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E7%89%9B%E5%AE%A2%E7%BD%91/</link>
+    <link>http://localhost:1313/tags/%E7%89%9B%E5%AE%A2%E7%BD%91/</link>
     <description>Recent content in 牛客网 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 20 Dec 2023 22:47:07 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E7%89%9B%E5%AE%A2%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%89%9B%E5%AE%A2%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>牛客网 【模板】拓扑排序</title>
-      <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Wed, 20 Dec 2023 22:47:07 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/88f7e156ca7d43a1a535f619cd3f495c&#34;&gt;牛客网 【模板】拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先使用链式前向星建图，同时统计点的入度。然后遍历所有节点，将入度为 0 的点加入队列，遍历队列的每一个点，消除出队节点的影响，将消除影响后入度为 0 的点加入队列，直到不存在入度为 0 的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛客网 括号区间匹配</title>
-      <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
+      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Fri, 15 Dec 2023 16:43:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/e391767d80d942d29e6095a935a5b96b&#34;&gt;牛客网 括号区间匹配&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 之间能够将括号变成有效的最小插入次数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;括号的组合有两种，一是嵌套 &lt;code&gt;[()]&lt;/code&gt;，二是并列 &lt;code&gt;[]()&lt;/code&gt;。在子问题中，讨论区间 &lt;code&gt;[left, right]&lt;/code&gt; 两端的括号形成可能性。&lt;/p&gt;</description>
     </item>
   </channel>

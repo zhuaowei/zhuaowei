@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>滑动窗口 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+    <link>http://localhost:1313/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
     <description>Recent content in 滑动窗口 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 16 Dec 2023 21:24:58 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2962. 统计最大元素出现至少 K 次的子数组</title>
-      <link>https://zhuaowei.top/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://localhost:1313/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Sat, 16 Dec 2023 21:24:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/&#34;&gt;LeetCode 2962. 统计最大元素出现至少 K 次的子数组&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考思路：&lt;a href=&#34;https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/2560940/hua-dong-chuang-kou-fu-ti-dan-pythonjava-xvwg/&#34;&gt;灵茶山艾府 - 滑动窗口（附题单！）Python/Java/C++/Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;使用滑动窗口，如果窗口内的最大值数量为 k 个，则前面的以窗口左边界为结尾的子数组加上窗口就是满足题意要求的子数组。&lt;/p&gt;</description>
     </item>
   </channel>

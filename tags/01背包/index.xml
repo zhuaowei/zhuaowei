@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>01背包 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/01%E8%83%8C%E5%8C%85/</link>
+    <link>http://localhost:1313/tags/01%E8%83%8C%E5%8C%85/</link>
     <description>Recent content in 01背包 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Dec 2023 20:12:50 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/01%E8%83%8C%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/01%E8%83%8C%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>洛谷 P1064 [NOIP2006 提高组] 金明的预算方案</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sun, 10 Dec 2023 20:12:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1064&#34;&gt;P1064 [NOIP2006 提高组] 金明的预算方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/f9c6f980eeec43ef85be20755ddbeaf4&#34;&gt;牛客网 购物单&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;物品分为主件和附件，附件必须在购买主件后才能考虑购买。所以在求解过程中，判断是否是主件，如果是，就考虑选或者不选。然后考虑主件下的附件，因为附件最多只有 2 件，分为以下四种情况，不买附件，只买附件一，只买附件二，都买，&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1049. 最后一块石头的重量 II</title>
-      <link>https://zhuaowei.top/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</link>
+      <link>http://localhost:1313/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</link>
       <pubDate>Sun, 10 Dec 2023 19:26:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/last-stone-weight-ii/&#34;&gt;LeetCode 1049. 最后一块石头的重量 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;两块石头碰撞会相互抵消，最终留下较大的减去较小的那块。&lt;/p&gt;&#xA;&lt;p&gt;如果将一组石头分成两组，分别捏成两个大石头，则抵消后的结果为&lt;strong&gt;较大的减去较小的那块&lt;/strong&gt;。如果要让结果尽量小，则需要让两堆石头的重量尽量接近，甚至相等。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 494. 目标和</title>
-      <link>https://zhuaowei.top/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</link>
       <pubDate>Sun, 10 Dec 2023 19:10:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/target-sum/&#34;&gt;LeetCode 494. 目标和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;思考一&lt;/strong&gt;：奇偶性，数组中的数，无论如何组合，它的奇偶性是不变的，也就是说 $\sum_{i=1}^{n}nums$ 和任意一种组合的结果的奇偶性是一样的，推出 $\sum_{i=1}^{n}nums$ 和 target 的奇偶性是一样的，如果不一样可以直接 pass。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode ByteDance-006. 夏季特惠</title>
-      <link>https://zhuaowei.top/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</link>
+      <link>http://localhost:1313/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</link>
       <pubDate>Sun, 10 Dec 2023 17:00:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</guid>
+      <guid>http://localhost:1313/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/tJau2o/&#34;&gt;LeetCode ByteDance-006. 夏季特惠&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;需要分析题意，将问题转化为 01 背包问题。这题背包的容量不是确定的预算，需要根据优惠决定。&lt;/p&gt;&#xA;&lt;p&gt;游戏有原价和现价，优惠等于原价减现价。优惠越大，心理越不觉得亏，&lt;strong&gt;当优惠比现价还大时，觉得自己赚了&lt;/strong&gt;，那么这个游戏就是必选的，赚得多余的还可以用于购买其他游戏。例如原价 10，现价 3，优惠 7，优惠等于现价，四舍五入等于白嫖，还赚 4 块。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ACWing 01背包问题</title>
-      <link>https://zhuaowei.top/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 10 Dec 2023 11:59:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/problem/content/2/&#34;&gt;ACWing 01背包问题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;考虑每一件物品，当前来到了第 i 件物品，背包容量为 j。如果选了第 i 件物品，获得的价值是 $w_i$，如果要装下该物品，则背包需要预留给这件物品足够的空间，也就是背包在选择前 i - 1 件物品后，背包容量最大应该为 $j - v_i$。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>链式前向星 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F/</link>
+    <link>http://localhost:1313/tags/%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F/</link>
     <description>Recent content in 链式前向星 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Dec 2023 22:22:05 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E9%93%BE%E5%BC%8F%E5%89%8D%E5%90%91%E6%98%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>洛谷 P1352 没有上司的舞会</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
       <pubDate>Sat, 23 Dec 2023 22:22:05 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1352&#34;&gt;洛谷 P1352 没有上司的舞会&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求子问题：求出每个树在头节点去与不去的最大快乐值。每棵树的最大快乐值取决于子树返回的信息，根据子树信息求出当前树的信息，不断向上返回，最终得到整棵树的去与不去的最大快乐值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P4017 最大食物链计数</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4017&#34;&gt;洛谷 P4017 最大食物链计数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;到达某生物的食物链条数等于所有被他吃的生物的链数之和。生物链的关系可以看作一个有向无环图，按照拓扑排序将食物链条数从被捕食者传递到捕食者，最终得到整个生物捕食关系的食物链总数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 U107394 拓扑排序模板</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Fri, 22 Dec 2023 16:35:28 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/U107394&#34;&gt;洛谷 U107394 拓扑排序模板&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;牛客网和 leetcode 可以使用邻接表法建图，而洛谷是专为比赛用的，所以必须使用链式前向星建图。题目要求获得字典序最小的拓扑排序，所以可以使用小根堆存储入度为 0 的节点，这样每次弹出的节点都是满足要求的节点中字典序最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛客网 【模板】拓扑排序</title>
-      <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Wed, 20 Dec 2023 22:47:07 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/88f7e156ca7d43a1a535f619cd3f495c&#34;&gt;牛客网 【模板】拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先使用链式前向星建图，同时统计点的入度。然后遍历所有节点，将入度为 0 的点加入队列，遍历队列的每一个点，消除出队节点的影响，将消除影响后入度为 0 的点加入队列，直到不存在入度为 0 的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 210. 课程表 II</title>
-      <link>https://zhuaowei.top/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</link>
+      <link>http://localhost:1313/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</link>
       <pubDate>Wed, 20 Dec 2023 22:06:49 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/course-schedule-ii/&#34;&gt;LeetCode 210. 课程表 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;建图有很多种方式，常用的有邻接表法和邻接矩阵法。邻接矩阵法在点集很大的情况下很浪费空间，因为它的空间复杂度是 $O(n^2)$ 的。邻接表法在算法开始前是无法确定它的大小的，在比赛中空间计算是累计方式计算的，虽然最后释放了空间，但是还是会计算到。因此需要使用一种开销比较小，同时又知道图用到的最大空间的方式来建图。&lt;/p&gt;</description>
     </item>
   </channel>

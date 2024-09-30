@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>并查集 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
+    <link>http://localhost:1313/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link>
     <description>Recent content in 并查集 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 11 Dec 2023 21:05:37 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1631. 最小体力消耗路径</title>
-      <link>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Mon, 11 Dec 2023 21:05:37 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/&#34;&gt;LeetCode 1631. 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解的方法二：&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/solutions/459765/zui-xiao-ti-li-xiao-hao-lu-jing-by-zerotrac2/?envType=daily-question&amp;envId=2023-12-11&#34;&gt;zerotrac 🌸 - 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;体力消耗的计算方式是在 (0,0) -&amp;gt; (n - 1,m - 1) 的路径中，相邻两个节点的最大高度差，跟路径的长度无关。所以要找到最小体力消耗路径，要尽量选择高度差小的边，判断当前边组成的路径能够走到右下角的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>并查集以及感染算法计算岛的数量</title>
-      <link>https://zhuaowei.top/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</link>
+      <link>http://localhost:1313/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</link>
       <pubDate>Mon, 14 Nov 2022 18:36:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
+      <guid>http://localhost:1313/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
       <description>&lt;h2 id=&#34;1并查集&#34;&gt;1、并查集&lt;/h2&gt;&#xA;&lt;p&gt;并查集的结构设计就是都以比较快的速度实现这两个操作：合并两个集合、查询两个元素是否在同一个集合。&lt;/p&gt;&#xA;&lt;p&gt;实现细节：&lt;/p&gt;&#xA;&lt;p&gt;1、元素类：定义元素类，并定义一个构造函数，使并查集可以接收任意类型的集合。&lt;/p&gt;</description>
     </item>
   </channel>

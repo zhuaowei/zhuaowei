@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DFS on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/dfs/</link>
+    <link>http://localhost:1313/tags/dfs/</link>
     <description>Recent content in DFS on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Dec 2023 22:45:50 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2246. 相邻字符不同的最长路径</title>
-      <link>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 27 Dec 2023 22:45:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/&#34;&gt;LeetCode 2246. 相邻字符不同的最长路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：求子树的相邻字符不同的最长路径。路径分为经过和不经过当前树的头节点两种，分别计算两种路径长度，取最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2048. 下一个更大的数值平衡数</title>
-      <link>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 09:50:59 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-numerically-balanced-number/&#34;&gt;2048. 下一个更大的数值平衡数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;根据题意求平衡数，由于对结果数字和位数进行了限制，所以能形成平衡数的数字并不是特别多，可以使用打表的方式，将可能的结果存储到一个数组中，再通过二分加速查找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1466. 重新规划路线</title>
-      <link>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
+      <link>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
       <pubDate>Thu, 07 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
+      <guid>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/&#34;&gt;1466. 重新规划路线&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。从题意可以得知，这是一个有向无环图，节点之间有唯一的一条路径。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2646. 最小化旅行的价格总和</title>
-      <link>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
       <pubDate>Wed, 06 Dec 2023 11:10:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/&#34;&gt;2646. 最小化旅行的价格总和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。所以任意两点之间是有唯一通路的，不存在更短的路径。因此从 i 号点到达 j 号点，经过哪些点是确定的，也就是说整个旅行，每一个点经过的次数是确定的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2477. 到达首都的最少油耗</title>
-      <link>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
+      <link>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
       <pubDate>Tue, 05 Dec 2023 11:07:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/&#34;&gt;2477. 到达首都的最少油耗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 的点，编号 0 -&amp;gt; n - 1，使用 n - 1 条边进行连接，所以整个图是无环的，并且任意两个节点之间的路径是唯一的。&lt;/p&gt;&#xA;&lt;p&gt;一开始的思路是 求出每个叶子节点到达首都的路径，对于每一条路径，根据节点数就可以计算出油耗，最终相加。后来发现是错误的，因为行驶过程中可以下车换乘。也就是说原本可以坐 3 个人的车，从 2 个节点来到 i ，他们每人都一辆车，到达 i 节点后，算上 i 节点上的人，一共有 3 个人，他们坐一辆车就够了，而不是分别计算油耗。&lt;/p&gt;</description>
     </item>
   </channel>

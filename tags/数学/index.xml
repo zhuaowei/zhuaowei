@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数学 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E6%95%B0%E5%AD%A6/</link>
+    <link>http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/</link>
     <description>Recent content in 数学 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 25 Dec 2023 23:03:17 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1276. 不浪费原料的汉堡制作方案</title>
-      <link>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
       <pubDate>Mon, 25 Dec 2023 23:03:17 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients/&#34;&gt;LeetCode 1276. 不浪费原料的汉堡制作方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;设大汉堡 x 个，小汉堡 y 个，根据题意写出二元一次方程组，求出 x 和 y 的解。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，设大汉堡 x 个，小汉堡 y 个，则汉堡个数与原料的关系式为&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>单调队列 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/</link>
+    <link>http://localhost:1313/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/</link>
     <description>Recent content in 单调队列 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 13 Dec 2023 17:09:06 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>洛谷 P1776 宝物筛选（单调队列优化）</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:09:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;在无优化版本的基础上进行优化，根据物品重量的余数，将最大重量进行分组，使用单调队列，分别对组内的 dp 结果求区间的最大值，这样就可以快速地获取最大重量时的最优结果，求出最优解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P2698 [USACO12MAR] Flowerpot S</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
       <pubDate>Sat, 09 Dec 2023 21:34:27 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P2698&#34;&gt;洛谷 P2698 [USACO12MAR] Flowerpot S&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路主要来自B站左程云的视频课程 &lt;a href=&#34;https://www.bilibili.com/video/BV11h4y1w7Bu/&#34;&gt;算法讲解054【必备】单调队列-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求花盆的长度，满足下面的条件，在花盆区间内，第一滴雨水与最后一滴雨水落下的时间差要 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。雨水下落速度恒定 1 单位每秒，也就是求最大高度差满足 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
   </channel>

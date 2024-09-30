@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPU寻址 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/cpu%E5%AF%BB%E5%9D%80/</link>
+    <link>http://localhost:1313/tags/cpu%E5%AF%BB%E5%9D%80/</link>
     <description>Recent content in CPU寻址 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 25 Sep 2022 20:56:50 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/cpu%E5%AF%BB%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cpu%E5%AF%BB%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作系统中CPU的寻址方式总结</title>
-      <link>https://zhuaowei.top/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+      <link>http://localhost:1313/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sun, 25 Sep 2022 20:56:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://localhost:1313/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天复习计算机操作系统，网上的博客只提了一嘴，没有详细写，所以我就找到以前的课本重新复习了一遍，顺便记下来，以免忘记。详细参考了《计算机组成原理（第3版）蒋本珊 编著》。&lt;/p&gt;</description>
     </item>
   </channel>

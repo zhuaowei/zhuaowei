@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>枚举优化 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
+    <link>http://localhost:1313/tags/%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
     <description>Recent content in 枚举优化 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 10 Mar 2024 16:06:20 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 309. 买卖股票的最佳时机含冷冻期</title>
-      <link>https://zhuaowei.top/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</link>
+      <link>http://localhost:1313/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</link>
       <pubDate>Sun, 10 Mar 2024 16:06:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</guid>
+      <guid>http://localhost:1313/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/&#34;&gt;LeetCode 309. 买卖股票的最佳时机含冷冻期&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;跟带手续费的股票问题一样，使用一个数组表示已经完成冷静期的持有股票的状态，一个数组表示交易完成的状态。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 714. 买卖股票的最佳时机含手续费</title>
-      <link>https://zhuaowei.top/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</link>
+      <link>http://localhost:1313/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</link>
       <pubDate>Sun, 10 Mar 2024 16:00:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</guid>
+      <guid>http://localhost:1313/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/&#34;&gt;LeetCode 714. 买卖股票的最佳时机含手续费&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每次交易都要扣除手续费，那我们可以在买的时候就将手续费提前扣除，当卖出股票时可以直接加上当天的股票价格。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 188. 买卖股票的最佳时机 IV</title>
-      <link>https://zhuaowei.top/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</link>
+      <link>http://localhost:1313/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</link>
       <pubDate>Sat, 20 Jan 2024 22:20:04 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</guid>
+      <guid>http://localhost:1313/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/&#34;&gt;LeetCode 188. 买卖股票的最佳时机 IV&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据前面几题的经验，使用一个二维 dp 表，记录下交易次数和范围的最大利润，遍历所有可能，得出交易 k 次，在整个数组范围内的最大利润。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 123. 买卖股票的最佳时机 III</title>
-      <link>https://zhuaowei.top/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</link>
+      <link>http://localhost:1313/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</link>
       <pubDate>Sat, 20 Jan 2024 22:19:49 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/&#34;&gt;LeetCode 123. 买卖股票的最佳时机 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将两次股票交易分开来处理，遍历以每一天作为第二次股票卖出时得到的利润，然后的出最大利润。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个 &lt;code&gt;dp1&lt;/code&gt; 数组，记录 &lt;code&gt;0 - i&lt;/code&gt; 范围内，交易一次股票所获得的最大利润，买入和卖出可以在 &lt;code&gt;0 - i&lt;/code&gt; 的任意一天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 122. 买卖股票的最佳时机 II</title>
-      <link>https://zhuaowei.top/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</link>
+      <link>http://localhost:1313/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</link>
       <pubDate>Sat, 20 Jan 2024 22:19:41 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/&#34;&gt;LeetCode 122. 买卖股票的最佳时机 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;因为可以交易无限次，我们可以抓住每次股价上升的趋势，赚取所有的利润。一个连续上升的利润等同于拆分后每段的利润之和，所以我们只需要跟前一个位置的股价进行比较，如果利润为正就赚，否则赚 0。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 121. 买卖股票的最佳时机</title>
-      <link>https://zhuaowei.top/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</link>
+      <link>http://localhost:1313/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</link>
       <pubDate>Sat, 20 Jan 2024 22:18:52 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</guid>
+      <guid>http://localhost:1313/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/&#34;&gt;LeetCode 121. 买卖股票的最佳时机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，买卖不能再同一天，但是它又说，如果不能获得利润就返回 0。所以我们就可以理解为：买卖可以在同一天，返回交易一次的最大利润，如果不能获得利润，那么最大利润肯定为 0。所以我们求出每个位置减去至今位置遇到的最小值，得到的结果取最大就是最大利润。&lt;/p&gt;</description>
     </item>
   </channel>

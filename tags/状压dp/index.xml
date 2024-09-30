@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>状压DP on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E7%8A%B6%E5%8E%8Bdp/</link>
+    <link>http://localhost:1313/tags/%E7%8A%B6%E5%8E%8Bdp/</link>
     <description>Recent content in 状压DP on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 19 Jan 2024 21:35:31 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E7%8A%B6%E5%8E%8Bdp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E7%8A%B6%E5%8E%8Bdp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1655. 分配重复整数</title>
-      <link>https://zhuaowei.top/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</link>
       <pubDate>Fri, 19 Jan 2024 21:35:31 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/distribute-repeating-integers/&#34;&gt;LeetCode 1655. 分配重复整数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Tu4y1g7GU/&#34;&gt;算法讲解081【必备】状压dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，如果一个数字的个数足够多，那么它可以满足多个订单，如果拆开来处理，维护状态就会变得很复杂，因此我们可以选择将订单进行组合，列举出所有组合，计算出它们需要的数字的个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1434. 每个人戴不同帽子的方案数</title>
-      <link>https://zhuaowei.top/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
       <pubDate>Fri, 19 Jan 2024 21:34:54 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/&#34;&gt;LeetCode 1434. 每个人戴不同帽子的方案数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Tu4y1g7GU/&#34;&gt;算法讲解081【必备】状压dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每个人都要选择一个自己喜欢的帽子，可以枚举每个人选择帽子的可能性，列举出所有的可能性，找出一种满足所有人的方案，如果可以满足，则方案数加一。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1171 售货员的难题</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
       <pubDate>Thu, 18 Jan 2024 22:47:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1171&#34;&gt;洛谷 P1171 售货员的难题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;所有村庄中，任意两个村庄之间都是连通的，所以售货员的路线可能是任意一条，我们要枚举出每一条行驶路线，找到路程最短的那条经过的路程是多少。我们使用一个状态变量表示村庄是否已经经过，每次来到一个村庄时，考虑所有没有去过的村庄作为下一站，在所有村庄中，选择路程最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 698. 划分为k个相等的子集</title>
-      <link>https://zhuaowei.top/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</link>
+      <link>http://localhost:1313/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</link>
       <pubDate>Thu, 18 Jan 2024 22:46:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/&#34;&gt;LeetCode 698. 划分为k个相等的子集&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题与 &lt;a href=&#34;https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt; 十分相似，只是将固定的 4 改成了变量 k 而已。&lt;/p&gt;&#xA;&lt;p&gt;沿用上面这题的思路，还是一个一个子集的满足，直到所有的数字都使用完，最终判断结果满足条件的子集的个数是否为 k。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/&#34;&gt;LeetCode 698. 划分为k个相等的子集&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题与 &lt;a href=&#34;http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt; 十分相似，只是将固定的 4 改成了变量 k 而已。&lt;/p&gt;&#xA;&lt;p&gt;沿用上面这题的思路，还是一个一个子集的满足，直到所有的数字都使用完，最终判断结果满足条件的子集的个数是否为 k。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 473. 火柴拼正方形</title>
-      <link>https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
+      <link>http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
       <pubDate>Thu, 18 Jan 2024 22:45:08 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
+      <guid>http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/matchsticks-to-square/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;依次满足每一条边，直到四条边全部满足，然后判断是否有火柴剩余。每次挑选时，尝试剩下的每一种火柴，看看它以及后续的选择是否存在一个选择方案将四条边全部满足。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 464. 我能赢吗</title>
-      <link>https://zhuaowei.top/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</link>
+      <link>http://localhost:1313/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</link>
       <pubDate>Thu, 18 Jan 2024 22:43:46 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/can-i-win/&#34;&gt;LeetCode 464. 我能赢吗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;在玩家1的每一个回合都考虑一下剩下数字的所有可能，只要存在获胜的分支，就说明玩家1可以稳赢。同理，轮到玩家2时，就要找到玩家2稳输的分支。因为两位玩家都绝顶聪明，所以轮到每一位玩家时，他们都尽最大努力获胜。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1349. 参加考试的最大学生数</title>
-      <link>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
       <pubDate>Tue, 26 Dec 2023 20:51:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/&#34;&gt;LeetCode 1349. 参加考试的最大学生数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/90312/xiang-jie-ya-suo-zhuang-tai-dong-tai-gui-hua-jie-f&#34;&gt;腐烂的橘子 - 详解 压缩状态动态规划解法&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/2580043/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k&#34;&gt;灵茶山艾府 - 教你一步步思考动态规划：从记忆化搜索到递推（两种状态定义+题单）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在前 n 排的情况下，如何安排才能使坐下的学生最多。计算当前排如何安排时，遍历每一种可能的方案，对于每一种方案，遍历上一行的每一种方案，求每一种安排方案的最大值。&lt;/p&gt;</description>
     </item>
   </channel>

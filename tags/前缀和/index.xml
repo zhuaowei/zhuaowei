@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>前缀和 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+    <link>http://localhost:1313/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
     <description>Recent content in 前缀和 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Dec 2023 22:42:50 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%89%8D%E7%BC%80%E5%92%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 437. 路径总和 III</title>
-      <link>https://zhuaowei.top/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</link>
+      <link>http://localhost:1313/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</link>
       <pubDate>Sat, 23 Dec 2023 22:42:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-sum-iii/&#34;&gt;LeetCode 437. 路径总和 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;记录下二叉树路径的前缀和，每来到一个节点就判断是否存在区间和为目标值。如果存在，就将记录加一。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为求区间和只跟当前节点之前的路径有关，因此可以使用二叉树的前序遍历。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2218. 从栈中取出 K 个硬币的最大面值和</title>
-      <link>https://zhuaowei.top/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</link>
       <pubDate>Mon, 11 Dec 2023 17:29:33 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/&#34;&gt;LeetCode 2218. 从栈中取出 K 个硬币的最大面值和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将问题转化为分组背包 DP。每一堆硬币像栈一样取，只能从栈顶一个一个取，每一堆的方案有以下几种：选 0 个，得到 0 元；选 1 个 得到 x1 元；选 2 个，得到 x2 元 &amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>

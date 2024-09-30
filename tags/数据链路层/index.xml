@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据链路层 on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
+    <link>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
     <description>Recent content in 数据链路层 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 09 Nov 2022 21:46:48 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用广播信道的数据链路层</title>
-      <link>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
+      <link>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
       <pubDate>Wed, 09 Nov 2022 21:46:48 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
+      <guid>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
       <description>&lt;h2 id=&#34;1使用广播信道的数据链路层&#34;&gt;1、使用广播信道的数据链路层&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11局域网的数据链路层&#34;&gt;1.1、局域网的数据链路层&lt;/h3&gt;&#xA;&lt;p&gt;局域网的主要特点：&lt;strong&gt;网络为一个单位所拥有，且地理范围和站点数据均有限&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;局域网的优点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;具有广播功能。&lt;/li&gt;&#xA;&lt;li&gt;便于系统的扩展和逐渐演变，各设备的位置可灵活调整。&lt;/li&gt;&#xA;&lt;li&gt;提高了系统的可靠性（reliability）、可用性（availability）和生存性（survivability）。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;局域网的分类：&lt;/p&gt;</description>
     </item>
     <item>
       <title>点对点协议 PPP</title>
-      <link>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
+      <link>http://localhost:1313/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
       <pubDate>Fri, 04 Nov 2022 21:20:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
+      <guid>http://localhost:1313/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
       <description>&lt;p&gt;数据链路层主要有两种通信方式：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;点对点信道&lt;/strong&gt;：一对一，点对点通信方式。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;广播信道&lt;/strong&gt;：一对多的广播通信方式。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1使用点对点信道的数据链路层&#34;&gt;1、使用点对点信道的数据链路层&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11数据链路和帧&#34;&gt;1.1、数据链路和帧&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;链路（link，物理链路）&lt;/strong&gt;：从一个结点到相邻结点的一段物理通路（有线或无线），而中间没有任何其他交换结点。&lt;/p&gt;</description>
     </item>
   </channel>

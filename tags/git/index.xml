@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/git/</link>
+    <link>http://localhost:1313/tags/git/</link>
     <description>Recent content in Git on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 04 Apr 2023 15:23:43 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git 命令操作</title>
-      <link>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
+      <link>http://localhost:1313/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Tue, 04 Apr 2023 15:23:43 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
+      <guid>http://localhost:1313/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
       <description>&lt;h2 id=&#34;一git基本概念&#34;&gt;一、git基本概念&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1blob-and-tree&#34;&gt;1、blob and tree&lt;/h3&gt;&#xA;&lt;p&gt;git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree或者blob，也就是说，文件目录是tree递归形成的。git项目的根目录用 ‘/’ 表示，也是一个tree。&lt;/p&gt;</description>
     </item>
   </channel>

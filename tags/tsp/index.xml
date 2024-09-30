@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TSP on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/tags/tsp/</link>
+    <link>http://localhost:1313/tags/tsp/</link>
     <description>Recent content in TSP on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Jan 2024 22:47:58 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/tags/tsp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tsp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>洛谷 P1171 售货员的难题</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
       <pubDate>Thu, 18 Jan 2024 22:47:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1171&#34;&gt;洛谷 P1171 售货员的难题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;所有村庄中，任意两个村庄之间都是连通的，所以售货员的路线可能是任意一条，我们要枚举出每一条行驶路线，找到路程最短的那条经过的路程是多少。我们使用一个状态变量表示村庄是否已经经过，每次来到一个村庄时，考虑所有没有去过的村庄作为下一站，在所有村庄中，选择路程最小的。&lt;/p&gt;</description>
     </item>
   </channel>

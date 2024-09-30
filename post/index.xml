@@ -2,864 +2,864 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on zhuaowei的博客</title>
-    <link>https://zhuaowei.top/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Sep 2024 22:00:35 +0800</lastBuildDate>
-    <atom:link href="https://zhuaowei.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2332. 坐上公交的最晚时间</title>
-      <link>https://zhuaowei.top/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</link>
+      <link>http://localhost:1313/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</link>
       <pubDate>Wed, 18 Sep 2024 22:00:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</guid>
+      <guid>http://localhost:1313/article/leetcode-2332.-%E5%9D%90%E4%B8%8A%E5%85%AC%E4%BA%A4%E7%9A%84%E6%9C%80%E6%99%9A%E6%97%B6%E9%97%B4/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/the-latest-time-to-catch-a-bus/&#34;&gt;LeetCode 2332. 坐上公交的最晚时间&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;%E7%AD%94%E6%A1%88&#34;&gt;参考&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;h3 id=&#34;复杂度&#34;&gt;复杂度&lt;/h3&gt;&#xA;&lt;h3 id=&#34;代码&#34;&gt;代码&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>LeetCode 907. 子数组的最小值之和</title>
-      <link>https://zhuaowei.top/article/leetcode-907.-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-907.-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</link>
       <pubDate>Wed, 18 Sep 2024 00:17:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-907.-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-907.-%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/sum-of-subarray-minimums/&#34;&gt;LeetCode 907. 子数组的最小值之和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;以每个元素 i 为数组最小值的子数组，左侧和右侧最多能够延伸多长？求出每个元素的左侧和右侧第一个比自己小的元素位置。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 739. 每日温度</title>
-      <link>https://zhuaowei.top/article/leetcode-739.-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</link>
+      <link>http://localhost:1313/article/leetcode-739.-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</link>
       <pubDate>Wed, 18 Sep 2024 00:16:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-739.-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</guid>
+      <guid>http://localhost:1313/article/leetcode-739.-%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/daily-temperatures/&#34;&gt;LeetCode 739. 每日温度&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;使用单调栈求出每个位置的下一个大于该值的索引。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;创建一个单调栈，和一个ans数组。单调栈维护一个递减的序列，每次来到 i 位置时，将当前值与栈顶值进行比较，如果当前值比较大，那么就把栈顶的值弹出，弹出的值右侧最近的比自己大的位置就是 i。一直弹出，直到栈为空，或者栈顶值比当前值大。弹出完毕后，将当前值入栈，继续下一个位置的判断。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1235. 规划兼职工作</title>
-      <link>https://zhuaowei.top/article/leetcode-1235.-%E8%A7%84%E5%88%92%E5%85%BC%E8%81%8C%E5%B7%A5%E4%BD%9C/</link>
+      <link>http://localhost:1313/article/leetcode-1235.-%E8%A7%84%E5%88%92%E5%85%BC%E8%81%8C%E5%B7%A5%E4%BD%9C/</link>
       <pubDate>Sun, 17 Mar 2024 22:31:56 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1235.-%E8%A7%84%E5%88%92%E5%85%BC%E8%81%8C%E5%B7%A5%E4%BD%9C/</guid>
+      <guid>http://localhost:1313/article/leetcode-1235.-%E8%A7%84%E5%88%92%E5%85%BC%E8%81%8C%E5%B7%A5%E4%BD%9C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-profit-in-job-scheduling/&#34;&gt;LeetCode 1235. 规划兼职工作&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1pN41157uX/&#34;&gt;算法讲解083【必备】动态规划中用观察优化枚举的技巧-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按照工作的结束时间进行排序，然后分别找出在前 n 个工作可以选择的情况下的最大利润，最后在所有利润中找到最大利润。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;首先将所有数据组合成一个二维数组，然后按照结束时间进行排序。&lt;/li&gt;&#xA;&lt;li&gt;定义一个 &lt;code&gt;dp&lt;/code&gt; 表，&lt;code&gt;dp[i]&lt;/code&gt; 表示在前 &lt;code&gt;i&lt;/code&gt; 个工作中选择，可以获得的最大利润。&lt;/li&gt;&#xA;&lt;li&gt;定义转移方程，如果我一定要做第 &lt;code&gt;i&lt;/code&gt; 个工作，那么我获得第 &lt;code&gt;i&lt;/code&gt; 份工作的利润，并且只能选择第 &lt;code&gt;i&lt;/code&gt; 份工作开始时间之前结束的工作，求利润之和；如果我不选择第 &lt;code&gt;i&lt;/code&gt; 份工作，那么我获得的利润就是前 &lt;code&gt;i - 1&lt;/code&gt; 份工作之前可以赚取的最大值。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;$$&#xA;\begin{equation}&#xA;\begin{aligned}&#xA;f(i) = \begin{cases}&#xA;f(i - 1) \\&#xA;profit_i + f(j)&#xA;\end{cases}\\&#xA;\end{aligned}&#xA;\end{equation}&#xA;$$&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 903. DI 序列的有效排列</title>
-      <link>https://zhuaowei.top/article/leetcode-903.-di-%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%89%E6%95%88%E6%8E%92%E5%88%97/</link>
+      <link>http://localhost:1313/article/leetcode-903.-di-%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%89%E6%95%88%E6%8E%92%E5%88%97/</link>
       <pubDate>Sun, 10 Mar 2024 19:27:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-903.-di-%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%89%E6%95%88%E6%8E%92%E5%88%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-903.-di-%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%89%E6%95%88%E6%8E%92%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/valid-permutations-for-di-sequence/&#34;&gt;LeetCode 903. DI 序列的有效排列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从尝试入手，要选对尝试的思路，如果一开始使用状态表示 0 - n 的数字，哪个被用了，哪个没用，使用一个整数表示，发现题目不允许，因为 n 的范围最大是 200，无法用状态压缩DP。再仔细思考，发现数字是什么不重要，前面已经用了哪些数字不重要，我们只需要知道，要形成上升或者下降序列，我们可以使用的数字有几个。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 309. 买卖股票的最佳时机含冷冻期</title>
-      <link>https://zhuaowei.top/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</link>
+      <link>http://localhost:1313/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</link>
       <pubDate>Sun, 10 Mar 2024 16:06:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</guid>
+      <guid>http://localhost:1313/article/leetcode-309.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/&#34;&gt;LeetCode 309. 买卖股票的最佳时机含冷冻期&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;跟带手续费的股票问题一样，使用一个数组表示已经完成冷静期的持有股票的状态，一个数组表示交易完成的状态。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 714. 买卖股票的最佳时机含手续费</title>
-      <link>https://zhuaowei.top/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</link>
+      <link>http://localhost:1313/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</link>
       <pubDate>Sun, 10 Mar 2024 16:00:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</guid>
+      <guid>http://localhost:1313/article/leetcode-714.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/&#34;&gt;LeetCode 714. 买卖股票的最佳时机含手续费&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每次交易都要扣除手续费，那我们可以在买的时候就将手续费提前扣除，当卖出股票时可以直接加上当天的股票价格。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 235. 二叉搜索树的最近公共祖先</title>
-      <link>https://zhuaowei.top/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</link>
+      <link>http://localhost:1313/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</link>
       <pubDate>Sun, 25 Feb 2024 22:43:51 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</guid>
+      <guid>http://localhost:1313/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/&#34;&gt;LeetCode 235. 二叉搜索树的最近公共祖先&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/solutions/428739/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-3c&#34;&gt;参考题解：数据结构和算法 - 二叉搜索树的最近公共祖先（3种解决方式）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从二叉树根节点开始查找，判断该节点是否在两个节点之间，如果是，那么该节点就是最近的公共祖先，如果不是，那么就继续向下找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 188. 买卖股票的最佳时机 IV</title>
-      <link>https://zhuaowei.top/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</link>
+      <link>http://localhost:1313/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</link>
       <pubDate>Sat, 20 Jan 2024 22:20:04 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</guid>
+      <guid>http://localhost:1313/article/leetcode-188.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iv/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/&#34;&gt;LeetCode 188. 买卖股票的最佳时机 IV&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据前面几题的经验，使用一个二维 dp 表，记录下交易次数和范围的最大利润，遍历所有可能，得出交易 k 次，在整个数组范围内的最大利润。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 123. 买卖股票的最佳时机 III</title>
-      <link>https://zhuaowei.top/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</link>
+      <link>http://localhost:1313/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</link>
       <pubDate>Sat, 20 Jan 2024 22:19:49 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-123.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/&#34;&gt;LeetCode 123. 买卖股票的最佳时机 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将两次股票交易分开来处理，遍历以每一天作为第二次股票卖出时得到的利润，然后的出最大利润。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个 &lt;code&gt;dp1&lt;/code&gt; 数组，记录 &lt;code&gt;0 - i&lt;/code&gt; 范围内，交易一次股票所获得的最大利润，买入和卖出可以在 &lt;code&gt;0 - i&lt;/code&gt; 的任意一天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 122. 买卖股票的最佳时机 II</title>
-      <link>https://zhuaowei.top/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</link>
+      <link>http://localhost:1313/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</link>
       <pubDate>Sat, 20 Jan 2024 22:19:41 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-122.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/&#34;&gt;LeetCode 122. 买卖股票的最佳时机 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;因为可以交易无限次，我们可以抓住每次股价上升的趋势，赚取所有的利润。一个连续上升的利润等同于拆分后每段的利润之和，所以我们只需要跟前一个位置的股价进行比较，如果利润为正就赚，否则赚 0。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 121. 买卖股票的最佳时机</title>
-      <link>https://zhuaowei.top/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</link>
+      <link>http://localhost:1313/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</link>
       <pubDate>Sat, 20 Jan 2024 22:18:52 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</guid>
+      <guid>http://localhost:1313/article/leetcode-121.-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/&#34;&gt;LeetCode 121. 买卖股票的最佳时机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1PN411j7aG/&#34;&gt;算法讲解082【必备】动态规划中用观察优化枚举的技巧-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，买卖不能再同一天，但是它又说，如果不能获得利润就返回 0。所以我们就可以理解为：买卖可以在同一天，返回交易一次的最大利润，如果不能获得利润，那么最大利润肯定为 0。所以我们求出每个位置减去至今位置遇到的最小值，得到的结果取最大就是最大利润。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1655. 分配重复整数</title>
-      <link>https://zhuaowei.top/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</link>
       <pubDate>Fri, 19 Jan 2024 21:35:31 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1655.-%E5%88%86%E9%85%8D%E9%87%8D%E5%A4%8D%E6%95%B4%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/distribute-repeating-integers/&#34;&gt;LeetCode 1655. 分配重复整数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Tu4y1g7GU/&#34;&gt;算法讲解081【必备】状压dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，如果一个数字的个数足够多，那么它可以满足多个订单，如果拆开来处理，维护状态就会变得很复杂，因此我们可以选择将订单进行组合，列举出所有组合，计算出它们需要的数字的个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1434. 每个人戴不同帽子的方案数</title>
-      <link>https://zhuaowei.top/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</link>
       <pubDate>Fri, 19 Jan 2024 21:34:54 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1434.-%E6%AF%8F%E4%B8%AA%E4%BA%BA%E6%88%B4%E4%B8%8D%E5%90%8C%E5%B8%BD%E5%AD%90%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/&#34;&gt;LeetCode 1434. 每个人戴不同帽子的方案数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Tu4y1g7GU/&#34;&gt;算法讲解081【必备】状压dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每个人都要选择一个自己喜欢的帽子，可以枚举每个人选择帽子的可能性，列举出所有的可能性，找出一种满足所有人的方案，如果可以满足，则方案数加一。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1171 售货员的难题</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
       <pubDate>Thu, 18 Jan 2024 22:47:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1171&#34;&gt;洛谷 P1171 售货员的难题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;所有村庄中，任意两个村庄之间都是连通的，所以售货员的路线可能是任意一条，我们要枚举出每一条行驶路线，找到路程最短的那条经过的路程是多少。我们使用一个状态变量表示村庄是否已经经过，每次来到一个村庄时，考虑所有没有去过的村庄作为下一站，在所有村庄中，选择路程最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 698. 划分为k个相等的子集</title>
-      <link>https://zhuaowei.top/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</link>
+      <link>http://localhost:1313/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</link>
       <pubDate>Thu, 18 Jan 2024 22:46:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/&#34;&gt;LeetCode 698. 划分为k个相等的子集&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题与 &lt;a href=&#34;https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt; 十分相似，只是将固定的 4 改成了变量 k 而已。&lt;/p&gt;&#xA;&lt;p&gt;沿用上面这题的思路，还是一个一个子集的满足，直到所有的数字都使用完，最终判断结果满足条件的子集的个数是否为 k。&lt;/p&gt;</description>
+      <guid>http://localhost:1313/article/leetcode-698.-%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/&#34;&gt;LeetCode 698. 划分为k个相等的子集&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题与 &lt;a href=&#34;http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt; 十分相似，只是将固定的 4 改成了变量 k 而已。&lt;/p&gt;&#xA;&lt;p&gt;沿用上面这题的思路，还是一个一个子集的满足，直到所有的数字都使用完，最终判断结果满足条件的子集的个数是否为 k。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 473. 火柴拼正方形</title>
-      <link>https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
+      <link>http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</link>
       <pubDate>Thu, 18 Jan 2024 22:45:08 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
+      <guid>http://localhost:1313/article/leetcode-473.-%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/matchsticks-to-square/&#34;&gt;LeetCode 473. 火柴拼正方形&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;依次满足每一条边，直到四条边全部满足，然后判断是否有火柴剩余。每次挑选时，尝试剩下的每一种火柴，看看它以及后续的选择是否存在一个选择方案将四条边全部满足。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 464. 我能赢吗</title>
-      <link>https://zhuaowei.top/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</link>
+      <link>http://localhost:1313/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</link>
       <pubDate>Thu, 18 Jan 2024 22:43:46 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-464.-%E6%88%91%E8%83%BD%E8%B5%A2%E5%90%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/can-i-win/&#34;&gt;LeetCode 464. 我能赢吗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;在玩家1的每一个回合都考虑一下剩下数字的所有可能，只要存在获胜的分支，就说明玩家1可以稳赢。同理，轮到玩家2时，就要找到玩家2稳输的分支。因为两位玩家都绝顶聪明，所以轮到每一位玩家时，他们都尽最大努力获胜。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2322. 从树中删除边的最小分数</title>
-      <link>https://zhuaowei.top/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</link>
       <pubDate>Fri, 05 Jan 2024 10:57:32 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2322.-%E4%BB%8E%E6%A0%91%E4%B8%AD%E5%88%A0%E9%99%A4%E8%BE%B9%E7%9A%84%E6%9C%80%E5%B0%8F%E5%88%86%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree/&#34;&gt;LeetCode 2322. 从树中删除边的最小分数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;遍历整棵树，构建出DFN序和size数组，同时计算出每个子树的异或和。然后遍历任意两条边的组合，求出最小分数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1154. 一年中的第几天</title>
-      <link>https://zhuaowei.top/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sun, 31 Dec 2023 12:01:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-year/&#34;&gt;LeetCode 1154. 一年中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题跟昨天那道题很像，比昨天的还简单，同样也是根据年份是否闰年，计算出天数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;按照月份逐月累加天数，2 月是一个特殊的月份，需要根据年份判断是否是闰年，如果是闰年，需要额外再加一天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1185. 一周中的第几天</title>
-      <link>https://zhuaowei.top/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sat, 30 Dec 2023 12:01:12 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-week/&#34;&gt;LeetCode 1185. 一周中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;计算出当前日期是距离 1970-01-01 的第几天，然后对天数取余，计算出当前日期是星期几。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;主要是判断某一年是否是闰年，如何判断一个年份是否是闰年？&lt;strong&gt;某一年如果能被 100 整除且能被400整除,或者不能被 100 整除但是能被 4 整除，那么这一年就是闰年。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2706. 购买两块巧克力</title>
-      <link>https://zhuaowei.top/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Fri, 29 Dec 2023 12:00:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/buy-two-chocolates/&#34;&gt;LeetCode 2706. 购买两块巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求出所有巧克力中的价格最小的两个，判断是否满足购买条件，返回依情况返回。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;准备两个变量，记录下最小值和次小值。遍历数组，更新最小值和次小值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>饥荒联机版 - 搭建专用服务器</title>
-      <link>https://zhuaowei.top/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <link>http://localhost:1313/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
       <pubDate>Fri, 29 Dec 2023 09:43:05 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <guid>http://localhost:1313/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
       <description>&lt;h3 id=&#34;1下载专用服务器启动器&#34;&gt;1、下载专用服务器启动器&lt;/h3&gt;&#xA;&lt;p&gt;打开 Steam，依次点击 &lt;strong&gt;库 -&amp;gt; 主页&lt;/strong&gt;，勾选 &lt;strong&gt;工具&lt;/strong&gt;，找到 &lt;strong&gt;Don&amp;rsquo;t Strave Together Dedicated Server&lt;/strong&gt;，点击安装，在安装过程中，可以进行下一步。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2创建一个世界&#34;&gt;2、创建一个世界&lt;/h3&gt;&#xA;&lt;p&gt;进入饥荒联机版，创建一个世界，修改世界设置，勾选好自己想用的模组，点击创建。创建完成后，不需要进入世界，出现选人界面后就可以退出存档了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2735. 收集巧克力</title>
-      <link>https://zhuaowei.top/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Thu, 28 Dec 2023 11:58:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/collecting-chocolates/&#34;&gt;LeetCode 2735. 收集巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;暴力解法，求出每一个巧克力在每一种移动情况下的最小成本，再加上移动步数的成本，求出每一种方案的最小值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个数组记录下所有巧克力在移动至多 $i$ 步的情况下的最小成本，移动步数最多为所有巧克力的个数。先计算出每一步的移动成本，之后再计算收集成本。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2458. 移除子树后的二叉树高度</title>
-      <link>https://zhuaowei.top/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</link>
+      <link>http://localhost:1313/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</link>
       <pubDate>Wed, 27 Dec 2023 22:48:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</guid>
+      <guid>http://localhost:1313/article/leetcode-2458.-%E7%A7%BB%E9%99%A4%E5%AD%90%E6%A0%91%E5%90%8E%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91%E9%AB%98%E5%BA%A6/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/height-of-binary-tree-after-subtree-removal-queries/&#34;&gt;LeetCode 2458. 移除子树后的二叉树高度&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先构建出二叉树的 DFN序，记录下每一个节点的树大小和深度。查询时，根据当前节点的DFN序和子树大小，计算出除了当前树区域之外的最大高度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2246. 相邻字符不同的最长路径</title>
-      <link>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 27 Dec 2023 22:45:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/&#34;&gt;LeetCode 2246. 相邻字符不同的最长路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：求子树的相邻字符不同的最长路径。路径分为经过和不经过当前树的头节点两种，分别计算两种路径长度，取最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2660. 保龄球游戏的获胜者</title>
-      <link>https://zhuaowei.top/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
+      <link>http://localhost:1313/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</link>
       <pubDate>Wed, 27 Dec 2023 22:42:51 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
+      <guid>http://localhost:1313/article/leetcode-2660.-%E4%BF%9D%E9%BE%84%E7%90%83%E6%B8%B8%E6%88%8F%E7%9A%84%E8%8E%B7%E8%83%9C%E8%80%85/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game/&#34;&gt;LeetCode 2660. 保龄球游戏的获胜者&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按顺序遍历数组，如果某位置的前两次得分存在 10 分，则将本次得分乘 2，分别得到两位玩家的得分，根据得分情况决定胜者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1349. 参加考试的最大学生数</title>
-      <link>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</link>
       <pubDate>Tue, 26 Dec 2023 20:51:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1349.-%E5%8F%82%E5%8A%A0%E8%80%83%E8%AF%95%E7%9A%84%E6%9C%80%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/&#34;&gt;LeetCode 1349. 参加考试的最大学生数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/90312/xiang-jie-ya-suo-zhuang-tai-dong-tai-gui-hua-jie-f&#34;&gt;腐烂的橘子 - 详解 压缩状态动态规划解法&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-students-taking-exam/solutions/2580043/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k&#34;&gt;灵茶山艾府 - 教你一步步思考动态规划：从记忆化搜索到递推（两种状态定义+题单）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在前 n 排的情况下，如何安排才能使坐下的学生最多。计算当前排如何安排时，遍历每一种可能的方案，对于每一种方案，遍历上一行的每一种方案，求每一种安排方案的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1276. 不浪费原料的汉堡制作方案</title>
-      <link>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</link>
       <pubDate>Mon, 25 Dec 2023 23:03:17 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/article/leetcode-1276.-%E4%B8%8D%E6%B5%AA%E8%B4%B9%E5%8E%9F%E6%96%99%E7%9A%84%E6%B1%89%E5%A0%A1%E5%88%B6%E4%BD%9C%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients/&#34;&gt;LeetCode 1276. 不浪费原料的汉堡制作方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;设大汉堡 x 个，小汉堡 y 个，根据题意写出二元一次方程组，求出 x 和 y 的解。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，设大汉堡 x 个，小汉堡 y 个，则汉堡个数与原料的关系式为&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1954. 收集足够苹果的最小花园周长</title>
-      <link>https://zhuaowei.top/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</link>
+      <link>http://localhost:1313/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</link>
       <pubDate>Sun, 24 Dec 2023 20:50:40 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</guid>
+      <guid>http://localhost:1313/article/leetcode-1954.-%E6%94%B6%E9%9B%86%E8%B6%B3%E5%A4%9F%E8%8B%B9%E6%9E%9C%E7%9A%84%E6%9C%80%E5%B0%8F%E8%8A%B1%E5%9B%AD%E5%91%A8%E9%95%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-garden-perimeter-to-collect-enough-apples/&#34;&gt;LeetCode 1954. 收集足够苹果的最小花园周长&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意可以得出花园的周长跟容纳苹果的最大数量是有关系的，通过归纳得出苹果数量与花园边长的关系式，然后进行二分求解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 968. 监控二叉树</title>
-      <link>https://zhuaowei.top/article/leetcode-968.-%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+      <link>http://localhost:1313/article/leetcode-968.-%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
       <pubDate>Sun, 24 Dec 2023 16:08:45 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-968.-%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+      <guid>http://localhost:1313/article/leetcode-968.-%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/binary-tree-cameras/&#34;&gt;LeetCode 968. 监控二叉树&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;要使设置的摄像头数量尽量小，就需要让每个摄像头都尽量覆盖更多的节点，避免重复覆盖。因此可以使用贪心策略，自底向上，尽量使用最少的摄像头。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 437. 路径总和 III</title>
-      <link>https://zhuaowei.top/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</link>
+      <link>http://localhost:1313/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</link>
       <pubDate>Sat, 23 Dec 2023 22:42:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-437.-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-sum-iii/&#34;&gt;LeetCode 437. 路径总和 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;记录下二叉树路径的前缀和，每来到一个节点就判断是否存在区间和为目标值。如果存在，就将记录加一。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为求区间和只跟当前节点之前的路径有关，因此可以使用二叉树的前序遍历。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1352 没有上司的舞会</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
       <pubDate>Sat, 23 Dec 2023 22:22:05 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1352&#34;&gt;洛谷 P1352 没有上司的舞会&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求子问题：求出每个树在头节点去与不去的最大快乐值。每棵树的最大快乐值取决于子树返回的信息，根据子树信息求出当前树的信息，不断向上返回，最终得到整棵树的去与不去的最大快乐值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 337. 打家劫舍 III</title>
-      <link>https://zhuaowei.top/article/leetcode-337.-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iii/</link>
+      <link>http://localhost:1313/article/leetcode-337.-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iii/</link>
       <pubDate>Sat, 23 Dec 2023 21:33:14 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-337.-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-337.-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/house-robber-iii/&#34;&gt;LeetCode 337. 打家劫舍 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先求出左右子节点可以在偷与不偷时可以获取的最大金额，然后根据子节点的信息汇总出当前节点偷与不偷的最大金额。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;在求出本节点的信息之前，需要先获取左右子节点的信息，所以需要使用二叉树的后序遍历。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 979. 在二叉树中分配硬币</title>
-      <link>https://zhuaowei.top/article/leetcode-979.-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81/</link>
+      <link>http://localhost:1313/article/leetcode-979.-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81/</link>
       <pubDate>Sat, 23 Dec 2023 21:01:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-979.-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81/</guid>
+      <guid>http://localhost:1313/article/leetcode-979.-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/distribute-coins-in-binary-tree/&#34;&gt;LeetCode 979. 在二叉树中分配硬币&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从树的底层依次向上求，求出当前节点平均分配硬币移动的最小步数。当前节点的最小步数为 树的节点个数减硬币个数的绝对值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 543. 二叉树的直径</title>
-      <link>https://zhuaowei.top/article/leetcode-543.-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-543.-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84/</link>
       <pubDate>Sat, 23 Dec 2023 20:53:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-543.-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-543.-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/diameter-of-binary-tree/&#34;&gt;LeetCode 543. 二叉树的直径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求当前节点的最大直径时，分为经过当前节点和不经过当前节点，因此需要记录下左右子树的最大直径和最大高度，求出两种可能性的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2127. 参加会议的最多员工数</title>
-      <link>https://zhuaowei.top/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</link>
       <pubDate>Sat, 23 Dec 2023 15:52:28 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2127.-%E5%8F%82%E5%8A%A0%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%9C%80%E5%A4%9A%E5%91%98%E5%B7%A5%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/&#34;&gt;LeetCode 2127. 参加会议的最多员工数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，一共 n 个点，n 条边，并且每一个点出发只有一条边，说明该图肯定存在环。根据环的大小分为大环和小环，也就有了两种安排座位的方案，分别计算两种方案的人数，取较大者。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2050. 并行课程 III</title>
-      <link>https://zhuaowei.top/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</link>
+      <link>http://localhost:1313/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</link>
       <pubDate>Sat, 23 Dec 2023 15:12:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</guid>
+      <guid>http://localhost:1313/article/leetcode-2050.-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8B-iii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/parallel-courses-iii/&#34;&gt;LeetCode 2050. 并行课程 III&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;完成某一个课程的最短时间为完成所有前置课程的最大时间加上本课程的时间。根据课程的前置关系建图，按照拓扑排序求出下一门课程的最短时间，即完成前置课程和下一门课程的最大时间。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1962. 移除石子使总数最小</title>
-      <link>https://zhuaowei.top/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
+      <link>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
       <pubDate>Sat, 23 Dec 2023 11:46:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
+      <guid>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/remove-stones-to-minimize-the-total/&#34;&gt;LeetCode 1962. 移除石子使总数最小&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每次找出数组中的最大值，使其值减半，然后循环 k 次，求出最终的数组之和。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为数组是会变化的，需要时刻维护数组中的最大值，因此可以使用堆来排序，使用大根堆每次取出数组中的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 851. 喧闹和富有</title>
-      <link>https://zhuaowei.top/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</link>
+      <link>http://localhost:1313/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</link>
       <pubDate>Fri, 22 Dec 2023 23:13:31 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</guid>
+      <guid>http://localhost:1313/article/leetcode-851.-%E5%96%A7%E9%97%B9%E5%92%8C%E5%AF%8C%E6%9C%89/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/loud-and-rich/&#34;&gt;LeetCode 851. 喧闹和富有&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据输入的财富关系，我们可以得到一个财富关系图，按照拓扑排序从最有钱的依次遍历，比较前后两人的安静值，得到更符合要求的答案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P4017 最大食物链计数</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4017&#34;&gt;洛谷 P4017 最大食物链计数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;到达某生物的食物链条数等于所有被他吃的生物的链数之和。生物链的关系可以看作一个有向无环图，按照拓扑排序将食物链条数从被捕食者传递到捕食者，最终得到整个生物捕食关系的食物链总数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 U107394 拓扑排序模板</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Fri, 22 Dec 2023 16:35:28 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/U107394&#34;&gt;洛谷 U107394 拓扑排序模板&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;牛客网和 leetcode 可以使用邻接表法建图，而洛谷是专为比赛用的，所以必须使用链式前向星建图。题目要求获得字典序最小的拓扑排序，所以可以使用小根堆存储入度为 0 的节点，这样每次弹出的节点都是满足要求的节点中字典序最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1671. 得到山形数组的最少删除次数</title>
-      <link>https://zhuaowei.top/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 15:46:53 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/&#34;&gt;LeetCode 1671. 得到山形数组的最少删除次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先正向求出每个位置最长的递增子序列长度，然后逆序求出每个位置最长的递增子序列的长度，同时求出最大的山脉宽度，剩下的就是最少的删除次数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 936. 戳印序列</title>
-      <link>https://zhuaowei.top/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</link>
+      <link>http://localhost:1313/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</link>
       <pubDate>Thu, 21 Dec 2023 19:53:03 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-936.-%E6%88%B3%E5%8D%B0%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/stamping-the-sequence/&#34;&gt;LeetCode 936. 戳印序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;盖印的顺序可以想象为一个图，如果前后两次盖印的区间有重叠部分，后面的印可以修正前面错误的位置，如果重叠部分存在错误字符，则可以认为二者之间存在一条“前后盖印的关系”，求出拓扑排序的逆序即为盖印的顺序。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2866. 美丽塔 II</title>
-      <link>https://zhuaowei.top/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</link>
+      <link>http://localhost:1313/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</link>
       <pubDate>Thu, 21 Dec 2023 14:43:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-2866.-%E7%BE%8E%E4%B8%BD%E5%A1%94-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/beautiful-towers-ii/&#34;&gt;LeetCode 2866. 美丽塔 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，需要在高度限制下建塔，使得最终的塔能够形成一个山脉的形状。山脉的形状就是，从两侧到山顶是非严格递增的。所以我们可以假设每一个位置作为山顶，求出它左侧非严格递增，右侧非严格递减的子数组之和的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛客网 【模板】拓扑排序</title>
-      <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
+      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Wed, 20 Dec 2023 22:47:07 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
+      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%A8%A1%E6%9D%BF%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/88f7e156ca7d43a1a535f619cd3f495c&#34;&gt;牛客网 【模板】拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先使用链式前向星建图，同时统计点的入度。然后遍历所有节点，将入度为 0 的点加入队列，遍历队列的每一个点，消除出队节点的影响，将消除影响后入度为 0 的点加入队列，直到不存在入度为 0 的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 210. 课程表 II</title>
-      <link>https://zhuaowei.top/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</link>
+      <link>http://localhost:1313/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</link>
       <pubDate>Wed, 20 Dec 2023 22:06:49 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-210.-%E8%AF%BE%E7%A8%8B%E8%A1%A8-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/course-schedule-ii/&#34;&gt;LeetCode 210. 课程表 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;建图有很多种方式，常用的有邻接表法和邻接矩阵法。邻接矩阵法在点集很大的情况下很浪费空间，因为它的空间复杂度是 $O(n^2)$ 的。邻接表法在算法开始前是无法确定它的大小的，在比赛中空间计算是累计方式计算的，虽然最后释放了空间，但是还是会计算到。因此需要使用一种开销比较小，同时又知道图用到的最大空间的方式来建图。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2828. 判别首字母缩略词</title>
-      <link>https://zhuaowei.top/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</link>
+      <link>http://localhost:1313/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</link>
       <pubDate>Wed, 20 Dec 2023 22:04:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</guid>
+      <guid>http://localhost:1313/article/leetcode-2828.-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/&#34;&gt;LeetCode 2828. 判别首字母缩略词&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;依次判断字符串数组中每个字符串的首字母，是否与目标字符串的字符相等。如果存在不相等的字符，返回 $false$；否则返回 $true$。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1901. 寻找峰值 II</title>
-      <link>https://zhuaowei.top/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</link>
+      <link>http://localhost:1313/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</link>
       <pubDate>Tue, 19 Dec 2023 22:00:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-1901.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/find-a-peak-element-ii/&#34;&gt;LeetCode 1901. 寻找峰值 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解：&lt;a href=&#34;https://leetcode.cn/problems/find-a-peak-element-ii/solutions/2571587/tu-jie-li-yong-xing-zui-da-zhi-pan-duan-r4e0n/?envType=daily-question&amp;envId=2023-12-19&#34;&gt;灵茶山艾府 - 【图解】利用行最大值判断峰顶位置，附二分题单&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据 “上山” 的思路，我们只需要沿着“往上走的方向”即可找到一个峰值，即我们每次往上下左右比自己大的位置跳，直到周围的值都比自己小。这种情况最坏情况下时间复杂度是 $O(nm)，使用二分，将上山的路径进行划分，峰值肯定在中点的一侧，或者中点上。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 162. 寻找峰值</title>
-      <link>https://zhuaowei.top/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</link>
+      <link>http://localhost:1313/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</link>
       <pubDate>Mon, 18 Dec 2023 20:06:54 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</guid>
+      <guid>http://localhost:1313/article/leetcode-162.-%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/find-peak-element/&#34;&gt;LeetCode 162. 寻找峰值&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先判断左右两端的上升或者下降趋势，然后根据区间中点左右两侧的趋势判断哪部分存在极值，然后继续二分。如果中点比左右两侧都大，说明中点就是极值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 746. 使用最小花费爬楼梯</title>
-      <link>https://zhuaowei.top/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
+      <link>http://localhost:1313/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
       <pubDate>Sun, 17 Dec 2023 20:06:16 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
+      <guid>http://localhost:1313/article/leetcode-746.-%E4%BD%BF%E7%94%A8%E6%9C%80%E5%B0%8F%E8%8A%B1%E8%B4%B9%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/min-cost-climbing-stairs/&#34;&gt;LeetCode 746. 使用最小花费爬楼梯&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从楼梯的第一阶或者第二阶出发，计算出走完整个台阶的最小花费。当我们来到某一个阶梯时，我们肯定需要跳出这个台阶，也就是说这个台阶的花费是一定会用掉的。因此，我们可以这样想，我们来到某个台阶，先支付费用，我们下次跳出台阶就可以免费。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2961. 双模幂运算</title>
-      <link>https://zhuaowei.top/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</link>
+      <link>http://localhost:1313/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</link>
       <pubDate>Sat, 16 Dec 2023 21:26:27 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/double-modular-exponentiation/&#34;&gt;LeetCode 2961. 双模幂运算&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，需要对公式进行快速求解，求出类似 $a ^ b % m$ 的值，因此需要用到快速幂。代码部分附上快速幂的模板（取模和不取模）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2962. 统计最大元素出现至少 K 次的子数组</title>
-      <link>https://zhuaowei.top/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
+      <link>http://localhost:1313/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</link>
       <pubDate>Sat, 16 Dec 2023 21:24:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-2962.-%E7%BB%9F%E8%AE%A1%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E5%87%BA%E7%8E%B0%E8%87%B3%E5%B0%91-k-%E6%AC%A1%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/&#34;&gt;LeetCode 2962. 统计最大元素出现至少 K 次的子数组&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考思路：&lt;a href=&#34;https://leetcode.cn/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/2560940/hua-dong-chuang-kou-fu-ti-dan-pythonjava-xvwg/&#34;&gt;灵茶山艾府 - 滑动窗口（附题单！）Python/Java/C++/Go&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;使用滑动窗口，如果窗口内的最大值数量为 k 个，则前面的以窗口左边界为结尾的子数组加上窗口就是满足题意要求的子数组。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2276. 统计区间中的整数数目</title>
-      <link>https://zhuaowei.top/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</link>
+      <link>http://localhost:1313/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</link>
       <pubDate>Sat, 16 Dec 2023 21:20:01 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</guid>
+      <guid>http://localhost:1313/article/leetcode-2276.-%E7%BB%9F%E8%AE%A1%E5%8C%BA%E9%97%B4%E4%B8%AD%E7%9A%84%E6%95%B4%E6%95%B0%E6%95%B0%E7%9B%AE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-integers-in-intervals/&#34;&gt;LeetCode 2276. 统计区间中的整数数目&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按题目要求，需要频繁将某个区间的值修改为指定值，频繁查询区间的值。很明显这道题可以使用线段树来求解。题解的最后是动态开点线段树的模板。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 730. 统计不同回文子序列</title>
-      <link>https://zhuaowei.top/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://localhost:1313/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Fri, 15 Dec 2023 22:04:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-different-palindromic-subsequences/&#34;&gt;LeetCode 730. 统计不同回文子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 的回文子序列的数目。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Base Case&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;i &amp;gt; j&lt;/code&gt;：无法构成子序列，返回 0。&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;i == j&lt;/code&gt;：只有一个字符，满足回文子序列，返回 1。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;递归过程&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1000. 合并石头的最低成本</title>
-      <link>https://zhuaowei.top/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
+      <link>http://localhost:1313/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
       <pubDate>Fri, 15 Dec 2023 22:03:36 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
+      <guid>http://localhost:1313/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-cost-to-merge-stones/&#34;&gt;LeetCode 1000. 合并石头的最低成本&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 时石头消除的最小花费。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为石头必须将 &lt;code&gt;k&lt;/code&gt; 个合并成一个，且最后一次消除必须只剩下一个石头，所以在 DP 过程中是有划分依据的。在一般递归中，如果不合并，则石头可以为 &lt;code&gt;1 ... k&lt;/code&gt; 个，最后一次必须合并，最终的石头必须为 k 个。根据观察，满足最后只剩下一个石头的数组，必须满足 &lt;code&gt;(n - 1) / (k - 1) == 0&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 546. 移除盒子</title>
-      <link>https://zhuaowei.top/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</link>
+      <link>http://localhost:1313/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</link>
       <pubDate>Fri, 15 Dec 2023 22:02:43 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</guid>
+      <guid>http://localhost:1313/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/remove-boxes/&#34;&gt;LeetCode 546. 移除盒子&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，连续的相同盒子越多，分数就越高。所以在求区间最高分数的时候，要让相同的盒子尽量“连起来”。单纯的区间 DP 无法满足这种要求，需要定义一个额外的变量维护相同盒子的数量。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P3205 [HNOI2010] 合唱队</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
       <pubDate>Fri, 15 Dec 2023 22:00:55 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P3205&#34;&gt;洛谷 P3205 [HNOI2010] 合唱队&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按照入队的逆序进行想，则子问题应该是：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 中，如果左侧是最后入队的，则在剩下的区间 &lt;code&gt;left + 1, right]&lt;/code&gt; 中，又有两种情况。如果 $nums_{left + 1}$ 最后入队，则 $nums_{left}$ 应该大于它;如果 $nums_{right}$ 最后入队，则 $nums_{left}$ 应该大于它，则 &lt;code&gt;[left, right]&lt;/code&gt; 区间中左侧入队的方案数为符合条件的可能性之和。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 664. 奇怪的打印机 | 洛谷 P4170 [CQOI2007] 涂色</title>
-      <link>https://zhuaowei.top/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
+      <link>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
       <pubDate>Fri, 15 Dec 2023 17:13:36 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
+      <guid>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/strange-printer/&#34;&gt;LeetCode 664. 奇怪的打印机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4170&#34;&gt;洛谷 P4170 [CQOI2007] 涂色&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 涂色的最小次数。因为后涂的颜色可以覆盖前一种颜色，如果我们要让涂色次数最少，可以使用贪心，让左侧的颜色尽量涂多一些。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛客网 括号区间匹配</title>
-      <link>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
+      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Fri, 15 Dec 2023 16:43:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/e391767d80d942d29e6095a935a5b96b&#34;&gt;牛客网 括号区间匹配&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 之间能够将括号变成有效的最小插入次数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;括号的组合有两种，一是嵌套 &lt;code&gt;[()]&lt;/code&gt;，二是并列 &lt;code&gt;[]()&lt;/code&gt;。在子问题中，讨论区间 &lt;code&gt;[left, right]&lt;/code&gt; 两端的括号形成可能性。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2415. 反转二叉树的奇数层</title>
-      <link>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
+      <link>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
       <pubDate>Fri, 15 Dec 2023 16:24:52 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
+      <guid>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/&#34;&gt;LeetCode 2415. 反转二叉树的奇数层&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;不用真的将节点对象进行翻转，而是将节点存储的值进行翻转。使用层序遍历，在遍历完奇数层之后，将节点中的值翻转。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个队列存储头节点，然后开始循环，直到队列为空。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 面试题 08.14. 布尔运算</title>
-      <link>https://zhuaowei.top/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</link>
+      <link>http://localhost:1313/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</link>
       <pubDate>Thu, 14 Dec 2023 22:20:01 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/boolean-evaluation-lcci/&#34;&gt;LeetCode 面试题 08.14. 布尔运算&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;子问题：以范围内每一个运算符作为划分点，求解左右两侧结果为 true 和 false 的表达式数量，然后根据当前运算符计算出结果为 true 和 false 的数量。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 312. 戳气球</title>
-      <link>https://zhuaowei.top/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</link>
+      <link>http://localhost:1313/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</link>
       <pubDate>Thu, 14 Dec 2023 22:18:22 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
+      <guid>http://localhost:1313/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/burst-balloons/&#34;&gt;LeetCode 312. 戳气球&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;如果在区间 &lt;code&gt;[i, j]&lt;/code&gt; 之间选出一个气球作为第一个被戳破的，那么根据它可以将气球分为两部分，但是它左侧和右侧的气球戳破顺序是不确定的，所以无法确定本次戳破气球获得的分数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1547. 切棍子的最小成本</title>
-      <link>https://zhuaowei.top/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</link>
+      <link>http://localhost:1313/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</link>
       <pubDate>Thu, 14 Dec 2023 22:17:34 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</guid>
+      <guid>http://localhost:1313/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/&#34;&gt;LeetCode 1547. 切棍子的最小成本&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将切点按照大小排序，然后再在收尾添加 0 和 n，依次选择除了端点的所有切点作为下一次裁剪的点，计算出每一种切点的花费，取最小值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1039. 多边形三角剖分的最低得分</title>
-      <link>https://zhuaowei.top/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</link>
+      <link>http://localhost:1313/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</link>
       <pubDate>Thu, 14 Dec 2023 22:16:54 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</guid>
+      <guid>http://localhost:1313/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/&#34;&gt;LeetCode 1039. 多边形三角剖分的最低得分&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先确定三角形的两个点，然后依次选择剩余的点作为划分点，判断哪种划分方式获得的分值最小。因此确定的子问题是在 &lt;code&gt;(i, j)&lt;/code&gt; 中选择一个作为划分点，能获取的最小分值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 486. 预测赢家</title>
-      <link>https://zhuaowei.top/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</link>
+      <link>http://localhost:1313/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</link>
       <pubDate>Thu, 14 Dec 2023 22:15:28 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</guid>
+      <guid>http://localhost:1313/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/predict-the-winner/&#34;&gt;LeetCode 486. 预测赢家&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求解子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 上，如果 A 先手，A 可以获取的最大分值是多少。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;先通过递归求解。如果当前的区间是 &lt;code&gt;[i, j]&lt;/code&gt;：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;base case&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;i == j&lt;/code&gt;：只有一个数，A 只能选 nums[i]。&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;i + 1 == j&lt;/code&gt;：有两个数，A 先手，A 肯定选较大的。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;递归过程&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1312. 让字符串成为回文串的最少插入次数</title>
-      <link>https://zhuaowei.top/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Thu, 14 Dec 2023 17:34:11 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/&#34;&gt;LeetCode 1312. 让字符串成为回文串的最少插入次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;提取子问题，求使 &lt;code&gt;[i, j]&lt;/code&gt; 范围内的字符串变成回文串的最小操作是次数，根据两侧字符是否相等决定递归子问题的范围。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2132. 用邮票贴满网格图</title>
-      <link>https://zhuaowei.top/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</link>
+      <link>http://localhost:1313/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</link>
       <pubDate>Thu, 14 Dec 2023 16:19:47 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</guid>
+      <guid>http://localhost:1313/article/leetcode-2132.-%E7%94%A8%E9%82%AE%E7%A5%A8%E8%B4%B4%E6%BB%A1%E7%BD%91%E6%A0%BC%E5%9B%BE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/stamping-the-grid/&#34;&gt;LeetCode 2132. 用邮票贴满网格图&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;遍历每一个邮票右下角可能符合要求的点，判断在邮票范围内是否存在被占据的点。如果存在，什么都不做；如果不存在，可以贴邮票，将邮票范围内的子矩阵整体加一，这里使用二维差分来实现。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PKU Judging Online - 1742 Coins</title>
-      <link>https://zhuaowei.top/article/pku-judging-online-1742-coins/</link>
+      <link>http://localhost:1313/article/pku-judging-online-1742-coins/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/pku-judging-online-1742-coins/</guid>
+      <guid>http://localhost:1313/article/pku-judging-online-1742-coins/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://poj.org/problem?id=1742&#34;&gt;PKU Judging Online - 1742 Coins&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过不同种类及不同数量的硬币进行组合，判断这些硬币可以组合成 [0, m] 上的哪些值，返回最终的种类数。&lt;/p&gt;&#xA;&lt;p&gt;这是一道混合背包题目，根据硬币的数量和面值，灵活选择使用 01 背包、完全背包或者多重背包。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1833 赏樱花</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:13 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1833&#34;&gt;洛谷 P1833 赏樱花&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过转化，将完全背包转化为多重背包，再通过二进制分组，将多重背包转化为 01 背包。如果物品数量有限，通过二进制分组转化为 01 背包；如果物品数量无限，根据最大花费和物品价格计算出可以选择的最大数量，转化为多重背包，再转化为 01 背包。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（单调队列优化）</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:09:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;在无优化版本的基础上进行优化，根据物品重量的余数，将最大重量进行分组，使用单调队列，分别对组内的 dp 结果求区间的最大值，这样就可以快速地获取最大重量时的最优结果，求出最优解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（二进制分组优化）</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:08:27 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;物品的数量可以分解为几个二进制数字的组合，通过对这几个二进制数的组合，可以表示在 &lt;code&gt;[0, cnt]&lt;/code&gt; 之间选取任意个数量的物品。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;整数分解&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（无枚举优化）</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:08:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先说一下，这个不优化的版本是无法通过全部测试用例的。&lt;/p&gt;&#xA;&lt;p&gt;多重背包相较于完全背包和 01 背包，它的物品数量是有限的，它的每个物品可以选 0 &amp;hellip; cnt 个。所以可以在 01 背包的基础上再套一层循环，来限制选择的个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2697. 字典序最小回文串</title>
-      <link>https://zhuaowei.top/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</link>
+      <link>http://localhost:1313/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</link>
       <pubDate>Wed, 13 Dec 2023 17:00:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</guid>
+      <guid>http://localhost:1313/article/leetcode-2697.-%E5%AD%97%E5%85%B8%E5%BA%8F%E6%9C%80%E5%B0%8F%E5%9B%9E%E6%96%87%E4%B8%B2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lexicographically-smallest-palindrome/&#34;&gt;LeetCode 2697. 字典序最小回文串&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从两边向中间遍历，如果相等就跳过，如果不相等就让小的字符赋值为大的字符。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用双指针分别指向字符串的开头和结尾，依次判断指针指向的字符是否相等：&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P2918 [USACO08NOV] Buying Hay S</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</link>
       <pubDate>Tue, 12 Dec 2023 16:44:32 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P2918&#34;&gt;洛谷 P2918 [USACO08NOV] Buying Hay S&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;如果使用花费钱数作为 DP 维度，根据计算得知，花费的钱数最多为 $2.5 \times 10^8$，需要 125 MB的空间开辟一个 DP 表，显然是不行的。&lt;/p&gt;&#xA;&lt;p&gt;如果使用干草数量作为 DP 维度，干草数量显然不会超出最大值很多，是可以开辟足够空间的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 44. 通配符匹配</title>
-      <link>https://zhuaowei.top/article/leetcode-44.-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
+      <link>http://localhost:1313/article/leetcode-44.-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Tue, 12 Dec 2023 16:38:58 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-44.-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://localhost:1313/article/leetcode-44.-%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/wildcard-matching/&#34;&gt;LeetCode 44. 通配符匹配&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先先写出暴力递归的版本，在 s 串来到 i，p 串来到 j 时，判断 i,j 之后的字符串能否匹配。写出递归调用的 base case 和 递归调用过程。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;base case&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 10. 正则表达式匹配</title>
-      <link>https://zhuaowei.top/article/leetcode-10.-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</link>
+      <link>http://localhost:1313/article/leetcode-10.-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Tue, 12 Dec 2023 15:34:17 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-10.-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</guid>
+      <guid>http://localhost:1313/article/leetcode-10.-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/regular-expression-matching/&#34;&gt;LeetCode 10. 正则表达式匹配&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;使用暴力递归，然后根据暴力递归写出记忆化搜索版本或者直接到 DP 版本。暴力递归中，当 s 串来到 i 位置，p 串来到 j 位置，判断 i,j 之后的字符串能够匹配。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2454. 下一个更大元素 IV</title>
-      <link>https://zhuaowei.top/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</link>
+      <link>http://localhost:1313/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</link>
       <pubDate>Tue, 12 Dec 2023 11:20:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</guid>
+      <guid>http://localhost:1313/article/leetcode-2454.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0-iv/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-element-iv/&#34;&gt;LeetCode 2454. 下一个更大元素 IV&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-element-iv/solutions/1935583/by-miao-z0-pnss/?envType=daily-question&amp;envId=2023-12-12&#34;&gt;苗 - 【CPP】单调栈 + 优先队列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将求解下下一个更大元素分成两步，先求下一个更大元素，如果有，存储起来，再求下下一个更大元素。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1631. 最小体力消耗路径</title>
-      <link>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Mon, 11 Dec 2023 21:05:37 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/&#34;&gt;LeetCode 1631. 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解的方法二：&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/solutions/459765/zui-xiao-ti-li-xiao-hao-lu-jing-by-zerotrac2/?envType=daily-question&amp;envId=2023-12-11&#34;&gt;zerotrac 🌸 - 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;体力消耗的计算方式是在 (0,0) -&amp;gt; (n - 1,m - 1) 的路径中，相邻两个节点的最大高度差，跟路径的长度无关。所以要找到最小体力消耗路径，要尽量选择高度差小的边，判断当前边组成的路径能够走到右下角的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1616 疯狂的采药</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</link>
       <pubDate>Mon, 11 Dec 2023 17:32:30 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1616&#34;&gt;洛谷 P1616 疯狂的采药&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;完全背包和 01 背包的区别：01 背包每个物品只能选一次，选或不选；完全背包每个物品可以无限选，选择 n 件（n = 0, 1, 2, 3&amp;hellip;）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2218. 从栈中取出 K 个硬币的最大面值和</title>
-      <link>https://zhuaowei.top/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</link>
       <pubDate>Mon, 11 Dec 2023 17:29:33 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-2218.-%E4%BB%8E%E6%A0%88%E4%B8%AD%E5%8F%96%E5%87%BA-k-%E4%B8%AA%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E5%80%BC%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/&#34;&gt;LeetCode 2218. 从栈中取出 K 个硬币的最大面值和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将问题转化为分组背包 DP。每一堆硬币像栈一样取，只能从栈顶一个一个取，每一堆的方案有以下几种：选 0 个，得到 0 元；选 1 个 得到 x1 元；选 2 个，得到 x2 元 &amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1757 通天之分组背包</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</link>
       <pubDate>Mon, 11 Dec 2023 17:27:37 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1757&#34;&gt;洛谷 P1757 通天之分组背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;分组背包的模板题，先按照组号排序，对组内每一个物品求在花费不超过 j 时获得的最大价值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;首先按照组号排序，确定组的左右边界，然后从左到右遍历每一组。在一组内：&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1064 [NOIP2006 提高组] 金明的预算方案</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sun, 10 Dec 2023 20:12:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1064&#34;&gt;P1064 [NOIP2006 提高组] 金明的预算方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/f9c6f980eeec43ef85be20755ddbeaf4&#34;&gt;牛客网 购物单&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;物品分为主件和附件，附件必须在购买主件后才能考虑购买。所以在求解过程中，判断是否是主件，如果是，就考虑选或者不选。然后考虑主件下的附件，因为附件最多只有 2 件，分为以下四种情况，不买附件，只买附件一，只买附件二，都买，&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1049. 最后一块石头的重量 II</title>
-      <link>https://zhuaowei.top/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</link>
+      <link>http://localhost:1313/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</link>
       <pubDate>Sun, 10 Dec 2023 19:26:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</guid>
+      <guid>http://localhost:1313/article/leetcode-1049.-%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-ii/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/last-stone-weight-ii/&#34;&gt;LeetCode 1049. 最后一块石头的重量 II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;两块石头碰撞会相互抵消，最终留下较大的减去较小的那块。&lt;/p&gt;&#xA;&lt;p&gt;如果将一组石头分成两组，分别捏成两个大石头，则抵消后的结果为&lt;strong&gt;较大的减去较小的那块&lt;/strong&gt;。如果要让结果尽量小，则需要让两堆石头的重量尽量接近，甚至相等。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 494. 目标和</title>
-      <link>https://zhuaowei.top/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</link>
       <pubDate>Sun, 10 Dec 2023 19:10:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-494.-%E7%9B%AE%E6%A0%87%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/target-sum/&#34;&gt;LeetCode 494. 目标和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;思考一&lt;/strong&gt;：奇偶性，数组中的数，无论如何组合，它的奇偶性是不变的，也就是说 $\sum_{i=1}^{n}nums$ 和任意一种组合的结果的奇偶性是一样的，推出 $\sum_{i=1}^{n}nums$ 和 target 的奇偶性是一样的，如果不一样可以直接 pass。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode ByteDance-006. 夏季特惠</title>
-      <link>https://zhuaowei.top/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</link>
+      <link>http://localhost:1313/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</link>
       <pubDate>Sun, 10 Dec 2023 17:00:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</guid>
+      <guid>http://localhost:1313/article/leetcode-bytedance-006.-%E5%A4%8F%E5%AD%A3%E7%89%B9%E6%83%A0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/tJau2o/&#34;&gt;LeetCode ByteDance-006. 夏季特惠&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;需要分析题意，将问题转化为 01 背包问题。这题背包的容量不是确定的预算，需要根据优惠决定。&lt;/p&gt;&#xA;&lt;p&gt;游戏有原价和现价，优惠等于原价减现价。优惠越大，心理越不觉得亏，&lt;strong&gt;当优惠比现价还大时，觉得自己赚了&lt;/strong&gt;，那么这个游戏就是必选的，赚得多余的还可以用于购买其他游戏。例如原价 10，现价 3，优惠 7，优惠等于现价，四舍五入等于白嫖，还赚 4 块。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ACWing 01背包问题</title>
-      <link>https://zhuaowei.top/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
       <pubDate>Sun, 10 Dec 2023 11:59:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/acwing-01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.acwing.com/problem/content/2/&#34;&gt;ACWing 01背包问题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;考虑每一件物品，当前来到了第 i 件物品，背包容量为 j。如果选了第 i 件物品，获得的价值是 $w_i$，如果要装下该物品，则背包需要预留给这件物品足够的空间，也就是背包在选择前 i - 1 件物品后，背包容量最大应该为 $j - v_i$。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 70. 爬楼梯</title>
-      <link>https://zhuaowei.top/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
+      <link>http://localhost:1313/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</link>
       <pubDate>Sun, 10 Dec 2023 09:34:09 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
+      <guid>http://localhost:1313/article/leetcode-70.-%E7%88%AC%E6%A5%BC%E6%A2%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/climbing-stairs/&#34;&gt;LeetCode 70. 爬楼梯&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;爬一个长度为 n 的阶梯，可能从 n - 1 阶跳一步来到 n，也可以从 n - 2 一下跳两步来到 n。所以来到第 i 个台阶的方法数就等于：&lt;/p&gt;&#xA;&lt;p&gt;$$ f(i) = f(i - 1) + f(i - 2) $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P2698 [USACO12MAR] Flowerpot S</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
       <pubDate>Sat, 09 Dec 2023 21:34:27 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P2698&#34;&gt;洛谷 P2698 [USACO12MAR] Flowerpot S&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路主要来自B站左程云的视频课程 &lt;a href=&#34;https://www.bilibili.com/video/BV11h4y1w7Bu/&#34;&gt;算法讲解054【必备】单调队列-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求花盆的长度，满足下面的条件，在花盆区间内，第一滴雨水与最后一滴雨水落下的时间差要 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。雨水下落速度恒定 1 单位每秒，也就是求最大高度差满足 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列</title>
-      <link>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Sat, 09 Dec 2023 16:58:10 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P8776&#34;&gt;洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求最长非降序子序列，在此基础上，给你一个机会，使长度为 k 的数组全部变成同一个数字，机会可以用，也可以不用，求此时的最长非降序子序列。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 646. 最长数对链</title>
-      <link>https://zhuaowei.top/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</link>
+      <link>http://localhost:1313/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</link>
       <pubDate>Sat, 09 Dec 2023 16:32:55 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</guid>
+      <guid>http://localhost:1313/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-length-of-pair-chain/description/&#34;&gt;LeetCode 646. 最长数对链&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;使用最长递增子序列来求解。两个数对 $nums_i, nums_j (i &amp;lt; j)$ 要形成数对，需要 $right_i &amp;lt; left_j$，当来到 &lt;code&gt;j&lt;/code&gt; 的时候，我们根据 $left_j$ 找到最长的递增数对即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2111. 使数组 K 递增的最少操作次数</title>
-      <link>https://zhuaowei.top/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 10:46:28 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-operations-to-make-the-array-k-increasing/&#34;&gt;2111. 使数组 K 递增的最少操作次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;根据题意需要将原数组进行分组，一共分为 k 个组，求将每一组变成非降序子序列的最少操作数。那就求每一组的最长非降序子序列的长度，剩余的就是需要修改的数字个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2048. 下一个更大的数值平衡数</title>
-      <link>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
+      <link>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 09:50:59 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
+      <guid>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-numerically-balanced-number/&#34;&gt;2048. 下一个更大的数值平衡数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;根据题意求平衡数，由于对结果数字和位数进行了限制，所以能形成平衡数的数字并不是特别多，可以使用打表的方式，将可能的结果存储到一个数组中，再通过二分加速查找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 354. 俄罗斯套娃信封问题</title>
-      <link>https://zhuaowei.top/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:1313/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Fri, 08 Dec 2023 22:00:14 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:1313/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/russian-doll-envelopes/&#34;&gt;354. 俄罗斯套娃信封问题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;信封不能翻转，首先想到排序，在宽度上较大的信封肯定能装下宽度较小的信封，在宽度相同的情况下，应该尽量先装下高度较大的。所以在宽度上，从小到大排序。因为相同宽和高的信封并不能装下，只能装下宽和高比自己小的。所以在宽度相同时，需要将高度按从大到小排序。这样，同样宽度，高度小的就会自动略过前面比自己高的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 300. 最长递增子序列</title>
-      <link>https://zhuaowei.top/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>http://localhost:1313/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Fri, 08 Dec 2023 15:01:44 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/longest-increasing-subsequence/&#34;&gt;300. 最长递增子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;有两种方法，第一种是暴力解法，第二种是二分。&lt;/p&gt;&#xA;&lt;p&gt;暴力解法：使用一个数组存储以 i 位置数字为结尾的最长升序子序列长度。每来到 i 位置，它的最长递增子序列至少是 1，就是自己，然后遍历 i 之前的所有结果，如果发现某位置 j 比 i 位置小，则递增子序列长度为 1 + dp[j]，在所有结果中求最大值。每次得到 dp[i] 后，比较记录最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2008. 出租车的最大盈利</title>
-      <link>https://zhuaowei.top/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</link>
+      <link>http://localhost:1313/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</link>
       <pubDate>Fri, 08 Dec 2023 11:01:10 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</guid>
+      <guid>http://localhost:1313/article/leetcode-2008.-%E5%87%BA%E7%A7%9F%E8%BD%A6%E7%9A%84%E6%9C%80%E5%A4%A7%E7%9B%88%E5%88%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-earnings-from-taxi/&#34;&gt;2008. 出租车的最大盈利&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;司机在行驶过程中，只能往右走，路程中依次经过 1 -&amp;gt; n，求司机的最大盈利。首先想到动态规划，求解司机在到达 i 点时获得的最大盈利。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1466. 重新规划路线</title>
-      <link>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
+      <link>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
       <pubDate>Thu, 07 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
+      <guid>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/&#34;&gt;1466. 重新规划路线&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。从题意可以得知，这是一个有向无环图，节点之间有唯一的一条路径。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2646. 最小化旅行的价格总和</title>
-      <link>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
+      <link>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
       <pubDate>Wed, 06 Dec 2023 11:10:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
+      <guid>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/&#34;&gt;2646. 最小化旅行的价格总和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。所以任意两点之间是有唯一通路的，不存在更短的路径。因此从 i 号点到达 j 号点，经过哪些点是确定的，也就是说整个旅行，每一个点经过的次数是确定的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2477. 到达首都的最少油耗</title>
-      <link>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
+      <link>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
       <pubDate>Tue, 05 Dec 2023 11:07:39 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
+      <guid>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/&#34;&gt;2477. 到达首都的最少油耗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 的点，编号 0 -&amp;gt; n - 1，使用 n - 1 条边进行连接，所以整个图是无环的，并且任意两个节点之间的路径是唯一的。&lt;/p&gt;&#xA;&lt;p&gt;一开始的思路是 求出每个叶子节点到达首都的路径，对于每一条路径，根据节点数就可以计算出油耗，最终相加。后来发现是错误的，因为行驶过程中可以下车换乘。也就是说原本可以坐 3 个人的车，从 2 个节点来到 i ，他们每人都一辆车，到达 i 节点后，算上 i 节点上的人，一共有 3 个人，他们坐一辆车就够了，而不是分别计算油耗。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1038. 从二叉搜索树到更大和树</title>
-      <link>https://zhuaowei.top/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
+      <link>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
       <pubDate>Mon, 04 Dec 2023 12:04:36 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
+      <guid>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/&#34;&gt;LeetCode 1038. 从二叉搜索树到更大和树&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;给定的是一个二叉搜索数，二叉搜索数具有以下几种特点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;节点的左子树仅包含键 小于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;节点的右子树仅包含键 大于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;左右子树也必须是二叉搜索树。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;所以二叉搜索数的最右节点肯定是最大的，大于等于该值的节点只有自己。&lt;/p&gt;</description>
     </item>
     <item>
       <title>git 命令操作</title>
-      <link>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
+      <link>http://localhost:1313/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Tue, 04 Apr 2023 15:23:43 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
+      <guid>http://localhost:1313/article/git-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</guid>
       <description>&lt;h2 id=&#34;一git基本概念&#34;&gt;一、git基本概念&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1blob-and-tree&#34;&gt;1、blob and tree&lt;/h3&gt;&#xA;&lt;p&gt;git 将文件目录用两种数据类型组成，分别是tree(folder)和blob(file)，tree包含tree或者blob，也就是说，文件目录是tree递归形成的。git项目的根目录用 ‘/’ 表示，也是一个tree。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用双端队列求滑动窗口的最大值</title>
-      <link>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E6%B1%82%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+      <link>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E6%B1%82%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
       <pubDate>Fri, 18 Nov 2022 21:35:38 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E6%B1%82%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+      <guid>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E6%B1%82%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
       <description>&lt;h2 id=&#34;1leetcode-题目&#34;&gt;1、LeetCode 题目&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/sliding-window-maximum/&#34;&gt;滑动窗口最大值&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位。&lt;/p&gt;</description>
     </item>
     <item>
       <title>最长回文子串求法Manacher</title>
-      <link>https://zhuaowei.top/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</link>
+      <link>http://localhost:1313/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</link>
       <pubDate>Thu, 17 Nov 2022 17:07:19 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</guid>
+      <guid>http://localhost:1313/article/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E6%B1%82%E6%B3%95manacher/</guid>
       <description>&lt;h2 id=&#34;1回文子串&#34;&gt;1、回文子串&lt;/h2&gt;&#xA;&lt;p&gt;回文就是正着读和反着读是一样的，例如 &lt;code&gt;abcba&lt;/code&gt; 反过来还是 &lt;code&gt;abcba&lt;/code&gt;，&lt;code&gt;abba&lt;/code&gt; 反过来也是 &lt;code&gt;abba&lt;/code&gt;。&lt;/p&gt;&#xA;&lt;p&gt;回文子串就是字符串中某段连续的子串是回文，子串必须是连续的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>字符串的模式匹配算法 KMP</title>
-      <link>https://zhuaowei.top/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/</link>
+      <link>http://localhost:1313/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/</link>
       <pubDate>Tue, 15 Nov 2022 20:02:06 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/</guid>
+      <guid>http://localhost:1313/article/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95-kmp/</guid>
       <description>&lt;h2 id=&#34;1kmp-简介&#34;&gt;1、KMP 简介&lt;/h2&gt;&#xA;&lt;p&gt;KMP 是1964年发明的字符匹配算法，经过 25 年的证明才将相关的理论证明完成。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;假设要从字符串 str1 中匹配出字符串 str2。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;暴力的字符匹配算法就是将两个字符串的字符从第一个开始一个一个匹配，如果不相等，str1 右移一个位置，而 str2 直接移动到 0，重新开始匹配，时间复杂度为 O(MN)。MN分别是 str2、str1 的长度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>并查集以及感染算法计算岛的数量</title>
-      <link>https://zhuaowei.top/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</link>
+      <link>http://localhost:1313/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</link>
       <pubDate>Mon, 14 Nov 2022 18:36:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
+      <guid>http://localhost:1313/article/%E5%B9%B6%E6%9F%A5%E9%9B%86%E4%BB%A5%E5%8F%8A%E6%84%9F%E6%9F%93%E7%AE%97%E6%B3%95%E8%AE%A1%E7%AE%97%E5%B2%9B%E7%9A%84%E6%95%B0%E9%87%8F/</guid>
       <description>&lt;h2 id=&#34;1并查集&#34;&gt;1、并查集&lt;/h2&gt;&#xA;&lt;p&gt;并查集的结构设计就是都以比较快的速度实现这两个操作：合并两个集合、查询两个元素是否在同一个集合。&lt;/p&gt;&#xA;&lt;p&gt;实现细节：&lt;/p&gt;&#xA;&lt;p&gt;1、元素类：定义元素类，并定义一个构造函数，使并查集可以接收任意类型的集合。&lt;/p&gt;</description>
     </item>
     <item>
       <title>算法复杂度介绍、三种常见排序算法以及二分查找算法</title>
-      <link>https://zhuaowei.top/article/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%B8%B8%E8%A7%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/</link>
+      <link>http://localhost:1313/article/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%B8%B8%E8%A7%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/</link>
       <pubDate>Mon, 14 Nov 2022 15:45:35 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%B8%B8%E8%A7%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/</guid>
+      <guid>http://localhost:1313/article/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6%E4%BB%8B%E7%BB%8D%E4%B8%89%E7%A7%8D%E5%B8%B8%E8%A7%81%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/</guid>
       <description>&lt;h2 id=&#34;1时间复杂度&#34;&gt;1、时间复杂度&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11操作单元&#34;&gt;1.1、操作单元&lt;/h3&gt;&#xA;&lt;p&gt;程序执行的一个最基本的操作。例如获取数组中第 i 个元素的值，只需计算它的偏移量即可；跳转一次链表，指向下一个单元；执行一次交换操作等。&lt;/p&gt;&#xA;&lt;h3 id=&#34;12时间复杂度&#34;&gt;1.2、时间复杂度&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;估算&lt;/strong&gt;的执行程序所需的&lt;strong&gt;执行操作单元的次数&lt;/strong&gt;，以选择排序为例，计算选择排序算法的时间复杂度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用广播信道的数据链路层</title>
-      <link>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
+      <link>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</link>
       <pubDate>Wed, 09 Nov 2022 21:46:48 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
+      <guid>http://localhost:1313/article/%E4%BD%BF%E7%94%A8%E5%B9%BF%E6%92%AD%E4%BF%A1%E9%81%93%E7%9A%84%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</guid>
       <description>&lt;h2 id=&#34;1使用广播信道的数据链路层&#34;&gt;1、使用广播信道的数据链路层&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11局域网的数据链路层&#34;&gt;1.1、局域网的数据链路层&lt;/h3&gt;&#xA;&lt;p&gt;局域网的主要特点：&lt;strong&gt;网络为一个单位所拥有，且地理范围和站点数据均有限&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;局域网的优点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;具有广播功能。&lt;/li&gt;&#xA;&lt;li&gt;便于系统的扩展和逐渐演变，各设备的位置可灵活调整。&lt;/li&gt;&#xA;&lt;li&gt;提高了系统的可靠性（reliability）、可用性（availability）和生存性（survivability）。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;局域网的分类：&lt;/p&gt;</description>
     </item>
     <item>
       <title>点对点协议 PPP</title>
-      <link>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
+      <link>http://localhost:1313/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</link>
       <pubDate>Fri, 04 Nov 2022 21:20:42 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
+      <guid>http://localhost:1313/article/%E7%82%B9%E5%AF%B9%E7%82%B9%E5%8D%8F%E8%AE%AE-ppp/</guid>
       <description>&lt;p&gt;数据链路层主要有两种通信方式：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;点对点信道&lt;/strong&gt;：一对一，点对点通信方式。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;广播信道&lt;/strong&gt;：一对多的广播通信方式。&lt;/p&gt;&#xA;&lt;h2 id=&#34;1使用点对点信道的数据链路层&#34;&gt;1、使用点对点信道的数据链路层&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11数据链路和帧&#34;&gt;1.1、数据链路和帧&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;链路（link，物理链路）&lt;/strong&gt;：从一个结点到相邻结点的一段物理通路（有线或无线），而中间没有任何其他交换结点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TCP 的三次握手和四次挥手</title>
-      <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</link>
+      <link>http://localhost:1313/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</link>
       <pubDate>Tue, 01 Nov 2022 16:38:24 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</guid>
+      <guid>http://localhost:1313/article/tcp-%E7%9A%84%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%92%8C%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B/</guid>
       <description>&lt;h2 id=&#34;1tcp-的运输连接管理&#34;&gt;1、TCP 的运输连接管理&lt;/h2&gt;&#xA;&lt;p&gt;TCP 是面向连接的协议，连接建立和连接释放是每次面向连接通信必不可少的过程。运输连接有三个阶段：连接建立、数据传输和连接释放。TCP 连接建立要解决以下三个问题：&lt;/p&gt;</description>
     </item>
     <item>
       <title>TCP 的拥塞控制</title>
-      <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</link>
+      <link>http://localhost:1313/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</link>
       <pubDate>Tue, 01 Nov 2022 16:38:20 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</guid>
+      <guid>http://localhost:1313/article/tcp-%E7%9A%84%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6/</guid>
       <description>&lt;h2 id=&#34;1tcp-的拥塞控制&#34;&gt;1、TCP 的拥塞控制&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11拥塞控制的一般原理&#34;&gt;1.1、拥塞控制的一般原理&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1、拥塞的定义&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;拥塞（congestion）&lt;/strong&gt;：网络中某一资源的需求超过了该资源所能提供的可用部分，网络性能就要变坏。&lt;/p&gt;&#xA;&lt;p&gt;拥塞是一个复杂的问题，它并不是增加某一个资源就能解决的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TCP 的流量控制</title>
-      <link>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
+      <link>http://localhost:1313/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
       <pubDate>Tue, 01 Nov 2022 12:49:44 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
+      <guid>http://localhost:1313/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
       <description>&lt;h2 id=&#34;1tcp-的流量控制&#34;&gt;1、TCP 的流量控制&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11利用滑动窗口实现流量控制&#34;&gt;1.1、利用滑动窗口实现流量控制&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1、接收窗口&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;流量控制（flow control）&lt;/strong&gt;：就是让发送方的发送速率不要太快，要让接收方来的及接收。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;区别于拥塞控制：流量控制是点对点的，发送和接收双方的传送速率控制；而拥塞控制是设计到整个网络的，是限制发送速率，防止短时间有大量数据传送进网络，避免整个网络发生拥塞。&lt;/p&gt;</description>
     </item>
     <item>
       <title>TCP 可靠传输的实现</title>
-      <link>https://zhuaowei.top/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
+      <link>http://localhost:1313/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Mon, 31 Oct 2022 21:21:51 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
+      <guid>http://localhost:1313/article/tcp-%E5%8F%AF%E9%9D%A0%E4%BC%A0%E8%BE%93%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
       <description>&lt;h2 id=&#34;1tcp-可靠传输的实现&#34;&gt;1、TCP 可靠传输的实现&lt;/h2&gt;&#xA;&lt;p&gt;为了方便描述，假定数据传输只有一个方向。A 发送数据，B 发送确认。&lt;/p&gt;&#xA;&lt;h3 id=&#34;11以字节为单位的滑动窗口&#34;&gt;1.1、以字节为单位的滑动窗口&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1、发送窗口&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;假如 A 收到了 B 发来的确认报文，报文内容是：&lt;code&gt;ack = 31, rwnd = 20&lt;/code&gt;，这说明：B 已经收到了序号为 30 之前的报文了，期待发送的是序号为 31 的报文，窗口大小是 20，也就是 A 能发送序号为 31 - 50 的报文，这个范围就是 A 的&lt;strong&gt;发送窗口&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>传输控制协议 TCP 概述</title>
-      <link>https://zhuaowei.top/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</link>
+      <link>http://localhost:1313/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</link>
       <pubDate>Sun, 30 Oct 2022 19:58:30 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</guid>
+      <guid>http://localhost:1313/article/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE-tcp-%E6%A6%82%E8%BF%B0/</guid>
       <description>&lt;h2 id=&#34;1传输控制协议-tcp-概述&#34;&gt;1、传输控制协议 TCP 概述&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11tcp-的主要特点&#34;&gt;1.1、TCP 的主要特点&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;**TCP 是面向连接的运输层协议。**必须先建立连接，再传送数据，最后断开连接。&lt;/li&gt;&#xA;&lt;li&gt;每一条TCP 连接只能有两个端点（endpoint），每一条 TCP 连接只能是&lt;strong&gt;点对点&lt;/strong&gt;的。&lt;/li&gt;&#xA;&lt;li&gt;TCP 提供&lt;strong&gt;可靠交付&lt;/strong&gt;的服务。无差错、不丢失、不重复、按序到达。&lt;/li&gt;&#xA;&lt;li&gt;TCP 提供&lt;strong&gt;双全工通信&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;面向字节流&lt;/strong&gt;。TCP中的**“流”（stream）指的是流入和流出进程的字节序列**。TCP 把应用程序交下来的数据仅仅看成是一连串的无结构的字节流。TCP 并不知道所传送的字节流的含义。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;一个 TCP 报文段通常包含上千个字节。TCP 连接是一条虚连接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>用户数据报协议 UDP</title>
-      <link>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
+      <link>http://localhost:1313/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</link>
       <pubDate>Sun, 30 Oct 2022 19:55:16 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
+      <guid>http://localhost:1313/article/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E6%8A%A5%E5%8D%8F%E8%AE%AE-udp/</guid>
       <description>&lt;h2 id=&#34;1udp-用户数据报协议&#34;&gt;1、UDP 用户数据报协议&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11udp-概述&#34;&gt;1.1、UDP 概述&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;主要特点&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP是无连接的&lt;/strong&gt;，发送前不需要建立连接。&lt;/li&gt;&#xA;&lt;li&gt;UDP 使用&lt;strong&gt;尽最大努力交付&lt;/strong&gt;，即不保证可靠交付，因为主机不需要维持复杂的连接状态表。&lt;/li&gt;&#xA;&lt;li&gt;UDP 是&lt;strong&gt;面向报文的&lt;/strong&gt;。对应用层交下来的报文，加个头部就发了，保留这些报文的边界，不做其他处理。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 没有拥塞控制，网络拥塞并不会降低发送速率&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 支持一对一、一对多、多对一和多对多的交互通信&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UDP 的首部开销小，只需要 8 字节&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;12udp-的首部格式&#34;&gt;1.2、UDP 的首部格式&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;源端口&lt;/strong&gt;：16 位，需要回复时使用，否则可以全为 0。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;目的端口&lt;/strong&gt;：16 位，交付报文时必须使用。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;长度&lt;/strong&gt;：16 位，UDP用户数据报的长度，最小为 8（只有首部）。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;检验和&lt;/strong&gt;：16 位，检测 UDP 用户数据报在传输中是否有错，如果有就丢弃。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;如果目的端口不正确，就丢弃报文，并由&lt;strong&gt;网际控制报文协议 ICMP 发送“端口不可达”差错报文给发送方&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>计算机网络运输层概述</title>
-      <link>https://zhuaowei.top/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</link>
+      <link>http://localhost:1313/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</link>
       <pubDate>Sun, 30 Oct 2022 19:52:27 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</guid>
+      <guid>http://localhost:1313/article/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E8%BF%90%E8%BE%93%E5%B1%82%E6%A6%82%E8%BF%B0/</guid>
       <description>&lt;h2 id=&#34;1运输层概述&#34;&gt;1、运输层概述&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11进程之间通信&#34;&gt;1.1、进程之间通信&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;运输层向它上面的应用层提供通信服务，它数据面向通信部分的最高层，同时也是用户功能的最底层。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;端到端的通信不是指主机与主机之间的通信，准确来说，是&lt;strong&gt;主机进程之间的通信&lt;/strong&gt;，而通信的真正端点就是主机中的进程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何在Hugo中使用markdown的数学公式</title>
-      <link>https://zhuaowei.top/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <link>http://localhost:1313/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
       <pubDate>Sat, 29 Oct 2022 22:16:55 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
       <description>&lt;p&gt;渲染数学公式有两种方式，一种是 &lt;code&gt;mathjax&lt;/code&gt; ，另一种是 &lt;code&gt;KaTex&lt;/code&gt;，因为 &lt;code&gt;KaTex&lt;/code&gt; 比较快，所以使用这种方式。&lt;/p&gt;&#xA;&lt;p&gt;具体步骤如下：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;首先创建一个部分的模板文件，里面链上 &lt;code&gt;CSS&lt;/code&gt; 文件和 &lt;code&gt;JS&lt;/code&gt; 文件，这些脚本会自动将公式渲染。&#xA;&lt;code&gt;/layouts/partials/helpers/katex.html&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/contrib/auto-render.min.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;onload&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;renderMathInElement(document.body);&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;不要只顾着复制，看一下版本更新，我写博客的时候已经更新到 &lt;code&gt;0.16.3&lt;/code&gt; 了，把版本号替换一下就可以了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>信道复用技术 Division Multiplexing</title>
-      <link>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
+      <link>http://localhost:1313/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
       <pubDate>Sat, 29 Oct 2022 22:06:41 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
+      <guid>http://localhost:1313/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
       <description>&lt;h2 id=&#34;1频分复用时分复用和统计时分复用&#34;&gt;1、频分复用、时分复用和统计时分复用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11频分复用&#34;&gt;1.1、频分复用：&lt;/h3&gt;&#xA;&lt;p&gt;用户在分配到一定的频带后，在通信过程中自始至终都占用这个频带。&lt;strong&gt;频分复用的所有用户在同样的时间占用不同的带宽资源。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;12时分复用&#34;&gt;1.2、时分复用：&lt;/h3&gt;&#xA;&lt;p&gt;将时间划分为一段段等长的时分复用帧（TDM帧）每个用户在每个TDM帧中占用固定序号的时隙。&lt;/p&gt;</description>
     </item>
     <item>
       <title>物理层的基本概念与常识</title>
-      <link>https://zhuaowei.top/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
+      <link>http://localhost:1313/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
       <pubDate>Sat, 29 Oct 2022 22:01:32 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
+      <guid>http://localhost:1313/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
       <description>&lt;h2 id=&#34;1物理层的基本概念&#34;&gt;1、物理层的基本概念&lt;/h2&gt;&#xA;&lt;p&gt;传输媒体接口的一些特性：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;机械特性&lt;/strong&gt;：指明接口所用&lt;strong&gt;接线器的形状、尺寸、引脚数目和排列、固定和锁定装置等&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;电气特性&lt;/strong&gt;：指明在接口电缆的各条线上出现的&lt;strong&gt;电压范围&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;功能特性&lt;/strong&gt;：指明某条线上出现的某一电平的电压的意义。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;过程特性&lt;/strong&gt;：指明对于不同功能的各种可能事件的出现顺序。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;计算机内部是并行传输、在通信线路上是串行传输，所以物理层还要完成传输方式的转换。&lt;/p&gt;</description>
     </item>
     <item>
       <title>文件传输协议 FTP</title>
-      <link>https://zhuaowei.top/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
+      <link>http://localhost:1313/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
       <pubDate>Sat, 29 Oct 2022 21:54:13 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
+      <guid>http://localhost:1313/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
       <description>&lt;h2 id=&#34;1ftp-概述&#34;&gt;1、FTP 概述&lt;/h2&gt;&#xA;&lt;p&gt;使用最广泛的文件传输协议。FTP和 TFTP都是文件共享协议中的一大类，即复制整个文件。若要存取一个文件，必须先获取一个本地的文件副本。若要修改文件，只能对文件的副本进行修改，然后再将修改后的文件副本传回到原节点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>类初始化及创建过程中，代码的执行顺序</title>
-      <link>https://zhuaowei.top/article/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E5%88%9B%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</link>
+      <link>http://localhost:1313/article/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E5%88%9B%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</link>
       <pubDate>Fri, 30 Sep 2022 15:17:44 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E5%88%9B%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</guid>
+      <guid>http://localhost:1313/article/%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8F%8A%E5%88%9B%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E4%BB%A3%E7%A0%81%E7%9A%84%E6%89%A7%E8%A1%8C%E9%A1%BA%E5%BA%8F/</guid>
       <description>&lt;p&gt;尚硅谷Java面试题第一季第03节&lt;/p&gt;&#xA;&lt;h2 id=&#34;一代码&#34;&gt;一、代码&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Father.java&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;public class Father {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    private int i = test();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    private static int j = method();&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    static {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        System.out.println(&amp;#34;(1)&amp;#34;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Father() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        System.out.println(&amp;#34;(2)&amp;#34;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        System.out.println(&amp;#34;(3)&amp;#34;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    public int test() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        System.out.println(&amp;#34;(4)&amp;#34;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        return 1;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    public static int method() {&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        System.out.println(&amp;#34;(5)&amp;#34;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        return 1;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;blockquote&gt;&#xA;&lt;p&gt;Son.java&lt;/p&gt;</description>
     </item>
     <item>
       <title>操作系统中CPU的寻址方式总结</title>
-      <link>https://zhuaowei.top/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
+      <link>http://localhost:1313/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sun, 25 Sep 2022 20:56:50 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://localhost:1313/article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%ADcpu%E7%9A%84%E5%AF%BB%E5%9D%80%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天复习计算机操作系统，网上的博客只提了一嘴，没有详细写，所以我就找到以前的课本重新复习了一遍，顺便记下来，以免忘记。详细参考了《计算机组成原理（第3版）蒋本珊 编著》。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第一次使用Hugo搭建博客</title>
-      <link>https://zhuaowei.top/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:1313/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 10 Aug 2022 21:13:55 +0800</pubDate>
-      <guid>https://zhuaowei.top/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://localhost:1313/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>&lt;p&gt;一直想自己搭建一个博客，但是碍于实力与审美，还有自己太懒了，于是就使用Hugo搭建了一个自己的博客。&lt;/p&gt;</description>
     </item>
   </channel>
