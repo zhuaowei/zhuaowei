@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>动态规划 on zhuaowei的博客</title>
+    <link>https://zhuaowei.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
+    <description>Recent content in 动态规划 on zhuaowei的博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 01 Oct 2024 21:57:06 +0800</lastBuildDate>
+    <atom:link href="https://zhuaowei.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 83. 最低票价</title>
+      <link>https://zhuaowei.github.io/article/leetcode-83.-%E6%9C%80%E4%BD%8E%E7%A5%A8%E4%BB%B7/</link>
+      <pubDate>Tue, 01 Oct 2024 21:57:06 +0800</pubDate>
+      <guid>https://zhuaowei.github.io/article/leetcode-83.-%E6%9C%80%E4%BD%8E%E7%A5%A8%E4%BB%B7/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-cost-for-tickets/description/&#34;&gt;LeetCode 83. 最低票价&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;旅行计划只会影响后面的安排，不会影响前面的，所以可以倒序进行DP。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;设 $dp_i$ 是从 $days_i$ 开始旅行的最低票价，那么从 $dp_j$ 即是从 $days_j$ 开始旅行的最低票价 $(j &amp;lt; i)$。那么&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

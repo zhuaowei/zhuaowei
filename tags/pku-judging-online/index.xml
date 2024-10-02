@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PKU Judging Online on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/pku-judging-online/</link>
+    <link>https://zhuaowei.github.io/tags/pku-judging-online/</link>
     <description>Recent content in PKU Judging Online on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 13 Dec 2023 17:15:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pku-judging-online/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/pku-judging-online/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PKU Judging Online - 1742 Coins</title>
-      <link>http://localhost:1313/article/pku-judging-online-1742-coins/</link>
+      <link>https://zhuaowei.github.io/article/pku-judging-online-1742-coins/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:58 +0800</pubDate>
-      <guid>http://localhost:1313/article/pku-judging-online-1742-coins/</guid>
+      <guid>https://zhuaowei.github.io/article/pku-judging-online-1742-coins/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://poj.org/problem?id=1742&#34;&gt;PKU Judging Online - 1742 Coins&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过不同种类及不同数量的硬币进行组合，判断这些硬币可以组合成 [0, m] 上的哪些值，返回最终的种类数。&lt;/p&gt;&#xA;&lt;p&gt;这是一道混合背包题目，根据硬币的数量和面值，灵活选择使用 01 背包、完全背包或者多重背包。&lt;/p&gt;</description>
     </item>
   </channel>

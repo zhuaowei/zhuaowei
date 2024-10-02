@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>图 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E5%9B%BE/</link>
+    <link>https://zhuaowei.github.io/tags/%E5%9B%BE/</link>
     <description>Recent content in 图 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 27 Dec 2023 22:45:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2246. 相邻字符不同的最长路径</title>
-      <link>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Wed, 27 Dec 2023 22:45:50 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2246.-%E7%9B%B8%E9%82%BB%E5%AD%97%E7%AC%A6%E4%B8%8D%E5%90%8C%E7%9A%84%E6%9C%80%E9%95%BF%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/&#34;&gt;LeetCode 2246. 相邻字符不同的最长路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：求子树的相邻字符不同的最长路径。路径分为经过和不经过当前树的头节点两种，分别计算两种路径长度，取最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1631. 最小体力消耗路径</title>
-      <link>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</link>
       <pubDate>Mon, 11 Dec 2023 21:05:37 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1631.-%E6%9C%80%E5%B0%8F%E4%BD%93%E5%8A%9B%E6%B6%88%E8%80%97%E8%B7%AF%E5%BE%84/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/&#34;&gt;LeetCode 1631. 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;参考题解的方法二：&lt;a href=&#34;https://leetcode.cn/problems/path-with-minimum-effort/solutions/459765/zui-xiao-ti-li-xiao-hao-lu-jing-by-zerotrac2/?envType=daily-question&amp;envId=2023-12-11&#34;&gt;zerotrac 🌸 - 最小体力消耗路径&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;体力消耗的计算方式是在 (0,0) -&amp;gt; (n - 1,m - 1) 的路径中，相邻两个节点的最大高度差，跟路径的长度无关。所以要找到最小体力消耗路径，要尽量选择高度差小的边，判断当前边组成的路径能够走到右下角的点。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1466. 重新规划路线</title>
-      <link>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</link>
       <pubDate>Thu, 07 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1466.-%E9%87%8D%E6%96%B0%E8%A7%84%E5%88%92%E8%B7%AF%E7%BA%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/&#34;&gt;1466. 重新规划路线&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。从题意可以得知，这是一个有向无环图，节点之间有唯一的一条路径。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2646. 最小化旅行的价格总和</title>
-      <link>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</link>
       <pubDate>Wed, 06 Dec 2023 11:10:35 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2646.-%E6%9C%80%E5%B0%8F%E5%8C%96%E6%97%85%E8%A1%8C%E7%9A%84%E4%BB%B7%E6%A0%BC%E6%80%BB%E5%92%8C/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimize-the-total-price-of-the-trips/&#34;&gt;2646. 最小化旅行的价格总和&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 个点，编号从 0 -&amp;gt; n - 1，一共有 n - 1 条单向边将这些点串起来。所以任意两点之间是有唯一通路的，不存在更短的路径。因此从 i 号点到达 j 号点，经过哪些点是确定的，也就是说整个旅行，每一个点经过的次数是确定的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2477. 到达首都的最少油耗</title>
-      <link>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</link>
       <pubDate>Tue, 05 Dec 2023 11:07:39 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2477.-%E5%88%B0%E8%BE%BE%E9%A6%96%E9%83%BD%E7%9A%84%E6%9C%80%E5%B0%91%E6%B2%B9%E8%80%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/&#34;&gt;2477. 到达首都的最少油耗&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;一共有 n 的点，编号 0 -&amp;gt; n - 1，使用 n - 1 条边进行连接，所以整个图是无环的，并且任意两个节点之间的路径是唯一的。&lt;/p&gt;&#xA;&lt;p&gt;一开始的思路是 求出每个叶子节点到达首都的路径，对于每一条路径，根据节点数就可以计算出油耗，最终相加。后来发现是错误的，因为行驶过程中可以下车换乘。也就是说原本可以坐 3 个人的车，从 2 个节点来到 i ，他们每人都一辆车，到达 i 节点后，算上 i 节点上的人，一共有 3 个人，他们坐一辆车就够了，而不是分别计算油耗。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>暴力解法 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95/</link>
     <description>Recent content in 暴力解法 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 31 Dec 2023 12:01:34 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%9A%B4%E5%8A%9B%E8%A7%A3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1154. 一年中的第几天</title>
-      <link>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sun, 31 Dec 2023 12:01:34 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1154.-%E4%B8%80%E5%B9%B4%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-year/&#34;&gt;LeetCode 1154. 一年中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;这题跟昨天那道题很像，比昨天的还简单，同样也是根据年份是否闰年，计算出天数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;按照月份逐月累加天数，2 月是一个特殊的月份，需要根据年份判断是否是闰年，如果是闰年，需要额外再加一天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1185. 一周中的第几天</title>
-      <link>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</link>
       <pubDate>Sat, 30 Dec 2023 12:01:12 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1185.-%E4%B8%80%E5%91%A8%E4%B8%AD%E7%9A%84%E7%AC%AC%E5%87%A0%E5%A4%A9/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/day-of-the-week/&#34;&gt;LeetCode 1185. 一周中的第几天&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;计算出当前日期是距离 1970-01-01 的第几天，然后对天数取余，计算出当前日期是星期几。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;主要是判断某一年是否是闰年，如何判断一个年份是否是闰年？&lt;strong&gt;某一年如果能被 100 整除且能被400整除,或者不能被 100 整除但是能被 4 整除，那么这一年就是闰年。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2706. 购买两块巧克力</title>
-      <link>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Fri, 29 Dec 2023 12:00:34 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2706.-%E8%B4%AD%E4%B9%B0%E4%B8%A4%E5%9D%97%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/buy-two-chocolates/&#34;&gt;LeetCode 2706. 购买两块巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求出所有巧克力中的价格最小的两个，判断是否满足购买条件，返回依情况返回。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;准备两个变量，记录下最小值和次小值。遍历数组，更新最小值和次小值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2735. 收集巧克力</title>
-      <link>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</link>
       <pubDate>Thu, 28 Dec 2023 11:58:29 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2735.-%E6%94%B6%E9%9B%86%E5%B7%A7%E5%85%8B%E5%8A%9B/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/collecting-chocolates/&#34;&gt;LeetCode 2735. 收集巧克力&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;暴力解法，求出每一个巧克力在每一种移动情况下的最小成本，再加上移动步数的成本，求出每一种方案的最小值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个数组记录下所有巧克力在移动至多 $i$ 步的情况下的最小成本，移动步数最多为所有巧克力的个数。先计算出每一步的移动成本，之后再计算收集成本。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2048. 下一个更大的数值平衡数</title>
-      <link>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 09:50:59 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2048.-%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%95%B0%E5%80%BC%E5%B9%B3%E8%A1%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/next-greater-numerically-balanced-number/&#34;&gt;2048. 下一个更大的数值平衡数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;p&gt;根据题意求平衡数，由于对结果数字和位数进行了限制，所以能形成平衡数的数字并不是特别多，可以使用打表的方式，将可能的结果存储到一个数组中，再通过二分加速查找。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>二叉树 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+    <link>https://zhuaowei.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
     <description>Recent content in 二叉树 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 25 Feb 2024 22:43:51 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 235. 二叉搜索树的最近公共祖先</title>
-      <link>http://localhost:1313/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</link>
       <pubDate>Sun, 25 Feb 2024 22:43:51 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-235.-%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/&#34;&gt;LeetCode 235. 二叉搜索树的最近公共祖先&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/solutions/428739/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-3c&#34;&gt;参考题解：数据结构和算法 - 二叉搜索树的最近公共祖先（3种解决方式）&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;从二叉树根节点开始查找，判断该节点是否在两个节点之间，如果是，那么该节点就是最近的公共祖先，如果不是，那么就继续向下找。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2415. 反转二叉树的奇数层</title>
-      <link>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
       <pubDate>Fri, 15 Dec 2023 16:24:52 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/&#34;&gt;LeetCode 2415. 反转二叉树的奇数层&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;不用真的将节点对象进行翻转，而是将节点存储的值进行翻转。使用层序遍历，在遍历完奇数层之后，将节点中的值翻转。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个队列存储头节点，然后开始循环，直到队列为空。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1038. 从二叉搜索树到更大和树</title>
-      <link>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</link>
       <pubDate>Mon, 04 Dec 2023 12:04:36 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1038.-%E4%BB%8E%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E5%88%B0%E6%9B%B4%E5%A4%A7%E5%92%8C%E6%A0%91/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/&#34;&gt;LeetCode 1038. 从二叉搜索树到更大和树&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;给定的是一个二叉搜索数，二叉搜索数具有以下几种特点：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;节点的左子树仅包含键 小于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;节点的右子树仅包含键 大于 节点键的节点。&lt;/li&gt;&#xA;&lt;li&gt;左右子树也必须是二叉搜索树。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;所以二叉搜索数的最右节点肯定是最大的，大于等于该值的节点只有自己。&lt;/p&gt;</description>
     </item>
   </channel>

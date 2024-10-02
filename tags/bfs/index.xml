@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BFS on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/bfs/</link>
+    <link>https://zhuaowei.github.io/tags/bfs/</link>
     <description>Recent content in BFS on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 15 Dec 2023 16:24:52 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/bfs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/bfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2415. 反转二叉树的奇数层</title>
-      <link>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</link>
       <pubDate>Fri, 15 Dec 2023 16:24:52 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2415.-%E5%8F%8D%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%A5%87%E6%95%B0%E5%B1%82/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/&#34;&gt;LeetCode 2415. 反转二叉树的奇数层&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;不用真的将节点对象进行翻转，而是将节点存储的值进行翻转。使用层序遍历，在遍历完奇数层之后，将节点中的值翻转。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;使用一个队列存储头节点，然后开始循环，直到队列为空。&lt;/p&gt;</description>
     </item>
   </channel>

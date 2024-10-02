@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>区间DP on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E5%8C%BA%E9%97%B4dp/</link>
+    <link>https://zhuaowei.github.io/tags/%E5%8C%BA%E9%97%B4dp/</link>
     <description>Recent content in 区间DP on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 15 Dec 2023 22:04:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%8C%BA%E9%97%B4dp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E5%8C%BA%E9%97%B4dp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 730. 统计不同回文子序列</title>
-      <link>http://localhost:1313/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Fri, 15 Dec 2023 22:04:42 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-730.-%E7%BB%9F%E8%AE%A1%E4%B8%8D%E5%90%8C%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/count-different-palindromic-subsequences/&#34;&gt;LeetCode 730. 统计不同回文子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 的回文子序列的数目。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Base Case&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;i &amp;gt; j&lt;/code&gt;：无法构成子序列，返回 0。&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;i == j&lt;/code&gt;：只有一个字符，满足回文子序列，返回 1。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;递归过程&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1000. 合并石头的最低成本</title>
-      <link>http://localhost:1313/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</link>
       <pubDate>Fri, 15 Dec 2023 22:03:36 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1000.-%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-cost-to-merge-stones/&#34;&gt;LeetCode 1000. 合并石头的最低成本&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 时石头消除的最小花费。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为石头必须将 &lt;code&gt;k&lt;/code&gt; 个合并成一个，且最后一次消除必须只剩下一个石头，所以在 DP 过程中是有划分依据的。在一般递归中，如果不合并，则石头可以为 &lt;code&gt;1 ... k&lt;/code&gt; 个，最后一次必须合并，最终的石头必须为 k 个。根据观察，满足最后只剩下一个石头的数组，必须满足 &lt;code&gt;(n - 1) / (k - 1) == 0&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 546. 移除盒子</title>
-      <link>http://localhost:1313/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</link>
       <pubDate>Fri, 15 Dec 2023 22:02:43 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-546.-%E7%A7%BB%E9%99%A4%E7%9B%92%E5%AD%90/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/remove-boxes/&#34;&gt;LeetCode 546. 移除盒子&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，连续的相同盒子越多，分数就越高。所以在求区间最高分数的时候，要让相同的盒子尽量“连起来”。单纯的区间 DP 无法满足这种要求，需要定义一个额外的变量维护相同盒子的数量。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P3205 [HNOI2010] 合唱队</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
       <pubDate>Fri, 15 Dec 2023 22:00:55 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P3205&#34;&gt;洛谷 P3205 [HNOI2010] 合唱队&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按照入队的逆序进行想，则子问题应该是：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 中，如果左侧是最后入队的，则在剩下的区间 &lt;code&gt;left + 1, right]&lt;/code&gt; 中，又有两种情况。如果 $nums_{left + 1}$ 最后入队，则 $nums_{left}$ 应该大于它;如果 $nums_{right}$ 最后入队，则 $nums_{left}$ 应该大于它，则 &lt;code&gt;[left, right]&lt;/code&gt; 区间中左侧入队的方案数为符合条件的可能性之和。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 664. 奇怪的打印机 | 洛谷 P4170 [CQOI2007] 涂色</title>
-      <link>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
       <pubDate>Fri, 15 Dec 2023 17:13:36 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/strange-printer/&#34;&gt;LeetCode 664. 奇怪的打印机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4170&#34;&gt;洛谷 P4170 [CQOI2007] 涂色&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 涂色的最小次数。因为后涂的颜色可以覆盖前一种颜色，如果我们要让涂色次数最少，可以使用贪心，让左侧的颜色尽量涂多一些。&lt;/p&gt;</description>
     </item>
     <item>
       <title>牛客网 括号区间匹配</title>
-      <link>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
+      <link>https://zhuaowei.github.io/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</link>
       <pubDate>Fri, 15 Dec 2023 16:43:24 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
+      <guid>https://zhuaowei.github.io/article/%E7%89%9B%E5%AE%A2%E7%BD%91-%E6%8B%AC%E5%8F%B7%E5%8C%BA%E9%97%B4%E5%8C%B9%E9%85%8D/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/e391767d80d942d29e6095a935a5b96b&#34;&gt;牛客网 括号区间匹配&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 之间能够将括号变成有效的最小插入次数。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;括号的组合有两种，一是嵌套 &lt;code&gt;[()]&lt;/code&gt;，二是并列 &lt;code&gt;[]()&lt;/code&gt;。在子问题中，讨论区间 &lt;code&gt;[left, right]&lt;/code&gt; 两端的括号形成可能性。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 面试题 08.14. 布尔运算</title>
-      <link>http://localhost:1313/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</link>
       <pubDate>Thu, 14 Dec 2023 22:20:01 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-%E9%9D%A2%E8%AF%95%E9%A2%98-08.14.-%E5%B8%83%E5%B0%94%E8%BF%90%E7%AE%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/boolean-evaluation-lcci/&#34;&gt;LeetCode 面试题 08.14. 布尔运算&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;子问题：以范围内每一个运算符作为划分点，求解左右两侧结果为 true 和 false 的表达式数量，然后根据当前运算符计算出结果为 true 和 false 的数量。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 312. 戳气球</title>
-      <link>http://localhost:1313/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</link>
       <pubDate>Thu, 14 Dec 2023 22:18:22 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-312.-%E6%88%B3%E6%B0%94%E7%90%83/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/burst-balloons/&#34;&gt;LeetCode 312. 戳气球&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;如果在区间 &lt;code&gt;[i, j]&lt;/code&gt; 之间选出一个气球作为第一个被戳破的，那么根据它可以将气球分为两部分，但是它左侧和右侧的气球戳破顺序是不确定的，所以无法确定本次戳破气球获得的分数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1547. 切棍子的最小成本</title>
-      <link>http://localhost:1313/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</link>
       <pubDate>Thu, 14 Dec 2023 22:17:34 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1547.-%E5%88%87%E6%A3%8D%E5%AD%90%E7%9A%84%E6%9C%80%E5%B0%8F%E6%88%90%E6%9C%AC/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/&#34;&gt;LeetCode 1547. 切棍子的最小成本&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;将切点按照大小排序，然后再在收尾添加 0 和 n，依次选择除了端点的所有切点作为下一次裁剪的点，计算出每一种切点的花费，取最小值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1039. 多边形三角剖分的最低得分</title>
-      <link>http://localhost:1313/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</link>
       <pubDate>Thu, 14 Dec 2023 22:16:54 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1039.-%E5%A4%9A%E8%BE%B9%E5%BD%A2%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86%E7%9A%84%E6%9C%80%E4%BD%8E%E5%BE%97%E5%88%86/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/&#34;&gt;LeetCode 1039. 多边形三角剖分的最低得分&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先确定三角形的两个点，然后依次选择剩余的点作为划分点，判断哪种划分方式获得的分值最小。因此确定的子问题是在 &lt;code&gt;(i, j)&lt;/code&gt; 中选择一个作为划分点，能获取的最小分值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 486. 预测赢家</title>
-      <link>http://localhost:1313/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</link>
       <pubDate>Thu, 14 Dec 2023 22:15:28 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-486.-%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/predict-the-winner/&#34;&gt;LeetCode 486. 预测赢家&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求解子问题：在区间 &lt;code&gt;[i, j]&lt;/code&gt; 上，如果 A 先手，A 可以获取的最大分值是多少。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;先通过递归求解。如果当前的区间是 &lt;code&gt;[i, j]&lt;/code&gt;：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;base case&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;i == j&lt;/code&gt;：只有一个数，A 只能选 nums[i]。&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;i + 1 == j&lt;/code&gt;：有两个数，A 先手，A 肯定选较大的。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;递归过程&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1312. 让字符串成为回文串的最少插入次数</title>
-      <link>http://localhost:1313/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Thu, 14 Dec 2023 17:34:11 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1312.-%E8%AE%A9%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%88%90%E4%B8%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E7%9A%84%E6%9C%80%E5%B0%91%E6%8F%92%E5%85%A5%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome/&#34;&gt;LeetCode 1312. 让字符串成为回文串的最少插入次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1NQ4y1b7Uo/&#34;&gt;算法讲解076【必备】区间dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;提取子问题，求使 &lt;code&gt;[i, j]&lt;/code&gt; 范围内的字符串变成回文串的最小操作是次数，根据两侧字符是否相等决定递归子问题的范围。&lt;/p&gt;</description>
     </item>
   </channel>

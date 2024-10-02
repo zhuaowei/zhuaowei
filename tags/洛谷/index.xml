@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>洛谷 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%B4%9B%E8%B0%B7/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%B4%9B%E8%B0%B7/</link>
     <description>Recent content in 洛谷 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 18 Jan 2024 22:47:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B4%9B%E8%B0%B7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%B4%9B%E8%B0%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>洛谷 P1171 售货员的难题</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</link>
       <pubDate>Thu, 18 Jan 2024 22:47:58 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1171-%E5%94%AE%E8%B4%A7%E5%91%98%E7%9A%84%E9%9A%BE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1171&#34;&gt;洛谷 P1171 售货员的难题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV15a4y1o7NA/&#34;&gt;算法讲解080【必备】状压dp-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;所有村庄中，任意两个村庄之间都是连通的，所以售货员的路线可能是任意一条，我们要枚举出每一条行驶路线，找到路程最短的那条经过的路程是多少。我们使用一个状态变量表示村庄是否已经经过，每次来到一个村庄时，考虑所有没有去过的村庄作为下一站，在所有村庄中，选择路程最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1352 没有上司的舞会</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</link>
       <pubDate>Sat, 23 Dec 2023 22:22:05 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1352-%E6%B2%A1%E6%9C%89%E4%B8%8A%E5%8F%B8%E7%9A%84%E8%88%9E%E4%BC%9A/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1352&#34;&gt;洛谷 P1352 没有上司的舞会&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ae411f7AC/&#34;&gt;算法讲解079【必备】树型dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;求子问题：求出每个树在头节点去与不去的最大快乐值。每棵树的最大快乐值取决于子树返回的信息，根据子树信息求出当前树的信息，不断向上返回，最终得到整棵树的去与不去的最大快乐值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P4017 最大食物链计数</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 22:40:29 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p4017-%E6%9C%80%E5%A4%A7%E9%A3%9F%E7%89%A9%E9%93%BE%E8%AE%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4017&#34;&gt;洛谷 P4017 最大食物链计数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y4y1F79q/&#34;&gt;算法讲解060【必备】拓扑排序的扩展技巧&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;到达某生物的食物链条数等于所有被他吃的生物的链数之和。生物链的关系可以看作一个有向无环图，按照拓扑排序将食物链条数从被捕食者传递到捕食者，最终得到整个生物捕食关系的食物链总数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 U107394 拓扑排序模板</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Fri, 22 Dec 2023 16:35:28 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/U107394&#34;&gt;洛谷 U107394 拓扑排序模板&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;牛客网和 leetcode 可以使用邻接表法建图，而洛谷是专为比赛用的，所以必须使用链式前向星建图。题目要求获得字典序最小的拓扑排序，所以可以使用小根堆存储入度为 0 的节点，这样每次弹出的节点都是满足要求的节点中字典序最小的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P3205 [HNOI2010] 合唱队</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</link>
       <pubDate>Fri, 15 Dec 2023 22:00:55 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p3205-hnoi2010-%E5%90%88%E5%94%B1%E9%98%9F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P3205&#34;&gt;洛谷 P3205 [HNOI2010] 合唱队&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;按照入队的逆序进行想，则子问题应该是：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 中，如果左侧是最后入队的，则在剩下的区间 &lt;code&gt;left + 1, right]&lt;/code&gt; 中，又有两种情况。如果 $nums_{left + 1}$ 最后入队，则 $nums_{left}$ 应该大于它;如果 $nums_{right}$ 最后入队，则 $nums_{left}$ 应该大于它，则 &lt;code&gt;[left, right]&lt;/code&gt; 区间中左侧入队的方案数为符合条件的可能性之和。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 664. 奇怪的打印机 | 洛谷 P4170 [CQOI2007] 涂色</title>
-      <link>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</link>
       <pubDate>Fri, 15 Dec 2023 17:13:36 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-664.-%E5%A5%87%E6%80%AA%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA-%E6%B4%9B%E8%B0%B7-p4170-cqoi2007-%E6%B6%82%E8%89%B2/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/strange-printer/&#34;&gt;LeetCode 664. 奇怪的打印机&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P4170&#34;&gt;洛谷 P4170 [CQOI2007] 涂色&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1du4y1L7gy/&#34;&gt;算法讲解077【必备】区间dp-下&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;定义子问题：在区间 &lt;code&gt;[left, right]&lt;/code&gt; 涂色的最小次数。因为后涂的颜色可以覆盖前一种颜色，如果我们要让涂色次数最少，可以使用贪心，让左侧的颜色尽量涂多一些。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1833 赏樱花</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:13 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1833&#34;&gt;洛谷 P1833 赏樱花&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过转化，将完全背包转化为多重背包，再通过二进制分组，将多重背包转化为 01 背包。如果物品数量有限，通过二进制分组转化为 01 背包；如果物品数量无限，根据最大花费和物品价格计算出可以选择的最大数量，转化为多重背包，再转化为 01 背包。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（单调队列优化）</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:09:06 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;在无优化版本的基础上进行优化，根据物品重量的余数，将最大重量进行分组，使用单调队列，分别对组内的 dp 结果求区间的最大值，这样就可以快速地获取最大重量时的最优结果，求出最优解。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（二进制分组优化）</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:08:27 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%86%E7%BB%84%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;物品的数量可以分解为几个二进制数字的组合，通过对这几个二进制数的组合，可以表示在 &lt;code&gt;[0, cnt]&lt;/code&gt; 之间选取任意个数量的物品。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;整数分解&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1776 宝物筛选（无枚举优化）</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 13 Dec 2023 17:08:06 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1776-%E5%AE%9D%E7%89%A9%E7%AD%9B%E9%80%89%E6%97%A0%E6%9E%9A%E4%B8%BE%E4%BC%98%E5%8C%96/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1776&#34;&gt;洛谷 P1776 宝物筛选&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;首先说一下，这个不优化的版本是无法通过全部测试用例的。&lt;/p&gt;&#xA;&lt;p&gt;多重背包相较于完全背包和 01 背包，它的物品数量是有限的，它的每个物品可以选 0 &amp;hellip; cnt 个。所以可以在 01 背包的基础上再套一层循环，来限制选择的个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P2918 [USACO08NOV] Buying Hay S</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</link>
       <pubDate>Tue, 12 Dec 2023 16:44:32 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p2918-usaco08nov-buying-hay-s/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P2918&#34;&gt;洛谷 P2918 [USACO08NOV] Buying Hay S&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;如果使用花费钱数作为 DP 维度，根据计算得知，花费的钱数最多为 $2.5 \times 10^8$，需要 125 MB的空间开辟一个 DP 表，显然是不行的。&lt;/p&gt;&#xA;&lt;p&gt;如果使用干草数量作为 DP 维度，干草数量显然不会超出最大值很多，是可以开辟足够空间的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1616 疯狂的采药</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</link>
       <pubDate>Mon, 11 Dec 2023 17:32:30 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1616-%E7%96%AF%E7%8B%82%E7%9A%84%E9%87%87%E8%8D%AF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1616&#34;&gt;洛谷 P1616 疯狂的采药&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;完全背包和 01 背包的区别：01 背包每个物品只能选一次，选或不选；完全背包每个物品可以无限选，选择 n 件（n = 0, 1, 2, 3&amp;hellip;）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1757 通天之分组背包</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</link>
       <pubDate>Mon, 11 Dec 2023 17:27:37 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1757-%E9%80%9A%E5%A4%A9%E4%B9%8B%E5%88%86%E7%BB%84%E8%83%8C%E5%8C%85/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1757&#34;&gt;洛谷 P1757 通天之分组背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;B站左程云：&lt;a href=&#34;https://www.bilibili.com/video/BV1UM411f7YL/&#34;&gt;算法讲解074【必备】背包dp-分组背包、完全背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;分组背包的模板题，先按照组号排序，对组内每一个物品求在花费不超过 j 时获得的最大价值。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;首先按照组号排序，确定组的左右边界，然后从左到右遍历每一组。在一组内：&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1064 [NOIP2006 提高组] 金明的预算方案</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sun, 10 Dec 2023 20:12:50 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1064-noip2006-%E6%8F%90%E9%AB%98%E7%BB%84-%E9%87%91%E6%98%8E%E7%9A%84%E9%A2%84%E7%AE%97%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1064&#34;&gt;P1064 [NOIP2006 提高组] 金明的预算方案&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.nowcoder.com/practice/f9c6f980eeec43ef85be20755ddbeaf4&#34;&gt;牛客网 购物单&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/list/&#34;&gt;算法讲解073【必备】背包dp-01背包、有依赖的背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;物品分为主件和附件，附件必须在购买主件后才能考虑购买。所以在求解过程中，判断是否是主件，如果是，就考虑选或者不选。然后考虑主件下的附件，因为附件最多只有 2 件，分为以下四种情况，不买附件，只买附件一，只买附件二，都买，&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P2698 [USACO12MAR] Flowerpot S</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</link>
       <pubDate>Sat, 09 Dec 2023 21:34:27 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p2698-usaco12mar-flowerpot-s/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P2698&#34;&gt;洛谷 P2698 [USACO12MAR] Flowerpot S&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路主要来自B站左程云的视频课程 &lt;a href=&#34;https://www.bilibili.com/video/BV11h4y1w7Bu/&#34;&gt;算法讲解054【必备】单调队列-上&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求花盆的长度，满足下面的条件，在花盆区间内，第一滴雨水与最后一滴雨水落下的时间差要 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。雨水下落速度恒定 1 单位每秒，也就是求最大高度差满足 &lt;code&gt;&amp;gt;= d&lt;/code&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Sat, 09 Dec 2023 16:58:10 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P8776&#34;&gt;洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求最长非降序子序列，在此基础上，给你一个机会，使长度为 k 的数组全部变成同一个数字，机会可以用，也可以不用，求此时的最长非降序子序列。&lt;/p&gt;</description>
     </item>
   </channel>

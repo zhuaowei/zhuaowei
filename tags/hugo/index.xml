@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://zhuaowei.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Oct 2022 22:16:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何在Hugo中使用markdown的数学公式</title>
-      <link>http://localhost:1313/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <link>https://zhuaowei.github.io/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
       <pubDate>Sat, 29 Oct 2022 22:16:55 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <guid>https://zhuaowei.github.io/article/%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8markdown%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
       <description>&lt;p&gt;渲染数学公式有两种方式，一种是 &lt;code&gt;mathjax&lt;/code&gt; ，另一种是 &lt;code&gt;KaTex&lt;/code&gt;，因为 &lt;code&gt;KaTex&lt;/code&gt; 比较快，所以使用这种方式。&lt;/p&gt;&#xA;&lt;p&gt;具体步骤如下：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;首先创建一个部分的模板文件，里面链上 &lt;code&gt;CSS&lt;/code&gt; 文件和 &lt;code&gt;JS&lt;/code&gt; 文件，这些脚本会自动将公式渲染。&#xA;&lt;code&gt;/layouts/partials/helpers/katex.html&lt;/code&gt;。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/contrib/auto-render.min.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;onload&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;renderMathInElement(document.body);&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;不要只顾着复制，看一下版本更新，我写博客的时候已经更新到 &lt;code&gt;0.16.3&lt;/code&gt; 了，把版本号替换一下就可以了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>第一次使用Hugo搭建博客</title>
-      <link>http://localhost:1313/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://zhuaowei.github.io/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 10 Aug 2022 21:13:55 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://zhuaowei.github.io/article/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>&lt;p&gt;一直想自己搭建一个博客，但是碍于实力与审美，还有自己太懒了，于是就使用Hugo搭建了一个自己的博客。&lt;/p&gt;</description>
     </item>
   </channel>

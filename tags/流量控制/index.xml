@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>流量控制 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
     <description>Recent content in 流量控制 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 01 Nov 2022 12:49:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TCP 的流量控制</title>
-      <link>http://localhost:1313/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
+      <link>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</link>
       <pubDate>Tue, 01 Nov 2022 12:49:44 +0800</pubDate>
-      <guid>http://localhost:1313/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
+      <guid>https://zhuaowei.github.io/article/tcp-%E7%9A%84%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6/</guid>
       <description>&lt;h2 id=&#34;1tcp-的流量控制&#34;&gt;1、TCP 的流量控制&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11利用滑动窗口实现流量控制&#34;&gt;1.1、利用滑动窗口实现流量控制&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1、接收窗口&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;流量控制（flow control）&lt;/strong&gt;：就是让发送方的发送速率不要太快，要让接收方来的及接收。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;区别于拥塞控制：流量控制是点对点的，发送和接收双方的传送速率控制；而拥塞控制是设计到整个网络的，是限制发送速率，防止短时间有大量数据传送进网络，避免整个网络发生拥塞。&lt;/p&gt;</description>
     </item>
   </channel>

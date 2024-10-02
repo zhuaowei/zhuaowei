@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>最长递增子序列 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
     <description>Recent content in 最长递增子序列 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 22 Dec 2023 15:46:53 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1671. 得到山形数组的最少删除次数</title>
-      <link>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Fri, 22 Dec 2023 15:46:53 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1671.-%E5%BE%97%E5%88%B0%E5%B1%B1%E5%BD%A2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%91%E5%88%A0%E9%99%A4%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/&#34;&gt;LeetCode 1671. 得到山形数组的最少删除次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;先正向求出每个位置最长的递增子序列长度，然后逆序求出每个位置最长的递增子序列的长度，同时求出最大的山脉宽度，剩下的就是最少的删除次数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Sat, 09 Dec 2023 16:58:10 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p8776-%E8%93%9D%E6%A1%A5%E6%9D%AF-2022-%E7%9C%81-a-%E6%9C%80%E9%95%BF%E4%B8%8D%E4%B8%8B%E9%99%8D%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P8776&#34;&gt;洛谷 P8776 [蓝桥杯 2022 省 A] 最长不下降子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;求最长非降序子序列，在此基础上，给你一个机会，使长度为 k 的数组全部变成同一个数字，机会可以用，也可以不用，求此时的最长非降序子序列。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 646. 最长数对链</title>
-      <link>http://localhost:1313/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</link>
       <pubDate>Sat, 09 Dec 2023 16:32:55 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-646.-%E6%9C%80%E9%95%BF%E6%95%B0%E5%AF%B9%E9%93%BE/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/maximum-length-of-pair-chain/description/&#34;&gt;LeetCode 646. 最长数对链&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;使用最长递增子序列来求解。两个数对 $nums_i, nums_j (i &amp;lt; j)$ 要形成数对，需要 $right_i &amp;lt; left_j$，当来到 &lt;code&gt;j&lt;/code&gt; 的时候，我们根据 $left_j$ 找到最长的递增数对即可。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 2111. 使数组 K 递增的最少操作次数</title>
-      <link>http://localhost:1313/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</link>
       <pubDate>Sat, 09 Dec 2023 10:46:28 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2111.-%E4%BD%BF%E6%95%B0%E7%BB%84-k-%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/minimum-operations-to-make-the-array-k-increasing/&#34;&gt;2111. 使数组 K 递增的最少操作次数&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;根据题意需要将原数组进行分组，一共分为 k 个组，求将每一组变成非降序子序列的最少操作数。那就求每一组的最长非降序子序列的长度，剩余的就是需要修改的数字个数。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 354. 俄罗斯套娃信封问题</title>
-      <link>http://localhost:1313/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Fri, 08 Dec 2023 22:00:14 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-354.-%E4%BF%84%E7%BD%97%E6%96%AF%E5%A5%97%E5%A8%83%E4%BF%A1%E5%B0%81%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/russian-doll-envelopes/&#34;&gt;354. 俄罗斯套娃信封问题&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;信封不能翻转，首先想到排序，在宽度上较大的信封肯定能装下宽度较小的信封，在宽度相同的情况下，应该尽量先装下高度较大的。所以在宽度上，从小到大排序。因为相同宽和高的信封并不能装下，只能装下宽和高比自己小的。所以在宽度相同时，需要将高度按从大到小排序。这样，同样宽度，高度小的就会自动略过前面比自己高的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 300. 最长递增子序列</title>
-      <link>http://localhost:1313/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</link>
       <pubDate>Fri, 08 Dec 2023 15:01:44 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-300.-%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/longest-increasing-subsequence/&#34;&gt;300. 最长递增子序列&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;思路来自 &lt;a href=&#34;https://www.bilibili.com/video/BV1ne411D7CQ/&#34;&gt;B站左程云的视频课程&lt;/a&gt;，在文章末尾可以直接转到左程云的B站个人空间。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;有两种方法，第一种是暴力解法，第二种是二分。&lt;/p&gt;&#xA;&lt;p&gt;暴力解法：使用一个数组存储以 i 位置数字为结尾的最长升序子序列长度。每来到 i 位置，它的最长递增子序列至少是 1，就是自己，然后遍历 i 之前的所有结果，如果发现某位置 j 比 i 位置小，则递增子序列长度为 1 + dp[j]，在所有结果中求最大值。每次得到 dp[i] 后，比较记录最大值。&lt;/p&gt;</description>
     </item>
   </channel>

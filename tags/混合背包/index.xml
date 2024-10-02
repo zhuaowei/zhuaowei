@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>混合背包 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%B7%B7%E5%90%88%E8%83%8C%E5%8C%85/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%B7%B7%E5%90%88%E8%83%8C%E5%8C%85/</link>
     <description>Recent content in 混合背包 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 13 Dec 2023 17:15:58 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B7%B7%E5%90%88%E8%83%8C%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%B7%B7%E5%90%88%E8%83%8C%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PKU Judging Online - 1742 Coins</title>
-      <link>http://localhost:1313/article/pku-judging-online-1742-coins/</link>
+      <link>https://zhuaowei.github.io/article/pku-judging-online-1742-coins/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:58 +0800</pubDate>
-      <guid>http://localhost:1313/article/pku-judging-online-1742-coins/</guid>
+      <guid>https://zhuaowei.github.io/article/pku-judging-online-1742-coins/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://poj.org/problem?id=1742&#34;&gt;PKU Judging Online - 1742 Coins&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过不同种类及不同数量的硬币进行组合，判断这些硬币可以组合成 [0, m] 上的哪些值，返回最终的种类数。&lt;/p&gt;&#xA;&lt;p&gt;这是一道混合背包题目，根据硬币的数量和面值，灵活选择使用 01 背包、完全背包或者多重背包。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 P1833 赏樱花</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</link>
       <pubDate>Wed, 13 Dec 2023 17:15:13 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-p1833-%E8%B5%8F%E6%A8%B1%E8%8A%B1/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/P1833&#34;&gt;洛谷 P1833 赏樱花&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Nz4y1c71M/&#34;&gt;算法讲解075【必备】背包dp-多重背包、混合背包&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;通过转化，将完全背包转化为多重背包，再通过二进制分组，将多重背包转化为 01 背包。如果物品数量有限，通过二进制分组转化为 01 背包；如果物品数量无限，根据最大花费和物品价格计算出可以选择的最大数量，转化为多重背包，再转化为 01 背包。&lt;/p&gt;</description>
     </item>
   </channel>

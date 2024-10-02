@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>物理层 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E7%89%A9%E7%90%86%E5%B1%82/</link>
+    <link>https://zhuaowei.github.io/tags/%E7%89%A9%E7%90%86%E5%B1%82/</link>
     <description>Recent content in 物理层 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Oct 2022 22:06:41 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%89%A9%E7%90%86%E5%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E7%89%A9%E7%90%86%E5%B1%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>信道复用技术 Division Multiplexing</title>
-      <link>http://localhost:1313/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
+      <link>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</link>
       <pubDate>Sat, 29 Oct 2022 22:06:41 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
+      <guid>https://zhuaowei.github.io/article/%E4%BF%A1%E9%81%93%E5%A4%8D%E7%94%A8%E6%8A%80%E6%9C%AF-division-multiplexing/</guid>
       <description>&lt;h2 id=&#34;1频分复用时分复用和统计时分复用&#34;&gt;1、频分复用、时分复用和统计时分复用&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11频分复用&#34;&gt;1.1、频分复用：&lt;/h3&gt;&#xA;&lt;p&gt;用户在分配到一定的频带后，在通信过程中自始至终都占用这个频带。&lt;strong&gt;频分复用的所有用户在同样的时间占用不同的带宽资源。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;12时分复用&#34;&gt;1.2、时分复用：&lt;/h3&gt;&#xA;&lt;p&gt;将时间划分为一段段等长的时分复用帧（TDM帧）每个用户在每个TDM帧中占用固定序号的时隙。&lt;/p&gt;</description>
     </item>
     <item>
       <title>物理层的基本概念与常识</title>
-      <link>http://localhost:1313/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
+      <link>https://zhuaowei.github.io/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</link>
       <pubDate>Sat, 29 Oct 2022 22:01:32 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
+      <guid>https://zhuaowei.github.io/article/%E7%89%A9%E7%90%86%E5%B1%82%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%B8%B8%E8%AF%86/</guid>
       <description>&lt;h2 id=&#34;1物理层的基本概念&#34;&gt;1、物理层的基本概念&lt;/h2&gt;&#xA;&lt;p&gt;传输媒体接口的一些特性：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;机械特性&lt;/strong&gt;：指明接口所用&lt;strong&gt;接线器的形状、尺寸、引脚数目和排列、固定和锁定装置等&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;电气特性&lt;/strong&gt;：指明在接口电缆的各条线上出现的&lt;strong&gt;电压范围&lt;/strong&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;功能特性&lt;/strong&gt;：指明某条线上出现的某一电平的电压的意义。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;过程特性&lt;/strong&gt;：指明对于不同功能的各种可能事件的出现顺序。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;计算机内部是并行传输、在通信线路上是串行传输，所以物理层还要完成传输方式的转换。&lt;/p&gt;</description>
     </item>
   </channel>

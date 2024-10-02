@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文件传输协议 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE/</link>
+    <link>https://zhuaowei.github.io/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE/</link>
     <description>Recent content in 文件传输协议 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 29 Oct 2022 21:54:13 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>文件传输协议 FTP</title>
-      <link>http://localhost:1313/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
+      <link>https://zhuaowei.github.io/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</link>
       <pubDate>Sat, 29 Oct 2022 21:54:13 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE-ftp/</guid>
       <description>&lt;h2 id=&#34;1ftp-概述&#34;&gt;1、FTP 概述&lt;/h2&gt;&#xA;&lt;p&gt;使用最广泛的文件传输协议。FTP和 TFTP都是文件共享协议中的一大类，即复制整个文件。若要存取一个文件，必须先获取一个本地的文件副本。若要修改文件，只能对文件的副本进行修改，然后再将修改后的文件副本传回到原节点。&lt;/p&gt;</description>
     </item>
   </channel>

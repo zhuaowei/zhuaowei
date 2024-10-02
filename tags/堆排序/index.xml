@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>堆排序 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
+    <link>https://zhuaowei.github.io/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
     <description>Recent content in 堆排序 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 23 Dec 2023 11:46:09 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1962. 移除石子使总数最小</title>
-      <link>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</link>
       <pubDate>Sat, 23 Dec 2023 11:46:09 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-1962.-%E7%A7%BB%E9%99%A4%E7%9F%B3%E5%AD%90%E4%BD%BF%E6%80%BB%E6%95%B0%E6%9C%80%E5%B0%8F/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/remove-stones-to-minimize-the-total/&#34;&gt;LeetCode 1962. 移除石子使总数最小&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;每次找出数组中的最大值，使其值减半，然后循环 k 次，求出最终的数组之和。&lt;/p&gt;&#xA;&lt;h3 id=&#34;求解过程&#34;&gt;求解过程&lt;/h3&gt;&#xA;&lt;p&gt;因为数组是会变化的，需要时刻维护数组中的最大值，因此可以使用堆来排序，使用大根堆每次取出数组中的最大值。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洛谷 U107394 拓扑排序模板</title>
-      <link>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
+      <link>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Fri, 22 Dec 2023 16:35:28 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>https://zhuaowei.github.io/article/%E6%B4%9B%E8%B0%B7-u107394-%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%E6%A8%A1%E6%9D%BF/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/U107394&#34;&gt;洛谷 U107394 拓扑排序模板&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rj411k7tS/&#34;&gt;算法讲解059【必备】建图、链式前向星、拓扑排序&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;牛客网和 leetcode 可以使用邻接表法建图，而洛谷是专为比赛用的，所以必须使用链式前向星建图。题目要求获得字典序最小的拓扑排序，所以可以使用小根堆存储入度为 0 的节点，这样每次弹出的节点都是满足要求的节点中字典序最小的。&lt;/p&gt;</description>
     </item>
   </channel>

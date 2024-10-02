@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>专用服务器 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+    <link>https://zhuaowei.github.io/tags/%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
     <description>Recent content in 专用服务器 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 29 Dec 2023 09:43:05 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>饥荒联机版 - 搭建专用服务器</title>
-      <link>http://localhost:1313/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <link>https://zhuaowei.github.io/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
       <pubDate>Fri, 29 Dec 2023 09:43:05 +0800</pubDate>
-      <guid>http://localhost:1313/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <guid>https://zhuaowei.github.io/article/%E9%A5%A5%E8%8D%92%E8%81%94%E6%9C%BA%E7%89%88-%E6%90%AD%E5%BB%BA%E4%B8%93%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
       <description>&lt;h3 id=&#34;1下载专用服务器启动器&#34;&gt;1、下载专用服务器启动器&lt;/h3&gt;&#xA;&lt;p&gt;打开 Steam，依次点击 &lt;strong&gt;库 -&amp;gt; 主页&lt;/strong&gt;，勾选 &lt;strong&gt;工具&lt;/strong&gt;，找到 &lt;strong&gt;Don&amp;rsquo;t Strave Together Dedicated Server&lt;/strong&gt;，点击安装，在安装过程中，可以进行下一步。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2创建一个世界&#34;&gt;2、创建一个世界&lt;/h3&gt;&#xA;&lt;p&gt;进入饥荒联机版，创建一个世界，修改世界设置，勾选好自己想用的模组，点击创建。创建完成后，不需要进入世界，出现选人界面后就可以退出存档了。&lt;/p&gt;</description>
     </item>
   </channel>

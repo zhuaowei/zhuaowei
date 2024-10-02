@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>快速幂 on zhuaowei的博客</title>
-    <link>http://localhost:1313/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/</link>
+    <link>https://zhuaowei.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/</link>
     <description>Recent content in 快速幂 on zhuaowei的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 16 Dec 2023 21:26:27 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zhuaowei.github.io/tags/%E5%BF%AB%E9%80%9F%E5%B9%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 2961. 双模幂运算</title>
-      <link>http://localhost:1313/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</link>
+      <link>https://zhuaowei.github.io/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</link>
       <pubDate>Sat, 16 Dec 2023 21:26:27 +0800</pubDate>
-      <guid>http://localhost:1313/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</guid>
+      <guid>https://zhuaowei.github.io/article/leetcode-2961.-%E5%8F%8C%E6%A8%A1%E5%B9%82%E8%BF%90%E7%AE%97/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://leetcode.cn/problems/double-modular-exponentiation/&#34;&gt;LeetCode 2961. 双模幂运算&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;思路&#34;&gt;思路&lt;/h3&gt;&#xA;&lt;p&gt;根据题意，需要对公式进行快速求解，求出类似 $a ^ b % m$ 的值，因此需要用到快速幂。代码部分附上快速幂的模板（取模和不取模）。&lt;/p&gt;</description>
     </item>
   </channel>
